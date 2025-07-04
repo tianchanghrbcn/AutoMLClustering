@@ -1,0 +1,35 @@
+CMD: D:\programs\PythonPrograms\analyze_clusters\.venv\Scripts\python.exe DBSCAN.py --alpha 0.2 --beta 0.8 --gamma 0.0 --trials 20
+Return code: 0
+--- STDOUT ---
+All files saved in: D:\algorithm paper\clustering_pre\results\clustered_data\DBSCAN\clustered_clean_beers
+Program completed in 1.57 sec
+[0m
+--- STDERR ---
+[I 2025-07-04 13:52:24,903] A new study created in memory with name: no-name-0c2a20b7-5928-4ce2-8d8a-d42981b053a7
+[I 2025-07-04 13:52:25,032] Trial 0 finished with value: 0.06871443320300064 and parameters: {'eps': 0.6, 'min_samples': 18}. Best is trial 0 with value: 0.06871443320300064.
+[W 2025-07-04 13:52:25,051] Trial 1 failed with parameters: {'eps': 0.4, 'min_samples': 19} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:52:25,051] Trial 1 failed with value nan.
+[W 2025-07-04 13:52:25,066] Trial 2 failed with parameters: {'eps': 0.2, 'min_samples': 31} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:52:25,066] Trial 2 failed with value nan.
+[I 2025-07-04 13:52:25,089] Trial 3 finished with value: -inf and parameters: {'eps': 0.6, 'min_samples': 31}. Best is trial 0 with value: 0.06871443320300064.
+[I 2025-07-04 13:52:25,193] Trial 4 finished with value: 0.05966789854257636 and parameters: {'eps': 0.4, 'min_samples': 6}. Best is trial 0 with value: 0.06871443320300064.
+[I 2025-07-04 13:52:25,274] Trial 5 finished with value: 0.18155717425298631 and parameters: {'eps': 0.85, 'min_samples': 22}. Best is trial 5 with value: 0.18155717425298631.
+[I 2025-07-04 13:52:25,375] Trial 6 finished with value: 0.634618708796288 and parameters: {'eps': 1.8000000000000003, 'min_samples': 5}. Best is trial 6 with value: 0.634618708796288.
+[W 2025-07-04 13:52:25,400] Trial 7 failed with parameters: {'eps': 0.45000000000000007, 'min_samples': 38} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:52:25,400] Trial 7 failed with value nan.
+[I 2025-07-04 13:52:25,531] Trial 8 finished with value: 0.25932627956280385 and parameters: {'eps': 1.2000000000000002, 'min_samples': 24}. Best is trial 6 with value: 0.634618708796288.
+[I 2025-07-04 13:52:25,626] Trial 9 finished with value: 0.2955448257336895 and parameters: {'eps': 1.6500000000000001, 'min_samples': 49}. Best is trial 6 with value: 0.634618708796288.
+[W 2025-07-04 13:52:25,646] Trial 10 failed with parameters: {'eps': 0.5, 'min_samples': 39} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:52:25,646] Trial 10 failed with value nan.
+[I 2025-07-04 13:52:25,731] Trial 11 finished with value: 0.22853565792274963 and parameters: {'eps': 1.2500000000000002, 'min_samples': 44}. Best is trial 6 with value: 0.634618708796288.
+[W 2025-07-04 13:52:25,750] Trial 12 failed with parameters: {'eps': 0.35, 'min_samples': 26} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:52:25,750] Trial 12 failed with value nan.
+[I 2025-07-04 13:52:25,850] Trial 13 finished with value: 0.6739516482254925 and parameters: {'eps': 2.0, 'min_samples': 10}. Best is trial 13 with value: 0.6739516482254925.
+[I 2025-07-04 13:52:25,937] Trial 14 finished with value: 0.1360482021055121 and parameters: {'eps': 0.5, 'min_samples': 7}. Best is trial 13 with value: 0.6739516482254925.
+[I 2025-07-04 13:52:25,990] Trial 15 finished with value: -inf and parameters: {'eps': 1.9500000000000002, 'min_samples': 35}. Best is trial 13 with value: 0.6739516482254925.
+[I 2025-07-04 13:52:26,105] Trial 16 finished with value: 0.5777927665901541 and parameters: {'eps': 2.0, 'min_samples': 13}. Best is trial 13 with value: 0.6739516482254925.
+[I 2025-07-04 13:52:26,197] Trial 17 finished with value: 0.43650226442903767 and parameters: {'eps': 1.5500000000000003, 'min_samples': 12}. Best is trial 13 with value: 0.6739516482254925.
+[I 2025-07-04 13:52:26,293] Trial 18 finished with value: 0.4258228543809869 and parameters: {'eps': 1.6, 'min_samples': 5}. Best is trial 13 with value: 0.6739516482254925.
+[W 2025-07-04 13:52:26,314] Trial 19 failed with parameters: {'eps': 0.15000000000000002, 'min_samples': 15} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:52:26,314] Trial 19 failed with value nan.
+

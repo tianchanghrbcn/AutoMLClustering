@@ -1,0 +1,8 @@
+Best parameters: k=48
+Number of clusters: 48
+Final Combined Score: 0.713765625824468
+Final Silhouette Score: 0.5338956700832851
+Final Davies-Bouldin Score: 0.697717198993931
+Calinski-Harabasz: 1101.618697570633
+Iterations to converge: 7
+Final SSE: 613.4097233478511

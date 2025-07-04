@@ -1,0 +1,20 @@
+{
+    "raw": {
+        "best_k": 8,
+        "linkage": "single",
+        "metric": "manhattan",
+        "combined": 1.3563587404902897,
+        "silhouette": 0.5501384018769714,
+        "davies_bouldin": 0.21828150877831676,
+        "sse": 1658.3473694586876,
+        "h_max": 19.831212682816677,
+        "weights": {
+            "alpha": 0.8,
+            "beta": 0.2,
+            "gamma": -0.0
+        },
+        "intra_mean": 2.453619955455173,
+        "inter_mean": 11.092692166021271,
+        "runtime_sec": 1.3855948448181152
+    }
+}

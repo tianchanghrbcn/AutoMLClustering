@@ -1,0 +1,20 @@
+{
+    "raw": {
+        "best_k": 4,
+        "linkage": "average",
+        "metric": "euclidean",
+        "combined": 0.6794252148914963,
+        "silhouette": 0.4682971834339252,
+        "davies_bouldin": 0.6561949584661867,
+        "sse": 9393.138458110072,
+        "h_max": 10.814411307114263,
+        "weights": {
+            "alpha": 0.8,
+            "beta": 0.2,
+            "gamma": -0.0
+        },
+        "intra_mean": 3.4611515156994646,
+        "inter_mean": 8.737708716407042,
+        "runtime_sec": 10.86299729347229
+    }
+}

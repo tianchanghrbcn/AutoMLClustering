@@ -1,0 +1,29 @@
+CMD: D:\programs\PythonPrograms\analyze_clusters\.venv\Scripts\python.exe DBSCAN.py --alpha 0.2 --beta 0.2 --gamma 0.6 --trials 20
+Return code: 0
+--- STDOUT ---
+All files saved in: D:\algorithm paper\clustering_pre\results\clustered_data\DBSCAN\clustered_clean_flights
+Program completed in 23.15 sec
+[0m
+--- STDERR ---
+[I 2025-07-04 14:18:53,900] A new study created in memory with name: no-name-9ec91cc8-c95d-4000-9fc7-d1741b9f5e01
+[I 2025-07-04 14:18:54,560] Trial 0 finished with value: 0.4806164633460319 and parameters: {'eps': 1.35, 'min_samples': 34}. Best is trial 0 with value: 0.4806164633460319.
+[I 2025-07-04 14:18:55,469] Trial 1 finished with value: 0.4895704221096524 and parameters: {'eps': 1.2000000000000002, 'min_samples': 35}. Best is trial 1 with value: 0.4895704221096524.
+[I 2025-07-04 14:18:56,510] Trial 2 finished with value: 0.555556227131228 and parameters: {'eps': 1.2500000000000002, 'min_samples': 18}. Best is trial 2 with value: 0.555556227131228.
+[I 2025-07-04 14:18:57,596] Trial 3 finished with value: 0.5521879079838747 and parameters: {'eps': 1.9000000000000001, 'min_samples': 12}. Best is trial 2 with value: 0.555556227131228.
+[I 2025-07-04 14:18:58,779] Trial 4 finished with value: 0.5210656592836667 and parameters: {'eps': 0.9, 'min_samples': 38}. Best is trial 2 with value: 0.555556227131228.
+[I 2025-07-04 14:18:59,725] Trial 5 finished with value: 0.34365822425828785 and parameters: {'eps': 0.45000000000000007, 'min_samples': 44}. Best is trial 2 with value: 0.555556227131228.
+[I 2025-07-04 14:19:00,535] Trial 6 finished with value: 0.3137959957669067 and parameters: {'eps': 0.30000000000000004, 'min_samples': 28}. Best is trial 2 with value: 0.555556227131228.
+[I 2025-07-04 14:19:01,288] Trial 7 finished with value: 0.46693016483418553 and parameters: {'eps': 1.3000000000000003, 'min_samples': 45}. Best is trial 2 with value: 0.555556227131228.
+[I 2025-07-04 14:19:02,594] Trial 8 finished with value: 0.4599368069271573 and parameters: {'eps': 1.6500000000000001, 'min_samples': 44}. Best is trial 2 with value: 0.555556227131228.
+[I 2025-07-04 14:19:03,482] Trial 9 finished with value: 0.576856359918905 and parameters: {'eps': 1.2500000000000002, 'min_samples': 5}. Best is trial 9 with value: 0.576856359918905.
+[I 2025-07-04 14:19:04,449] Trial 10 finished with value: 0.7168159284789554 and parameters: {'eps': 0.6, 'min_samples': 7}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:05,656] Trial 11 finished with value: 0.671391909772583 and parameters: {'eps': 0.75, 'min_samples': 6}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:07,344] Trial 12 finished with value: 0.6368917866548341 and parameters: {'eps': 0.7000000000000001, 'min_samples': 16}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:09,073] Trial 13 finished with value: 0.6472977400681357 and parameters: {'eps': 0.65, 'min_samples': 5}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:10,680] Trial 14 finished with value: 0.5524664074644124 and parameters: {'eps': 0.1, 'min_samples': 12}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:11,882] Trial 15 finished with value: 0.5273584853204162 and parameters: {'eps': 0.8, 'min_samples': 25}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:12,548] Trial 16 finished with value: 0.47608580058170263 and parameters: {'eps': 0.5, 'min_samples': 22}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:14,041] Trial 17 finished with value: 0.6620987721701221 and parameters: {'eps': 0.9500000000000001, 'min_samples': 10}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:15,353] Trial 18 finished with value: 0.6427258407061264 and parameters: {'eps': 0.25, 'min_samples': 9}. Best is trial 10 with value: 0.7168159284789554.
+[I 2025-07-04 14:19:15,982] Trial 19 finished with value: 0.6067664861067483 and parameters: {'eps': 0.55, 'min_samples': 18}. Best is trial 10 with value: 0.7168159284789554.
+

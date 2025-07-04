@@ -1,0 +1,32 @@
+CMD: D:\programs\PythonPrograms\analyze_clusters\.venv\Scripts\python.exe DBSCAN.py --alpha 0.2 --beta 0.5 --gamma 0.3 --trials 20
+Return code: 0
+--- STDOUT ---
+All files saved in: D:\algorithm paper\clustering_pre\results\clustered_data\DBSCAN\clustered_clean_hospital
+Program completed in 25.27 sec
+[0m
+--- STDERR ---
+[I 2025-07-04 13:50:32,326] A new study created in memory with name: no-name-e6dff08b-85e6-4047-8650-b1a8503a7a73
+[I 2025-07-04 13:50:33,662] Trial 0 finished with value: 0.3620367449830776 and parameters: {'eps': 1.6, 'min_samples': 21}. Best is trial 0 with value: 0.3620367449830776.
+[I 2025-07-04 13:50:34,396] Trial 1 finished with value: 0.24381073276041784 and parameters: {'eps': 1.3000000000000003, 'min_samples': 31}. Best is trial 0 with value: 0.3620367449830776.
+[I 2025-07-04 13:50:35,174] Trial 2 finished with value: 0.3169725369998137 and parameters: {'eps': 1.6, 'min_samples': 35}. Best is trial 0 with value: 0.3620367449830776.
+[W 2025-07-04 13:50:35,860] Trial 3 failed with parameters: {'eps': 0.35, 'min_samples': 23} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:50:35,860] Trial 3 failed with value nan.
+[W 2025-07-04 13:50:36,960] Trial 4 failed with parameters: {'eps': 0.6, 'min_samples': 39} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:50:36,960] Trial 4 failed with value nan.
+[I 2025-07-04 13:50:37,792] Trial 5 finished with value: -inf and parameters: {'eps': 1.1, 'min_samples': 49}. Best is trial 0 with value: 0.3620367449830776.
+[W 2025-07-04 13:50:38,573] Trial 6 failed with parameters: {'eps': 0.85, 'min_samples': 47} because of the following error: The value nan is not acceptable.
+[W 2025-07-04 13:50:38,574] Trial 6 failed with value nan.
+[I 2025-07-04 13:50:39,916] Trial 7 finished with value: 0.06463793860739202 and parameters: {'eps': 1.0, 'min_samples': 33}. Best is trial 0 with value: 0.3620367449830776.
+[I 2025-07-04 13:50:41,396] Trial 8 finished with value: 0.2084528555610116 and parameters: {'eps': 1.2500000000000002, 'min_samples': 31}. Best is trial 0 with value: 0.3620367449830776.
+[I 2025-07-04 13:50:42,862] Trial 9 finished with value: 0.1351560121153091 and parameters: {'eps': 1.2500000000000002, 'min_samples': 40}. Best is trial 0 with value: 0.3620367449830776.
+[I 2025-07-04 13:50:43,977] Trial 10 finished with value: 0.313391940660521 and parameters: {'eps': 1.5500000000000003, 'min_samples': 36}. Best is trial 0 with value: 0.3620367449830776.
+[I 2025-07-04 13:50:45,046] Trial 11 finished with value: 0.06463793860739202 and parameters: {'eps': 1.0, 'min_samples': 33}. Best is trial 0 with value: 0.3620367449830776.
+[I 2025-07-04 13:50:46,258] Trial 12 finished with value: 0.45214322901308057 and parameters: {'eps': 1.6, 'min_samples': 15}. Best is trial 12 with value: 0.45214322901308057.
+[I 2025-07-04 13:50:47,605] Trial 13 finished with value: 0.01092716483138689 and parameters: {'eps': 0.30000000000000004, 'min_samples': 7}. Best is trial 12 with value: 0.45214322901308057.
+[I 2025-07-04 13:50:49,047] Trial 14 finished with value: 0.49607083645165106 and parameters: {'eps': 1.9500000000000002, 'min_samples': 16}. Best is trial 14 with value: 0.49607083645165106.
+[I 2025-07-04 13:50:50,177] Trial 15 finished with value: 0.49444163935473195 and parameters: {'eps': 1.9000000000000001, 'min_samples': 16}. Best is trial 14 with value: 0.49607083645165106.
+[I 2025-07-04 13:50:51,739] Trial 16 finished with value: 0.49444163935473195 and parameters: {'eps': 1.9000000000000001, 'min_samples': 20}. Best is trial 14 with value: 0.49607083645165106.
+[I 2025-07-04 13:50:53,260] Trial 17 finished with value: 0.5487630616111098 and parameters: {'eps': 1.9000000000000001, 'min_samples': 5}. Best is trial 17 with value: 0.5487630616111098.
+[I 2025-07-04 13:50:54,796] Trial 18 finished with value: 0.5136981206952356 and parameters: {'eps': 2.0, 'min_samples': 8}. Best is trial 17 with value: 0.5487630616111098.
+[I 2025-07-04 13:50:56,097] Trial 19 finished with value: 0.08129789804028373 and parameters: {'eps': 0.4, 'min_samples': 5}. Best is trial 17 with value: 0.5487630616111098.
+

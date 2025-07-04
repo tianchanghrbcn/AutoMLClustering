@@ -1,0 +1,29 @@
+CMD: D:\programs\PythonPrograms\analyze_clusters\.venv\Scripts\python.exe DBSCAN.py --alpha 0.2 --beta 0.35 --gamma 0.45 --trials 20
+Return code: 0
+--- STDOUT ---
+All files saved in: D:\algorithm paper\clustering_pre\results\clustered_data\DBSCAN\clustered_clean_rayyan
+Program completed in 0.64 sec
+[0m
+--- STDERR ---
+[I 2025-07-04 14:05:01,434] A new study created in memory with name: no-name-a68647dd-bdc6-4d52-ae1c-0102bb9a050d
+[I 2025-07-04 14:05:01,442] Trial 0 finished with value: -inf and parameters: {'eps': 0.4, 'min_samples': 32}. Best is trial 0 with value: -inf.
+[I 2025-07-04 14:05:01,467] Trial 1 finished with value: 0.5027167185771171 and parameters: {'eps': 0.9, 'min_samples': 23}. Best is trial 1 with value: 0.5027167185771171.
+[I 2025-07-04 14:05:01,474] Trial 2 finished with value: -inf and parameters: {'eps': 0.15000000000000002, 'min_samples': 33}. Best is trial 1 with value: 0.5027167185771171.
+[I 2025-07-04 14:05:01,492] Trial 3 finished with value: 0.6255128416652603 and parameters: {'eps': 2.0, 'min_samples': 10}. Best is trial 3 with value: 0.6255128416652603.
+[I 2025-07-04 14:05:01,522] Trial 4 finished with value: 0.5749964598609184 and parameters: {'eps': 1.85, 'min_samples': 17}. Best is trial 3 with value: 0.6255128416652603.
+[I 2025-07-04 14:05:01,546] Trial 5 finished with value: 0.5244019499832555 and parameters: {'eps': 1.1500000000000001, 'min_samples': 34}. Best is trial 3 with value: 0.6255128416652603.
+[I 2025-07-04 14:05:01,565] Trial 6 finished with value: 0.5101950464791735 and parameters: {'eps': 1.05, 'min_samples': 30}. Best is trial 3 with value: 0.6255128416652603.
+[I 2025-07-04 14:05:01,591] Trial 7 finished with value: 0.45960657785544584 and parameters: {'eps': 0.45000000000000007, 'min_samples': 19}. Best is trial 3 with value: 0.6255128416652603.
+[I 2025-07-04 14:05:01,597] Trial 8 finished with value: -inf and parameters: {'eps': 0.2, 'min_samples': 20}. Best is trial 3 with value: 0.6255128416652603.
+[I 2025-07-04 14:05:01,614] Trial 9 finished with value: -inf and parameters: {'eps': 0.25, 'min_samples': 45}. Best is trial 3 with value: 0.6255128416652603.
+[I 2025-07-04 14:05:01,664] Trial 10 finished with value: 0.637885020633597 and parameters: {'eps': 2.0, 'min_samples': 5}. Best is trial 10 with value: 0.637885020633597.
+[I 2025-07-04 14:05:01,695] Trial 11 finished with value: 0.6271969273554103 and parameters: {'eps': 2.0, 'min_samples': 8}. Best is trial 10 with value: 0.637885020633597.
+[I 2025-07-04 14:05:01,743] Trial 12 finished with value: 0.65654030612282 and parameters: {'eps': 1.5000000000000002, 'min_samples': 5}. Best is trial 12 with value: 0.65654030612282.
+[I 2025-07-04 14:05:01,791] Trial 13 finished with value: 0.65654030612282 and parameters: {'eps': 1.5500000000000003, 'min_samples': 5}. Best is trial 12 with value: 0.65654030612282.
+[I 2025-07-04 14:05:01,825] Trial 14 finished with value: 0.5833188757187902 and parameters: {'eps': 1.6, 'min_samples': 13}. Best is trial 12 with value: 0.65654030612282.
+[I 2025-07-04 14:05:01,865] Trial 15 finished with value: 0.65654030612282 and parameters: {'eps': 1.4500000000000002, 'min_samples': 5}. Best is trial 12 with value: 0.65654030612282.
+[I 2025-07-04 14:05:01,899] Trial 16 finished with value: 0.5796211074423556 and parameters: {'eps': 1.4500000000000002, 'min_samples': 13}. Best is trial 12 with value: 0.65654030612282.
+[I 2025-07-04 14:05:01,947] Trial 17 finished with value: 0.5695815107154049 and parameters: {'eps': 1.7000000000000002, 'min_samples': 26}. Best is trial 12 with value: 0.65654030612282.
+[I 2025-07-04 14:05:01,997] Trial 18 finished with value: 0.5468706522144334 and parameters: {'eps': 1.2500000000000002, 'min_samples': 13}. Best is trial 12 with value: 0.65654030612282.
+[I 2025-07-04 14:05:02,018] Trial 19 finished with value: -inf and parameters: {'eps': 0.75, 'min_samples': 47}. Best is trial 12 with value: 0.65654030612282.
+
