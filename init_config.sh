@@ -160,3 +160,6 @@ echo "     conda activate hc37"
 echo "     conda activate activedetect"
 echo "     conda activate torch110"
 echo "-----------------------------------------------------"
+$HOME/miniconda3/bin/conda init bash
+exec "$SHELL"
+conda activate torch110

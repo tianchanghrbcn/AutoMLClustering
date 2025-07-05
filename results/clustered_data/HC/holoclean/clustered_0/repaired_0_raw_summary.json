@@ -1,0 +1,21 @@
+{
+    "clean_state": "raw",
+    "best_k": 11,
+    "linkage": "single",
+    "metric": "euclidean",
+    "combined": 1.9987821480115116,
+    "silhouette": 0.5000647795584281,
+    "davies_bouldin": 0.35640664728599397,
+    "sse": 15358.009102272836,
+    "weights": {
+        "alpha": 0.35,
+        "beta": 0.65,
+        "gamma": 0.0
+    },
+    "intra_dist_mean": 5.314761498340725,
+    "inter_dist_mean": 12.265865448536616,
+    "ratio_intra_inter": 0.43329690192993037,
+    "n_merge_steps": 948,
+    "h_max": 9.79558810234396,
+    "total_runtime_sec": 21.41963505744934
+}

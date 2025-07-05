@@ -1,20 +1,32 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+cleaning_metrics.py
+-------------------
+基于 comparison.json，计算各清洗算法的 Precision / Recall / F1 / EDR
+（符合 LaTeX 表 ~\ref{tab:q1-metrics-definition} 的最新公式），
+并按 task_name 输出 <task_name>_cleaning.csv。
+"""
+import csv
 import json
 import os
-import pandas as pd
+from collections import defaultdict
+from pathlib import Path
+
 import numpy as np
-import csv
+import pandas as pd
 
 from src.pipeline.train.distribution_analysis import parse_details
 
 
-def main():
-    # 1. 读取配置文件（相对于脚本位置）
-    comparison_path = os.path.normpath(os.path.join(os.path.dirname(__file__),
-                                                    "../train/comparison.json"))
+def main() -> None:
+    # 1. 读取 comparison.json（相对于本脚本）
+    here = Path(__file__).resolve().parent
+    comparison_path = here / "../train/comparison.json"
     with open(comparison_path, "r", encoding="utf-8") as f:
         comparison_data = json.load(f)
 
-    # 2. 存放所有算法评价行的列表
+    # 2. 保存所有结果行
     results = []
 
     # 3. 遍历每条配置
@@ -26,140 +38,126 @@ def main():
         m_ = item["m"]
         n_ = item["n"]
 
-        # 从 details 中解析 anomaly, missing
+        # anomaly / missing
         details_str = item.get("details", "")
         d_dict = parse_details(details_str)
         anomaly = d_dict["anomaly"]
         missing = d_dict["missing"]
 
+        # 构造路径
+        clean_csv_path = (comparison_path.parent / item["paths"]["clean_csv"]).resolve()
+        dirty_csv_path = (comparison_path.parent / item["paths"]["dirty_csv"]).resolve()
 
-        # 读取相对于 comparison.json 的路径 => 需要拼接
-        clean_csv_path = os.path.normpath(os.path.join(os.path.dirname(comparison_path),
-                                                       item["paths"]["clean_csv"]))
-        dirty_csv_path = os.path.normpath(os.path.join(os.path.dirname(comparison_path),
-                                                       item["paths"]["dirty_csv"]))
-
-        # --- 3.1 读取clean.csv, dirty.csv
+        # 3.1 读取 clean / dirty
         df_clean = pd.read_csv(clean_csv_path, keep_default_na=False)
         df_dirty = pd.read_csv(dirty_csv_path, keep_default_na=False)
 
-        # 确保行数、列数匹配
         if df_clean.shape != df_dirty.shape:
-            print(f"[WARNING] {task_name}-{num_} clean.csv and dirty.csv shape mismatch. Skipped.")
+            print(
+                f"[WARNING] {task_name}-{num_}: clean.csv 与 dirty.csv 形状不匹配，跳过。"
+            )
             continue
 
         n_rows, n_cols = df_clean.shape
 
-        # 3.2 确定最初哪些单元格是错误(#dw) 或 正确(#dr)
-        is_wrong_cell = np.zeros((n_rows, n_cols), dtype=bool)
-        for r in range(n_rows):
-            for c in range(n_cols):
-                val_dirty = str(df_dirty.iat[r,c])
-                val_clean = str(df_clean.iat[r,c])
-                if val_dirty == val_clean:
-                    is_wrong_cell[r,c] = False  # initially correct
-                else:
-                    is_wrong_cell[r,c] = True   # initially wrong
+        # 3.2 标记原始错误单元格 (n_w)
+        is_wrong_cell = (df_dirty.astype(str) != df_clean.astype(str)).to_numpy()
+        n_w = int(is_wrong_cell.sum())  # 原始错误总数
 
-        dw = is_wrong_cell.sum()  # #dw
-
-        # 3.3 遍历各算法repaired_csv，计算Precision/Recall/F1, EDR
-        for cleaning_method, rep_path in item["paths"]["repaired_paths"].items():
-            # 拼接绝对路径
-            repaired_csv_path = os.path.normpath(os.path.join(os.path.dirname(comparison_path),
-                                                              rep_path))
-            if not os.path.exists(repaired_csv_path):
-                print(f"[WARNING] Repaired file not found: {repaired_csv_path}. Skipped.")
+        # 3.3 遍历每个算法的 repaired.csv
+        for cleaning_method, rep_rel_path in item["paths"]["repaired_paths"].items():
+            repaired_csv_path = (comparison_path.parent / rep_rel_path).resolve()
+            if not repaired_csv_path.exists():
+                print(f"[WARNING] 缺少文件: {repaired_csv_path}，跳过 {cleaning_method}")
                 continue
 
-            df_repaired = pd.read_csv(repaired_csv_path, keep_default_na=False)
-            # 形状检查
-            if df_repaired.shape != df_clean.shape:
-                print(f"[WARNING] {task_name}-{num_} repaired shape mismatch with clean. Skipped {cleaning_method}.")
+            df_rep = pd.read_csv(repaired_csv_path, keep_default_na=False)
+            if df_rep.shape != df_clean.shape:
+                print(
+                    f"[WARNING] {task_name}-{num_}: repaired 形状与 clean 不匹配，跳过 {cleaning_method}"
+                )
                 continue
 
-            # ---------- 统计 dw2r, dw2w, dr2r, dr2w ----------
-            dw2r, dw2w, dr2r, dr2w = 0, 0, 0, 0
-            for r in range(n_rows):
-                for c in range(n_cols):
-                    val_clean = str(df_clean.iat[r,c])
-                    val_rep   = str(df_repaired.iat[r,c])
+            # ---------- 统计 n_w2r, n_w2w, n_r2r, n_r2w ----------
+            n_w2r = n_w2w = n_r2r = n_r2w = 0
 
-                    if is_wrong_cell[r,c]:
-                        # originally wrong
-                        if val_rep == val_clean:
-                            dw2r += 1
-                        else:
-                            dw2w += 1
-                    else:
-                        # originally right
-                        if val_rep == val_clean:
-                            dr2r += 1
-                        else:
-                            dr2w += 1
+            # 向量化比较以加速
+            rep_eq_clean = (df_rep.astype(str) == df_clean.astype(str)).to_numpy()
 
-            # (1) Precision, Recall, F1
-            total_repaired = dw2r + dw2w + dr2r + dr2w
-            precision = 0.0
-            recall = 0.0
-            f1 = 0.0
+            # originally wrong
+            n_w2r = int((is_wrong_cell & rep_eq_clean).sum())
+            n_w2w = int((is_wrong_cell & ~rep_eq_clean).sum())
 
-            if total_repaired > 0:
-                precision = (dw2r + dr2r) / total_repaired
-            total_dirty_repairs = dw2r + dw2w
-            if total_dirty_repairs > 0:
-                recall = dw2r / total_dirty_repairs
-            if (precision + recall) > 1e-12:
-                f1 = 2 * precision * recall / (precision + recall)
+            # originally right
+            n_r2r = int((~is_wrong_cell & rep_eq_clean).sum())
+            n_r2w = int((~is_wrong_cell & ~rep_eq_clean).sum())
 
-            # (2) EDR = (#dw2r - #dr2w) / #dw
-            edr = 0.0
-            if dw > 0:
-                edr = (dw2r - dr2w) / dw
+            # ---------- (1) Precision / Recall / F1 ----------
+            # Precision = n_w2r / (n_w2r + n_r2w)
+            precision_den = n_w2r + n_r2w
+            precision = n_w2r / precision_den if precision_den else 0.0
 
-            # 收集结果
-            row_dict = {
-                "task_name": task_name,
-                "num": num_,
-                "dataset_id": dataset_id,
-                "error_rate": error_rate,
-                "m": m_,
-                "n": n_,
-                "anomaly": anomaly,
-                "missing": missing,
-                "cleaning_method": cleaning_method,
-                "precision": precision,
-                "recall": recall,
-                "F1": f1,
-                "EDR": edr
-            }
-            results.append(row_dict)
+            # Recall = n_w2r / n_w
+            recall = n_w2r / n_w if n_w else 0.0
 
-    # 4. 输出CSV: ../../../results/analysis_results/{task_name}_cleaning.csv
-    #    将所有记录汇总在一起再根据 task_name 分文件
-    from collections import defaultdict
+            # F1 = 2PR/(P+R)
+            f1 = 2 * precision * recall / (precision + recall) if (precision + recall) else 0.0
+
+            # ---------- (2) EDR ----------
+            # EDR = (n_w2r - n_r2w) / n_w
+            edr = (n_w2r - n_r2w) / n_w if n_w else 0.0
+
+            # 收集
+            results.append(
+                {
+                    "task_name": task_name,
+                    "num": num_,
+                    "dataset_id": dataset_id,
+                    "error_rate": error_rate,
+                    "m": m_,
+                    "n": n_,
+                    "anomaly": anomaly,
+                    "missing": missing,
+                    "cleaning_method": cleaning_method,
+                    "precision": precision,
+                    "recall": recall,
+                    "F1": f1,
+                    "EDR": edr,
+                }
+            )
+
+    # 4. 按 task_name 分组写出 CSV
     grouped = defaultdict(list)
     for row in results:
         grouped[row["task_name"]].append(row)
 
-    output_base = os.path.normpath(os.path.join(os.path.dirname(__file__),
-        "../../../results/analysis_results"))
-    os.makedirs(output_base, exist_ok=True)
+    output_base = here / "../../../results/analysis_results"
+    output_base.mkdir(parents=True, exist_ok=True)
 
-    # 输出列名顺序
-    out_columns = ["task_name", "num", "dataset_id", "error_rate",
-                   "m", "n", "anomaly", "missing", "cleaning_method",
-                   "precision", "recall", "F1", "EDR"]
+    out_columns = [
+        "task_name",
+        "num",
+        "dataset_id",
+        "error_rate",
+        "m",
+        "n",
+        "anomaly",
+        "missing",
+        "cleaning_method",
+        "precision",
+        "recall",
+        "F1",
+        "EDR",
+    ]
 
     for tname, rows in grouped.items():
-        out_path = os.path.join(output_base, f"{tname}_cleaning.csv")
-        with open(out_path, mode="w", newline='', encoding="utf-8") as f:
+        out_path = output_base / f"{tname}_cleaning.csv"
+        with open(out_path, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=out_columns)
             writer.writeheader()
-            for rdict in rows:
-                writer.writerow(rdict)
-
+            writer.writerows(rows)
         print(f"[INFO] Cleaning analysis results saved to {out_path}")
+
 
 if __name__ == "__main__":
     main()

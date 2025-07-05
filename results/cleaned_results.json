@@ -1,0 +1,16 @@
+[
+    {
+        "dataset_id": 0,
+        "algorithm": "mode",
+        "algorithm_id": 1,
+        "cleaned_file_path": "../../../results/cleaned_data/mode/repaired_0.csv",
+        "runtime": 0.34
+    },
+    {
+        "dataset_id": 0,
+        "algorithm": "raha_baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_0.csv",
+        "runtime": 566.6047129319995
+    }
+]

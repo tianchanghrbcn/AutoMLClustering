@@ -1,0 +1,3986 @@
+[
+    {
+        "step": 1,
+        "cluster_i": 197,
+        "cluster_j": 200,
+        "dist": 0.0
+    },
+    {
+        "step": 2,
+        "cluster_i": 196,
+        "cluster_j": 199,
+        "dist": 0.0
+    },
+    {
+        "step": 3,
+        "cluster_i": 360,
+        "cluster_j": 361,
+        "dist": 0.0
+    },
+    {
+        "step": 4,
+        "cluster_i": 481,
+        "cluster_j": 482,
+        "dist": 0.0
+    },
+    {
+        "step": 5,
+        "cluster_i": 231,
+        "cluster_j": 232,
+        "dist": 0.0
+    },
+    {
+        "step": 6,
+        "cluster_i": 638,
+        "cluster_j": 641,
+        "dist": 0.0
+    },
+    {
+        "step": 7,
+        "cluster_i": 315,
+        "cluster_j": 317,
+        "dist": 0.0
+    },
+    {
+        "step": 8,
+        "cluster_i": 331,
+        "cluster_j": 335,
+        "dist": 0.0
+    },
+    {
+        "step": 9,
+        "cluster_i": 81,
+        "cluster_j": 83,
+        "dist": 0.0
+    },
+    {
+        "step": 10,
+        "cluster_i": 277,
+        "cluster_j": 278,
+        "dist": 0.0
+    },
+    {
+        "step": 11,
+        "cluster_i": 209,
+        "cluster_j": 519,
+        "dist": 0.0
+    },
+    {
+        "step": 12,
+        "cluster_i": 495,
+        "cluster_j": 494,
+        "dist": 0.011028207293773407
+    },
+    {
+        "step": 13,
+        "cluster_i": 130,
+        "cluster_j": 132,
+        "dist": 0.03308462188132022
+    },
+    {
+        "step": 14,
+        "cluster_i": 590,
+        "cluster_j": 589,
+        "dist": 0.07719745105641396
+    },
+    {
+        "step": 15,
+        "cluster_i": 157,
+        "cluster_j": 156,
+        "dist": 0.08822565835018731
+    },
+    {
+        "step": 16,
+        "cluster_i": 557,
+        "cluster_j": 558,
+        "dist": 0.09925386564396071
+    },
+    {
+        "step": 17,
+        "cluster_i": 486,
+        "cluster_j": 485,
+        "dist": 0.12285265444159506
+    },
+    {
+        "step": 18,
+        "cluster_i": 141,
+        "cluster_j": 142,
+        "dist": 0.16795770418797884
+    },
+    {
+        "step": 19,
+        "cluster_i": 549,
+        "cluster_j": 546,
+        "dist": 0.1704922989693567
+    },
+    {
+        "step": 20,
+        "cluster_i": 475,
+        "cluster_j": 476,
+        "dist": 0.17643566451609383
+    },
+    {
+        "step": 21,
+        "cluster_i": 423,
+        "cluster_j": 424,
+        "dist": 0.18999846659124492
+    },
+    {
+        "step": 22,
+        "cluster_i": 399,
+        "cluster_j": 400,
+        "dist": 0.20166599728744466
+    },
+    {
+        "step": 23,
+        "cluster_i": 672,
+        "cluster_j": 333,
+        "dist": 0.20166599728744466
+    },
+    {
+        "step": 24,
+        "cluster_i": 398,
+        "cluster_j": 397,
+        "dist": 0.2016659972874454
+    },
+    {
+        "step": 25,
+        "cluster_i": 265,
+        "cluster_j": 264,
+        "dist": 0.2022939712757072
+    },
+    {
+        "step": 26,
+        "cluster_i": 69,
+        "cluster_j": 72,
+        "dist": 0.20952028639741416
+    },
+    {
+        "step": 27,
+        "cluster_i": 415,
+        "cluster_j": 418,
+        "dist": 0.2133378307537614
+    },
+    {
+        "step": 28,
+        "cluster_i": 13,
+        "cluster_j": 21,
+        "dist": 0.21565168674451252
+    },
+    {
+        "step": 29,
+        "cluster_i": 347,
+        "cluster_j": 349,
+        "dist": 0.23601791655945376
+    },
+    {
+        "step": 30,
+        "cluster_i": 610,
+        "cluster_j": 609,
+        "dist": 0.23601791655945376
+    },
+    {
+        "step": 31,
+        "cluster_i": 282,
+        "cluster_j": 284,
+        "dist": 0.23601791655945376
+    },
+    {
+        "step": 32,
+        "cluster_i": 529,
+        "cluster_j": 531,
+        "dist": 0.23601791655945448
+    },
+    {
+        "step": 33,
+        "cluster_i": 106,
+        "cluster_j": 108,
+        "dist": 0.23664589054771623
+    },
+    {
+        "step": 34,
+        "cluster_i": 348,
+        "cluster_j": 693,
+        "dist": 0.24570530888318848
+    },
+    {
+        "step": 35,
+        "cluster_i": 61,
+        "cluster_j": 62,
+        "dist": 0.24570530888318848
+    },
+    {
+        "step": 36,
+        "cluster_i": 686,
+        "cluster_j": 688,
+        "dist": 0.24570530888318848
+    },
+    {
+        "step": 37,
+        "cluster_i": 673,
+        "cluster_j": 82,
+        "dist": 0.24570530888318848
+    },
+    {
+        "step": 38,
+        "cluster_i": 565,
+        "cluster_j": 562,
+        "dist": 0.24570530888318848
+    },
+    {
+        "step": 39,
+        "cluster_i": 257,
+        "cluster_j": 258,
+        "dist": 0.24570530888318848
+    },
+    {
+        "step": 40,
+        "cluster_i": 365,
+        "cluster_j": 366,
+        "dist": 0.2466975294544802
+    },
+    {
+        "step": 41,
+        "cluster_i": 468,
+        "cluster_j": 480,
+        "dist": 0.25000360601652155
+    },
+    {
+        "step": 42,
+        "cluster_i": 632,
+        "cluster_j": 690,
+        "dist": 0.2502428724806099
+    },
+    {
+        "step": 43,
+        "cluster_i": 435,
+        "cluster_j": 438,
+        "dist": 0.2506935966815576
+    },
+    {
+        "step": 44,
+        "cluster_i": 291,
+        "cluster_j": 289,
+        "dist": 0.25490041296319654
+    },
+    {
+        "step": 45,
+        "cluster_i": 459,
+        "cluster_j": 462,
+        "dist": 0.25743500774457423
+    },
+    {
+        "step": 46,
+        "cluster_i": 373,
+        "cluster_j": 375,
+        "dist": 0.2646613228662811
+    },
+    {
+        "step": 47,
+        "cluster_i": 599,
+        "cluster_j": 602,
+        "dist": 0.26591296807268905
+    },
+    {
+        "step": 48,
+        "cluster_i": 67,
+        "cluster_j": 626,
+        "dist": 0.26978034447106003
+    },
+    {
+        "step": 49,
+        "cluster_i": 274,
+        "cluster_j": 273,
+        "dist": 0.2710248114181715
+    },
+    {
+        "step": 50,
+        "cluster_i": 139,
+        "cluster_j": 138,
+        "dist": 0.282053018711945
+    },
+    {
+        "step": 51,
+        "cluster_i": 104,
+        "cluster_j": 535,
+        "dist": 0.29925995190709576
+    },
+    {
+        "step": 52,
+        "cluster_i": 709,
+        "cluster_j": 461,
+        "dist": 0.3040937811152109
+    },
+    {
+        "step": 53,
+        "cluster_i": 167,
+        "cluster_j": 169,
+        "dist": 0.3040937811152109
+    },
+    {
+        "step": 54,
+        "cluster_i": 98,
+        "cluster_j": 99,
+        "dist": 0.3047217551034719
+    },
+    {
+        "step": 55,
+        "cluster_i": 706,
+        "cluster_j": 71,
+        "dist": 0.3053767306901807
+    },
+    {
+        "step": 56,
+        "cluster_i": 716,
+        "cluster_j": 458,
+        "dist": 0.3100414494320638
+    },
+    {
+        "step": 57,
+        "cluster_i": 620,
+        "cluster_j": 63,
+        "dist": 0.31831873703636554
+    },
+    {
+        "step": 58,
+        "cluster_i": 118,
+        "cluster_j": 119,
+        "dist": 0.3210696567258371
+    },
+    {
+        "step": 59,
+        "cluster_i": 392,
+        "cluster_j": 389,
+        "dist": 0.32233695411652596
+    },
+    {
+        "step": 60,
+        "cluster_i": 285,
+        "cluster_j": 283,
+        "dist": 0.3245186517290405
+    },
+    {
+        "step": 61,
+        "cluster_i": 544,
+        "cluster_j": 548,
+        "dist": 0.3444090208883537
+    },
+    {
+        "step": 62,
+        "cluster_i": 714,
+        "cluster_j": 136,
+        "dist": 0.35542157599784613
+    },
+    {
+        "step": 63,
+        "cluster_i": 723,
+        "cluster_j": 391,
+        "dist": 0.36305236194042534
+    },
+    {
+        "step": 64,
+        "cluster_i": 536,
+        "cluster_j": 537,
+        "dist": 0.3670155891146961
+    },
+    {
+        "step": 65,
+        "cluster_i": 166,
+        "cluster_j": 717,
+        "dist": 0.36771708068230835
+    },
+    {
+        "step": 66,
+        "cluster_i": 722,
+        "cluster_j": 120,
+        "dist": 0.3682828865053849
+    },
+    {
+        "step": 67,
+        "cluster_i": 691,
+        "cluster_j": 416,
+        "dist": 0.36835640408473486
+    },
+    {
+        "step": 68,
+        "cluster_i": 448,
+        "cluster_j": 447,
+        "dist": 0.3685579633247835
+    },
+    {
+        "step": 69,
+        "cluster_i": 427,
+        "cluster_j": 685,
+        "dist": 0.3698987782948215
+    },
+    {
+        "step": 70,
+        "cluster_i": 477,
+        "cluster_j": 479,
+        "dist": 0.3698987782948216
+    },
+    {
+        "step": 71,
+        "cluster_i": 719,
+        "cluster_j": 629,
+        "dist": 0.37027020313714776
+    },
+    {
+        "step": 72,
+        "cluster_i": 684,
+        "cluster_j": 734,
+        "dist": 0.38057839118984715
+    },
+    {
+        "step": 73,
+        "cluster_i": 44,
+        "cluster_j": 46,
+        "dist": 0.38065190876919697
+    },
+    {
+        "step": 74,
+        "cluster_i": 319,
+        "cluster_j": 320,
+        "dist": 0.381845688580536
+    },
+    {
+        "step": 75,
+        "cluster_i": 227,
+        "cluster_j": 225,
+        "dist": 0.3831129859712248
+    },
+    {
+        "step": 76,
+        "cluster_i": 105,
+        "cluster_j": 728,
+        "dist": 0.39002020503866075
+    },
+    {
+        "step": 77,
+        "cluster_i": 378,
+        "cluster_j": 377,
+        "dist": 0.39061437791233045
+    },
+    {
+        "step": 78,
+        "cluster_i": 86,
+        "cluster_j": 89,
+        "dist": 0.3922924378669521
+    },
+    {
+        "step": 79,
+        "cluster_i": 405,
+        "cluster_j": 406,
+        "dist": 0.39322249027305717
+    },
+    {
+        "step": 80,
+        "cluster_i": 621,
+        "cluster_j": 60,
+        "dist": 0.39452396752148994
+    },
+    {
+        "step": 81,
+        "cluster_i": 384,
+        "cluster_j": 386,
+        "dist": 0.40425069756683224
+    },
+    {
+        "step": 82,
+        "cluster_i": 87,
+        "cluster_j": 742,
+        "dist": 0.41056261246671316
+    },
+    {
+        "step": 83,
+        "cluster_i": 374,
+        "cluster_j": 376,
+        "dist": 0.4127443100792262
+    },
+    {
+        "step": 84,
+        "cluster_i": 710,
+        "cluster_j": 747,
+        "dist": 0.4221409733992823
+    },
+    {
+        "step": 85,
+        "cluster_i": 738,
+        "cluster_j": 322,
+        "dist": 0.42284246496689476
+    },
+    {
+        "step": 86,
+        "cluster_i": 749,
+        "cluster_j": 323,
+        "dist": 0.42377251737299954
+    },
+    {
+        "step": 87,
+        "cluster_i": 603,
+        "cluster_j": 711,
+        "dist": 0.4263071121543772
+    },
+    {
+        "step": 88,
+        "cluster_i": 192,
+        "cluster_j": 178,
+        "dist": 0.42834589132573125
+    },
+    {
+        "step": 89,
+        "cluster_i": 444,
+        "cluster_j": 445,
+        "dist": 0.429221605703066
+    },
+    {
+        "step": 90,
+        "cluster_i": 741,
+        "cluster_j": 367,
+        "dist": 0.43152411227965154
+    },
+    {
+        "step": 91,
+        "cluster_i": 625,
+        "cluster_j": 66,
+        "dist": 0.4339361564869725
+    },
+    {
+        "step": 92,
+        "cluster_i": 617,
+        "cluster_j": 616,
+        "dist": 0.43726180186880165
+    },
+    {
+        "step": 93,
+        "cluster_i": 97,
+        "cluster_j": 718,
+        "dist": 0.44737130617063386
+    },
+    {
+        "step": 94,
+        "cluster_i": 656,
+        "cluster_j": 655,
+        "dist": 0.44737130617063386
+    },
+    {
+        "step": 95,
+        "cluster_i": 745,
+        "cluster_j": 382,
+        "dist": 0.44900715291446813
+    },
+    {
+        "step": 96,
+        "cluster_i": 188,
+        "cluster_j": 189,
+        "dist": 0.4525453176813016
+    },
+    {
+        "step": 97,
+        "cluster_i": 124,
+        "cluster_j": 112,
+        "dist": 0.4561151216485761
+    },
+    {
+        "step": 98,
+        "cluster_i": 17,
+        "cluster_j": 18,
+        "dist": 0.4577758422462611
+    },
+    {
+        "step": 99,
+        "cluster_i": 530,
+        "cluster_j": 541,
+        "dist": 0.45827224720752785
+    },
+    {
+        "step": 100,
+        "cluster_i": 146,
+        "cluster_j": 149,
+        "dist": 0.46229487817022086
+    },
+    {
+        "step": 101,
+        "cluster_i": 708,
+        "cluster_j": 290,
+        "dist": 0.4635735249750751
+    },
+    {
+        "step": 102,
+        "cluster_i": 746,
+        "cluster_j": 88,
+        "dist": 0.4695325427060931
+    },
+    {
+        "step": 103,
+        "cluster_i": 669,
+        "cluster_j": 230,
+        "dist": 0.47161372114081074
+    },
+    {
+        "step": 104,
+        "cluster_i": 237,
+        "cluster_j": 236,
+        "dist": 0.4767608758107326
+    },
+    {
+        "step": 105,
+        "cluster_i": 635,
+        "cluster_j": 636,
+        "dist": 0.4767608758107326
+    },
+    {
+        "step": 106,
+        "cluster_i": 607,
+        "cluster_j": 608,
+        "dist": 0.4767608758107326
+    },
+    {
+        "step": 107,
+        "cluster_i": 573,
+        "cluster_j": 572,
+        "dist": 0.4767608758107326
+    },
+    {
+        "step": 108,
+        "cluster_i": 696,
+        "cluster_j": 532,
+        "dist": 0.48172322544264223
+    },
+    {
+        "step": 109,
+        "cluster_i": 346,
+        "cluster_j": 345,
+        "dist": 0.48174916360910175
+    },
+    {
+        "step": 110,
+        "cluster_i": 96,
+        "cluster_j": 757,
+        "dist": 0.500723766433695
+    },
+    {
+        "step": 111,
+        "cluster_i": 754,
+        "cluster_j": 369,
+        "dist": 0.503008747600767
+    },
+    {
+        "step": 112,
+        "cluster_i": 744,
+        "cluster_j": 622,
+        "dist": 0.5037796400301889
+    },
+    {
+        "step": 113,
+        "cluster_i": 721,
+        "cluster_j": 705,
+        "dist": 0.5039574335075301
+    },
+    {
+        "step": 114,
+        "cluster_i": 624,
+        "cluster_j": 470,
+        "dist": 0.5039574335075301
+    },
+    {
+        "step": 115,
+        "cluster_i": 585,
+        "cluster_j": 584,
+        "dist": 0.5044232662027326
+    },
+    {
+        "step": 116,
+        "cluster_i": 122,
+        "cluster_j": 121,
+        "dist": 0.505151759368791
+    },
+    {
+        "step": 117,
+        "cluster_i": 467,
+        "cluster_j": 466,
+        "dist": 0.509845497692053
+    },
+    {
+        "step": 118,
+        "cluster_i": 297,
+        "cluster_j": 299,
+        "dist": 0.5145327705045648
+    },
+    {
+        "step": 119,
+        "cluster_i": 77,
+        "cluster_j": 483,
+        "dist": 0.5148145278808415
+    },
+    {
+        "step": 120,
+        "cluster_i": 0,
+        "cluster_j": 665,
+        "dist": 0.5155058115252779
+    },
+    {
+        "step": 121,
+        "cluster_i": 451,
+        "cluster_j": 454,
+        "dist": 0.516075144714652
+    },
+    {
+        "step": 122,
+        "cluster_i": 155,
+        "cluster_j": 153,
+        "dist": 0.5161643144782836
+    },
+    {
+        "step": 123,
+        "cluster_i": 510,
+        "cluster_j": 514,
+        "dist": 0.5242780282233684
+    },
+    {
+        "step": 124,
+        "cluster_i": 185,
+        "cluster_j": 760,
+        "dist": 0.5246422748063985
+    },
+    {
+        "step": 125,
+        "cluster_i": 704,
+        "cluster_j": 775,
+        "dist": 0.5250651621883146
+    },
+    {
+        "step": 126,
+        "cluster_i": 162,
+        "cluster_j": 701,
+        "dist": 0.5256486129243543
+    },
+    {
+        "step": 127,
+        "cluster_i": 612,
+        "cluster_j": 611,
+        "dist": 0.5257625370383869
+    },
+    {
+        "step": 128,
+        "cluster_i": 235,
+        "cluster_j": 767,
+        "dist": 0.5261846490164851
+    },
+    {
+        "step": 129,
+        "cluster_i": 499,
+        "cluster_j": 543,
+        "dist": 0.5264530700149573
+    },
+    {
+        "step": 130,
+        "cluster_i": 28,
+        "cluster_j": 27,
+        "dist": 0.5325410909243264
+    },
+    {
+        "step": 131,
+        "cluster_i": 736,
+        "cluster_j": 478,
+        "dist": 0.5356861342844528
+    },
+    {
+        "step": 132,
+        "cluster_i": 207,
+        "cluster_j": 208,
+        "dist": 0.5360457853182722
+    },
+    {
+        "step": 133,
+        "cluster_i": 712,
+        "cluster_j": 755,
+        "dist": 0.5367907443321605
+    },
+    {
+        "step": 134,
+        "cluster_i": 443,
+        "cluster_j": 446,
+        "dist": 0.5378564824828004
+    },
+    {
+        "step": 135,
+        "cluster_i": 680,
+        "cluster_j": 725,
+        "dist": 0.5386279642634655
+    },
+    {
+        "step": 136,
+        "cluster_i": 520,
+        "cluster_j": 211,
+        "dist": 0.5389030410828641
+    },
+    {
+        "step": 137,
+        "cluster_i": 777,
+        "cluster_j": 668,
+        "dist": 0.5403175596848289
+    },
+    {
+        "step": 138,
+        "cluster_i": 751,
+        "cluster_j": 727,
+        "dist": 0.5408098022064496
+    },
+    {
+        "step": 139,
+        "cluster_i": 355,
+        "cluster_j": 359,
+        "dist": 0.5428854478077134
+    },
+    {
+        "step": 140,
+        "cluster_i": 779,
+        "cluster_j": 587,
+        "dist": 0.5463500949951962
+    },
+    {
+        "step": 141,
+        "cluster_i": 472,
+        "cluster_j": 474,
+        "dist": 0.5472374936185755
+    },
+    {
+        "step": 142,
+        "cluster_i": 805,
+        "cluster_j": 68,
+        "dist": 0.5491664471528506
+    },
+    {
+        "step": 143,
+        "cluster_i": 566,
+        "cluster_j": 658,
+        "dist": 0.5502893490751417
+    },
+    {
+        "step": 144,
+        "cluster_i": 281,
+        "cluster_j": 695,
+        "dist": 0.5504270639866611
+    },
+    {
+        "step": 145,
+        "cluster_i": 663,
+        "cluster_j": 569,
+        "dist": 0.5515566464658306
+    },
+    {
+        "step": 146,
+        "cluster_i": 301,
+        "cluster_j": 300,
+        "dist": 0.5560374873189317
+    },
+    {
+        "step": 147,
+        "cluster_i": 740,
+        "cluster_j": 540,
+        "dist": 0.5561110048982807
+    },
+    {
+        "step": 148,
+        "cluster_i": 797,
+        "cluster_j": 628,
+        "dist": 0.55699840352166
+    },
+    {
+        "step": 149,
+        "cluster_i": 762,
+        "cluster_j": 19,
+        "dist": 0.5615287888597851
+    },
+    {
+        "step": 150,
+        "cluster_i": 581,
+        "cluster_j": 580,
+        "dist": 0.5686080688227917
+    },
+    {
+        "step": 151,
+        "cluster_i": 670,
+        "cluster_j": 640,
+        "dist": 0.5702239606122289
+    },
+    {
+        "step": 152,
+        "cluster_i": 334,
+        "cluster_j": 687,
+        "dist": 0.5702239606122289
+    },
+    {
+        "step": 153,
+        "cluster_i": 790,
+        "cluster_j": 161,
+        "dist": 0.5702239606122289
+    },
+    {
+        "step": 154,
+        "cluster_i": 578,
+        "cluster_j": 579,
+        "dist": 0.5702239606122289
+    },
+    {
+        "step": 155,
+        "cluster_i": 803,
+        "cluster_j": 358,
+        "dist": 0.5725883005221204
+    },
+    {
+        "step": 156,
+        "cluster_i": 244,
+        "cluster_j": 243,
+        "dist": 0.5815894128905845
+    },
+    {
+        "step": 157,
+        "cluster_i": 750,
+        "cluster_j": 321,
+        "dist": 0.5823179060566431
+    },
+    {
+        "step": 158,
+        "cluster_i": 778,
+        "cluster_j": 64,
+        "dist": 0.5838209425451226
+    },
+    {
+        "step": 159,
+        "cluster_i": 809,
+        "cluster_j": 662,
+        "dist": 0.5916989171924167
+    },
+    {
+        "step": 160,
+        "cluster_i": 145,
+        "cluster_j": 764,
+        "dist": 0.5932725957710661
+    },
+    {
+        "step": 161,
+        "cluster_i": 588,
+        "cluster_j": 575,
+        "dist": 0.5943191543711281
+    },
+    {
+        "step": 162,
+        "cluster_i": 700,
+        "cluster_j": 411,
+        "dist": 0.594319154371129
+    },
+    {
+        "step": 163,
+        "cluster_i": 204,
+        "cluster_j": 203,
+        "dist": 0.6018084214942498
+    },
+    {
+        "step": 164,
+        "cluster_i": 806,
+        "cluster_j": 473,
+        "dist": 0.6018084214942498
+    },
+    {
+        "step": 165,
+        "cluster_i": 403,
+        "cluster_j": 402,
+        "dist": 0.6018084214942498
+    },
+    {
+        "step": 166,
+        "cluster_i": 561,
+        "cluster_j": 758,
+        "dist": 0.6092322777160754
+    },
+    {
+        "step": 167,
+        "cluster_i": 190,
+        "cluster_j": 788,
+        "dist": 0.6112520413671477
+    },
+    {
+        "step": 168,
+        "cluster_i": 379,
+        "cluster_j": 381,
+        "dist": 0.6112676935514295
+    },
+    {
+        "step": 169,
+        "cluster_i": 813,
+        "cluster_j": 20,
+        "dist": 0.6137866361485255
+    },
+    {
+        "step": 170,
+        "cluster_i": 150,
+        "cluster_j": 152,
+        "dist": 0.6159413321625936
+    },
+    {
+        "step": 171,
+        "cluster_i": 219,
+        "cluster_j": 217,
+        "dist": 0.6159413321625937
+    },
+    {
+        "step": 172,
+        "cluster_i": 385,
+        "cluster_j": 596,
+        "dist": 0.6180072532628635
+    },
+    {
+        "step": 173,
+        "cluster_i": 246,
+        "cluster_j": 248,
+        "dist": 0.6222802486609212
+    },
+    {
+        "step": 174,
+        "cluster_i": 173,
+        "cluster_j": 175,
+        "dist": 0.6226733700676287
+    },
+    {
+        "step": 175,
+        "cluster_i": 807,
+        "cluster_j": 659,
+        "dist": 0.6262837000730366
+    },
+    {
+        "step": 176,
+        "cluster_i": 484,
+        "cluster_j": 79,
+        "dist": 0.6288984929906422
+    },
+    {
+        "step": 177,
+        "cluster_i": 730,
+        "cluster_j": 123,
+        "dist": 0.6298683808207733
+    },
+    {
+        "step": 178,
+        "cluster_i": 11,
+        "cluster_j": 692,
+        "dist": 0.6343006765259859
+    },
+    {
+        "step": 179,
+        "cluster_i": 354,
+        "cluster_j": 353,
+        "dist": 0.6361603407662588
+    },
+    {
+        "step": 180,
+        "cluster_i": 394,
+        "cluster_j": 395,
+        "dist": 0.6371260003110427
+    },
+    {
+        "step": 181,
+        "cluster_i": 735,
+        "cluster_j": 795,
+        "dist": 0.6388305158141887
+    },
+    {
+        "step": 182,
+        "cluster_i": 791,
+        "cluster_j": 614,
+        "dist": 0.6502932514346027
+    },
+    {
+        "step": 183,
+        "cluster_i": 420,
+        "cluster_j": 422,
+        "dist": 0.6502932514346027
+    },
+    {
+        "step": 184,
+        "cluster_i": 802,
+        "cluster_j": 54,
+        "dist": 0.6514465815268567
+    },
+    {
+        "step": 185,
+        "cluster_i": 796,
+        "cluster_j": 198,
+        "dist": 0.6518649079633734
+    },
+    {
+        "step": 186,
+        "cluster_i": 144,
+        "cluster_j": 148,
+        "dist": 0.6526864661681726
+    },
+    {
+        "step": 187,
+        "cluster_i": 752,
+        "cluster_j": 191,
+        "dist": 0.6565586503535813
+    },
+    {
+        "step": 188,
+        "cluster_i": 512,
+        "cluster_j": 787,
+        "dist": 0.6569964145159604
+    },
+    {
+        "step": 189,
+        "cluster_i": 186,
+        "cluster_j": 179,
+        "dist": 0.6626023862534681
+    },
+    {
+        "step": 190,
+        "cluster_i": 681,
+        "cluster_j": 772,
+        "dist": 0.6638607471029937
+    },
+    {
+        "step": 191,
+        "cluster_i": 811,
+        "cluster_j": 763,
+        "dist": 0.6664199306098155
+    },
+    {
+        "step": 192,
+        "cluster_i": 678,
+        "cluster_j": 825,
+        "dist": 0.6777252367728652
+    },
+    {
+        "step": 193,
+        "cluster_i": 737,
+        "cluster_j": 836,
+        "dist": 0.678647503071117
+    },
+    {
+        "step": 194,
+        "cluster_i": 487,
+        "cluster_j": 854,
+        "dist": 0.6825928670955725
+    },
+    {
+        "step": 195,
+        "cluster_i": 824,
+        "cluster_j": 679,
+        "dist": 0.6835370332926075
+    },
+    {
+        "step": 196,
+        "cluster_i": 25,
+        "cluster_j": 22,
+        "dist": 0.6932393023968045
+    },
+    {
+        "step": 197,
+        "cluster_i": 194,
+        "cluster_j": 195,
+        "dist": 0.697325021686201
+    },
+    {
+        "step": 198,
+        "cluster_i": 851,
+        "cluster_j": 180,
+        "dist": 0.7015164788886884
+    },
+    {
+        "step": 199,
+        "cluster_i": 370,
+        "cluster_j": 372,
+        "dist": 0.7016323957314035
+    },
+    {
+        "step": 200,
+        "cluster_i": 832,
+        "cluster_j": 789,
+        "dist": 0.7030588530987758
+    },
+    {
+        "step": 201,
+        "cluster_i": 463,
+        "cluster_j": 785,
+        "dist": 0.7043261504894655
+    },
+    {
+        "step": 202,
+        "cluster_i": 729,
+        "cluster_j": 766,
+        "dist": 0.7046345244061066
+    },
+    {
+        "step": 203,
+        "cluster_i": 677,
+        "cluster_j": 129,
+        "dist": 0.704821966099489
+    },
+    {
+        "step": 204,
+        "cluster_i": 37,
+        "cluster_j": 794,
+        "dist": 0.7071358220902401
+    },
+    {
+        "step": 205,
+        "cluster_i": 125,
+        "cluster_j": 761,
+        "dist": 0.7082752638728079
+    },
+    {
+        "step": 206,
+        "cluster_i": 792,
+        "cluster_j": 739,
+        "dist": 0.7103120209942826
+    },
+    {
+        "step": 207,
+        "cluster_i": 776,
+        "cluster_j": 73,
+        "dist": 0.7116890378719418
+    },
+    {
+        "step": 208,
+        "cluster_i": 782,
+        "cluster_j": 296,
+        "dist": 0.7117575522175165
+    },
+    {
+        "step": 209,
+        "cluster_i": 774,
+        "cluster_j": 111,
+        "dist": 0.7119299348335976
+    },
+    {
+        "step": 210,
+        "cluster_i": 731,
+        "cluster_j": 414,
+        "dist": 0.7133155786118848
+    },
+    {
+        "step": 211,
+        "cluster_i": 799,
+        "cluster_j": 683,
+        "dist": 0.7148579528219723
+    },
+    {
+        "step": 212,
+        "cluster_i": 218,
+        "cluster_j": 216,
+        "dist": 0.7152065472207199
+    },
+    {
+        "step": 213,
+        "cluster_i": 846,
+        "cluster_j": 613,
+        "dist": 0.7177411420020967
+    },
+    {
+        "step": 214,
+        "cluster_i": 864,
+        "cluster_j": 748,
+        "dist": 0.7209329930904207
+    },
+    {
+        "step": 215,
+        "cluster_i": 275,
+        "cluster_j": 713,
+        "dist": 0.7215028099363202
+    },
+    {
+        "step": 216,
+        "cluster_i": 848,
+        "cluster_j": 51,
+        "dist": 0.7303895438554229
+    },
+    {
+        "step": 217,
+        "cluster_i": 858,
+        "cluster_j": 873,
+        "dist": 0.7312798797967724
+    },
+    {
+        "step": 218,
+        "cluster_i": 786,
+        "cluster_j": 859,
+        "dist": 0.7344957951655721
+    },
+    {
+        "step": 219,
+        "cluster_i": 814,
+        "cluster_j": 582,
+        "dist": 0.7397975565896435
+    },
+    {
+        "step": 220,
+        "cluster_i": 715,
+        "cluster_j": 835,
+        "dist": 0.7410310578783702
+    },
+    {
+        "step": 221,
+        "cluster_i": 455,
+        "cluster_j": 456,
+        "dist": 0.7482911691020393
+    },
+    {
+        "step": 222,
+        "cluster_i": 784,
+        "cluster_j": 1,
+        "dist": 0.7514650872858448
+    },
+    {
+        "step": 223,
+        "cluster_i": 856,
+        "cluster_j": 591,
+        "dist": 0.7514650872858448
+    },
+    {
+        "step": 224,
+        "cluster_i": 595,
+        "cluster_j": 383,
+        "dist": 0.7534304892083179
+    },
+    {
+        "step": 225,
+        "cluster_i": 419,
+        "cluster_j": 421,
+        "dist": 0.7593193763958135
+    },
+    {
+        "step": 226,
+        "cluster_i": 682,
+        "cluster_j": 867,
+        "dist": 0.759393669378982
+    },
+    {
+        "step": 227,
+        "cluster_i": 812,
+        "cluster_j": 471,
+        "dist": 0.7601407960456963
+    },
+    {
+        "step": 228,
+        "cluster_i": 464,
+        "cluster_j": 865,
+        "dist": 0.7624932945796181
+    },
+    {
+        "step": 229,
+        "cluster_i": 842,
+        "cluster_j": 23,
+        "dist": 0.7625519353785051
+    },
+    {
+        "step": 230,
+        "cluster_i": 553,
+        "cluster_j": 545,
+        "dist": 0.7637628726905449
+    },
+    {
+        "step": 231,
+        "cluster_i": 866,
+        "cluster_j": 882,
+        "dist": 0.7642348169735669
+    },
+    {
+        "step": 232,
+        "cluster_i": 881,
+        "cluster_j": 492,
+        "dist": 0.7650301700812336
+    },
+    {
+        "step": 233,
+        "cluster_i": 292,
+        "cluster_j": 765,
+        "dist": 0.7681502338927916
+    },
+    {
+        "step": 234,
+        "cluster_i": 891,
+        "cluster_j": 627,
+        "dist": 0.7710334230729174
+    },
+    {
+        "step": 235,
+        "cluster_i": 240,
+        "cluster_j": 242,
+        "dist": 0.7717372284377012
+    },
+    {
+        "step": 236,
+        "cluster_i": 164,
+        "cluster_j": 165,
+        "dist": 0.7728821784709636
+    },
+    {
+        "step": 237,
+        "cluster_i": 857,
+        "cluster_j": 880,
+        "dist": 0.7744424855855697
+    },
+    {
+        "step": 238,
+        "cluster_i": 341,
+        "cluster_j": 340,
+        "dist": 0.7779111437958762
+    },
+    {
+        "step": 239,
+        "cluster_i": 47,
+        "cluster_j": 49,
+        "dist": 0.783910385764738
+    },
+    {
+        "step": 240,
+        "cluster_i": 676,
+        "cluster_j": 496,
+        "dist": 0.7858170065578538
+    },
+    {
+        "step": 241,
+        "cluster_i": 875,
+        "cluster_j": 559,
+        "dist": 0.7875071913304588
+    },
+    {
+        "step": 242,
+        "cluster_i": 594,
+        "cluster_j": 759,
+        "dist": 0.7988106157741006
+    },
+    {
+        "step": 243,
+        "cluster_i": 833,
+        "cluster_j": 893,
+        "dist": 0.7993820893532421
+    },
+    {
+        "step": 244,
+        "cluster_i": 314,
+        "cluster_j": 324,
+        "dist": 0.8004306700031827
+    },
+    {
+        "step": 245,
+        "cluster_i": 343,
+        "cluster_j": 344,
+        "dist": 0.8010000031925577
+    },
+    {
+        "step": 246,
+        "cluster_i": 287,
+        "cluster_j": 286,
+        "dist": 0.8046995029615962
+    },
+    {
+        "step": 247,
+        "cluster_i": 15,
+        "cluster_j": 14,
+        "dist": 0.8112286292858071
+    },
+    {
+        "step": 248,
+        "cluster_i": 29,
+        "cluster_j": 30,
+        "dist": 0.8112286292858071
+    },
+    {
+        "step": 249,
+        "cluster_i": 874,
+        "cluster_j": 429,
+        "dist": 0.8195995926404888
+    },
+    {
+        "step": 250,
+        "cluster_i": 883,
+        "cluster_j": 583,
+        "dist": 0.8220528477946482
+    },
+    {
+        "step": 251,
+        "cluster_i": 307,
+        "cluster_j": 309,
+        "dist": 0.8245898721209092
+    },
+    {
+        "step": 252,
+        "cluster_i": 115,
+        "cluster_j": 116,
+        "dist": 0.8254886201584541
+    },
+    {
+        "step": 253,
+        "cluster_i": 698,
+        "cluster_j": 362,
+        "dist": 0.8303370709305835
+    },
+    {
+        "step": 254,
+        "cluster_i": 869,
+        "cluster_j": 841,
+        "dist": 0.8331646754358777
+    },
+    {
+        "step": 255,
+        "cluster_i": 310,
+        "cluster_j": 4,
+        "dist": 0.8339862336406759
+    },
+    {
+        "step": 256,
+        "cluster_i": 100,
+        "cluster_j": 533,
+        "dist": 0.8351319932473155
+    },
+    {
+        "step": 257,
+        "cluster_i": 259,
+        "cluster_j": 255,
+        "dist": 0.8393264990530029
+    },
+    {
+        "step": 258,
+        "cluster_i": 639,
+        "cluster_j": 637,
+        "dist": 0.8405937964436918
+    },
+    {
+        "step": 259,
+        "cluster_i": 452,
+        "cluster_j": 460,
+        "dist": 0.8434214009489858
+    },
+    {
+        "step": 260,
+        "cluster_i": 892,
+        "cluster_j": 720,
+        "dist": 0.8532714806157019
+    },
+    {
+        "step": 261,
+        "cluster_i": 8,
+        "cluster_j": 9,
+        "dist": 0.8578760532422783
+    },
+    {
+        "step": 262,
+        "cluster_i": 574,
+        "cluster_j": 577,
+        "dist": 0.8601156162498609
+    },
+    {
+        "step": 263,
+        "cluster_i": 56,
+        "cluster_j": 844,
+        "dist": 0.8601680093342471
+    },
+    {
+        "step": 264,
+        "cluster_i": 555,
+        "cluster_j": 556,
+        "dist": 0.8614564312198996
+    },
+    {
+        "step": 265,
+        "cluster_i": 915,
+        "cluster_j": 308,
+        "dist": 0.8614564312198997
+    },
+    {
+        "step": 266,
+        "cluster_i": 650,
+        "cluster_j": 922,
+        "dist": 0.8638926345680753
+    },
+    {
+        "step": 267,
+        "cluster_i": 733,
+        "cluster_j": 913,
+        "dist": 0.8642105181458436
+    },
+    {
+        "step": 268,
+        "cluster_i": 131,
+        "cluster_j": 143,
+        "dist": 0.8646889902025925
+    },
+    {
+        "step": 269,
+        "cluster_i": 42,
+        "cluster_j": 901,
+        "dist": 0.870520152325489
+    },
+    {
+        "step": 270,
+        "cluster_i": 886,
+        "cluster_j": 205,
+        "dist": 0.8739557758646475
+    },
+    {
+        "step": 271,
+        "cluster_i": 884,
+        "cluster_j": 103,
+        "dist": 0.8766237756703223
+    },
+    {
+        "step": 272,
+        "cluster_i": 600,
+        "cluster_j": 52,
+        "dist": 0.8823061387599247
+    },
+    {
+        "step": 273,
+        "cluster_i": 107,
+        "cluster_j": 221,
+        "dist": 0.8828964695402944
+    },
+    {
+        "step": 274,
+        "cluster_i": 251,
+        "cluster_j": 252,
+        "dist": 0.8838035748111258
+    },
+    {
+        "step": 275,
+        "cluster_i": 896,
+        "cluster_j": 697,
+        "dist": 0.8917003688791761
+    },
+    {
+        "step": 276,
+        "cluster_i": 800,
+        "cluster_j": 522,
+        "dist": 0.8948317821048993
+    },
+    {
+        "step": 277,
+        "cluster_i": 940,
+        "cluster_j": 214,
+        "dist": 0.896727053483849
+    },
+    {
+        "step": 278,
+        "cluster_i": 831,
+        "cluster_j": 862,
+        "dist": 0.8980666218078293
+    },
+    {
+        "step": 279,
+        "cluster_i": 912,
+        "cluster_j": 31,
+        "dist": 0.9064879633869338
+    },
+    {
+        "step": 280,
+        "cluster_i": 547,
+        "cluster_j": 554,
+        "dist": 0.912125239493004
+    },
+    {
+        "step": 281,
+        "cluster_i": 927,
+        "cluster_j": 933,
+        "dist": 0.9173110840743621
+    },
+    {
+        "step": 282,
+        "cluster_i": 905,
+        "cluster_j": 928,
+        "dist": 0.9222347437948378
+    },
+    {
+        "step": 283,
+        "cluster_i": 945,
+        "cluster_j": 906,
+        "dist": 0.9230563019996354
+    },
+    {
+        "step": 284,
+        "cluster_i": 338,
+        "cluster_j": 336,
+        "dist": 0.9259984337789382
+    },
+    {
+        "step": 285,
+        "cluster_i": 798,
+        "cluster_j": 753,
+        "dist": 0.92981167536517
+    },
+    {
+        "step": 286,
+        "cluster_i": 941,
+        "cluster_j": 222,
+        "dist": 0.9304532794878349
+    },
+    {
+        "step": 287,
+        "cluster_i": 845,
+        "cluster_j": 871,
+        "dist": 0.9310656012918156
+    },
+    {
+        "step": 288,
+        "cluster_i": 652,
+        "cluster_j": 39,
+        "dist": 0.9428659780878351
+    },
+    {
+        "step": 289,
+        "cluster_i": 899,
+        "cluster_j": 938,
+        "dist": 0.9482140083431696
+    },
+    {
+        "step": 290,
+        "cluster_i": 890,
+        "cluster_j": 726,
+        "dist": 0.9525096940753818
+    },
+    {
+        "step": 291,
+        "cluster_i": 497,
+        "cluster_j": 523,
+        "dist": 0.954488580314282
+    },
+    {
+        "step": 292,
+        "cluster_i": 743,
+        "cluster_j": 649,
+        "dist": 0.9707448211197273
+    },
+    {
+        "step": 293,
+        "cluster_i": 498,
+        "cluster_j": 40,
+        "dist": 0.9761484259487404
+    },
+    {
+        "step": 294,
+        "cluster_i": 952,
+        "cluster_j": 955,
+        "dist": 0.9761484259487404
+    },
+    {
+        "step": 295,
+        "cluster_i": 943,
+        "cluster_j": 642,
+        "dist": 0.9772178973598442
+    },
+    {
+        "step": 296,
+        "cluster_i": 904,
+        "cluster_j": 950,
+        "dist": 0.988840499586291
+    },
+    {
+        "step": 297,
+        "cluster_i": 935,
+        "cluster_j": 490,
+        "dist": 0.988840499586291
+    },
+    {
+        "step": 298,
+        "cluster_i": 855,
+        "cluster_j": 109,
+        "dist": 0.990170521532686
+    },
+    {
+        "step": 299,
+        "cluster_i": 337,
+        "cluster_j": 948,
+        "dist": 0.9928648663390747
+    },
+    {
+        "step": 300,
+        "cluster_i": 930,
+        "cluster_j": 653,
+        "dist": 0.9977983701572957
+    },
+    {
+        "step": 301,
+        "cluster_i": 868,
+        "cluster_j": 35,
+        "dist": 0.9981648974605629
+    },
+    {
+        "step": 302,
+        "cluster_i": 810,
+        "cluster_j": 872,
+        "dist": 1.0008473028044578
+    },
+    {
+        "step": 303,
+        "cluster_i": 250,
+        "cluster_j": 245,
+        "dist": 1.0011067274395757
+    },
+    {
+        "step": 304,
+        "cluster_i": 852,
+        "cluster_j": 501,
+        "dist": 1.0055092571695783
+    },
+    {
+        "step": 305,
+        "cluster_i": 939,
+        "cluster_j": 213,
+        "dist": 1.0271484107352107
+    },
+    {
+        "step": 306,
+        "cluster_i": 962,
+        "cluster_j": 493,
+        "dist": 1.0315735250151867
+    },
+    {
+        "step": 307,
+        "cluster_i": 956,
+        "cluster_j": 964,
+        "dist": 1.0348306727233216
+    },
+    {
+        "step": 308,
+        "cluster_i": 256,
+        "cluster_j": 260,
+        "dist": 1.0360900415480723
+    },
+    {
+        "step": 309,
+        "cluster_i": 947,
+        "cluster_j": 838,
+        "dist": 1.0451601937661779
+    },
+    {
+        "step": 310,
+        "cluster_i": 552,
+        "cluster_j": 550,
+        "dist": 1.0511219555966778
+    },
+    {
+        "step": 311,
+        "cluster_i": 819,
+        "cluster_j": 667,
+        "dist": 1.053728821311346
+    },
+    {
+        "step": 312,
+        "cluster_i": 647,
+        "cluster_j": 648,
+        "dist": 1.0570809733276958
+    },
+    {
+        "step": 313,
+        "cluster_i": 266,
+        "cluster_j": 279,
+        "dist": 1.0600630275445524
+    },
+    {
+        "step": 314,
+        "cluster_i": 970,
+        "cluster_j": 110,
+        "dist": 1.0678586758556334
+    },
+    {
+        "step": 315,
+        "cluster_i": 38,
+        "cluster_j": 33,
+        "dist": 1.0691072641617436
+    },
+    {
+        "step": 316,
+        "cluster_i": 961,
+        "cluster_j": 50,
+        "dist": 1.0720706621578548
+    },
+    {
+        "step": 317,
+        "cluster_i": 154,
+        "cluster_j": 834,
+        "dist": 1.087414076683657
+    },
+    {
+        "step": 318,
+        "cluster_i": 325,
+        "cluster_j": 821,
+        "dist": 1.0880807405833552
+    },
+    {
+        "step": 319,
+        "cluster_i": 804,
+        "cluster_j": 887,
+        "dist": 1.0893480379740441
+    },
+    {
+        "step": 320,
+        "cluster_i": 953,
+        "cluster_j": 837,
+        "dist": 1.0898981916128396
+    },
+    {
+        "step": 321,
+        "cluster_i": 929,
+        "cluster_j": 919,
+        "dist": 1.0899717091921888
+    },
+    {
+        "step": 322,
+        "cluster_i": 973,
+        "cluster_j": 895,
+        "dist": 1.1049616462068128
+    },
+    {
+        "step": 323,
+        "cluster_i": 982,
+        "cluster_j": 316,
+        "dist": 1.105245897640402
+    },
+    {
+        "step": 324,
+        "cluster_i": 978,
+        "cluster_j": 960,
+        "dist": 1.1070815667028135
+    },
+    {
+        "step": 325,
+        "cluster_i": 969,
+        "cluster_j": 909,
+        "dist": 1.1098007799582967
+    },
+    {
+        "step": 326,
+        "cluster_i": 958,
+        "cluster_j": 606,
+        "dist": 1.1374459509982442
+    },
+    {
+        "step": 327,
+        "cluster_i": 907,
+        "cluster_j": 911,
+        "dist": 1.1561179152276753
+    },
+    {
+        "step": 328,
+        "cluster_i": 944,
+        "cluster_j": 551,
+        "dist": 1.1561179152276753
+    },
+    {
+        "step": 329,
+        "cluster_i": 988,
+        "cluster_j": 986,
+        "dist": 1.1562815916317584
+    },
+    {
+        "step": 330,
+        "cluster_i": 70,
+        "cluster_j": 801,
+        "dist": 1.1609437823508362
+    },
+    {
+        "step": 331,
+        "cluster_i": 898,
+        "cluster_j": 951,
+        "dist": 1.16587882513076
+    },
+    {
+        "step": 332,
+        "cluster_i": 990,
+        "cluster_j": 253,
+        "dist": 1.167732007805656
+    },
+    {
+        "step": 333,
+        "cluster_i": 981,
+        "cluster_j": 850,
+        "dist": 1.1679400526780261
+    },
+    {
+        "step": 334,
+        "cluster_i": 897,
+        "cluster_j": 293,
+        "dist": 1.1684364576392914
+    },
+    {
+        "step": 335,
+        "cluster_i": 876,
+        "cluster_j": 534,
+        "dist": 1.170515105554265
+    },
+    {
+        "step": 336,
+        "cluster_i": 993,
+        "cluster_j": 942,
+        "dist": 1.1751348498698622
+    },
+    {
+        "step": 337,
+        "cluster_i": 888,
+        "cluster_j": 936,
+        "dist": 1.1778811753336043
+    },
+    {
+        "step": 338,
+        "cluster_i": 999,
+        "cluster_j": 102,
+        "dist": 1.1779251223462321
+    },
+    {
+        "step": 339,
+        "cluster_i": 387,
+        "cluster_j": 900,
+        "dist": 1.1847249964131663
+    },
+    {
+        "step": 340,
+        "cluster_i": 439,
+        "cluster_j": 440,
+        "dist": 1.1863725071257616
+    },
+    {
+        "step": 341,
+        "cluster_i": 878,
+        "cluster_j": 863,
+        "dist": 1.1879352397183067
+    },
+    {
+        "step": 342,
+        "cluster_i": 1003,
+        "cluster_j": 151,
+        "dist": 1.1893622668632715
+    },
+    {
+        "step": 343,
+        "cluster_i": 989,
+        "cluster_j": 980,
+        "dist": 1.1904698344996845
+    },
+    {
+        "step": 344,
+        "cluster_i": 921,
+        "cluster_j": 689,
+        "dist": 1.1966882809327655
+    },
+    {
+        "step": 345,
+        "cluster_i": 1000,
+        "cluster_j": 94,
+        "dist": 1.2126869983645359
+    },
+    {
+        "step": 346,
+        "cluster_i": 1002,
+        "cluster_j": 903,
+        "dist": 1.2215958355741163
+    },
+    {
+        "step": 347,
+        "cluster_i": 1001,
+        "cluster_j": 853,
+        "dist": 1.2217822738263333
+    },
+    {
+        "step": 348,
+        "cluster_i": 870,
+        "cluster_j": 223,
+        "dist": 1.2248217537716934
+    },
+    {
+        "step": 349,
+        "cluster_i": 1005,
+        "cluster_j": 975,
+        "dist": 1.2281919002278836
+    },
+    {
+        "step": 350,
+        "cluster_i": 1006,
+        "cluster_j": 84,
+        "dist": 1.229129764053805
+    },
+    {
+        "step": 351,
+        "cluster_i": 914,
+        "cluster_j": 983,
+        "dist": 1.2307807715027115
+    },
+    {
+        "step": 352,
+        "cluster_i": 756,
+        "cluster_j": 615,
+        "dist": 1.2326990806088176
+    },
+    {
+        "step": 353,
+        "cluster_i": 229,
+        "cluster_j": 228,
+        "dist": 1.2389500739895736
+    },
+    {
+        "step": 354,
+        "cluster_i": 1009,
+        "cluster_j": 987,
+        "dist": 1.240017877710188
+    },
+    {
+        "step": 355,
+        "cluster_i": 1011,
+        "cluster_j": 1007,
+        "dist": 1.2405017088142714
+    },
+    {
+        "step": 356,
+        "cluster_i": 966,
+        "cluster_j": 294,
+        "dist": 1.2468781683592405
+    },
+    {
+        "step": 357,
+        "cluster_i": 995,
+        "cluster_j": 76,
+        "dist": 1.2500016066908497
+    },
+    {
+        "step": 358,
+        "cluster_i": 949,
+        "cluster_j": 433,
+        "dist": 1.2511989138684858
+    },
+    {
+        "step": 359,
+        "cluster_i": 959,
+        "cluster_j": 491,
+        "dist": 1.2531209056837649
+    },
+    {
+        "step": 360,
+        "cluster_i": 53,
+        "cluster_j": 388,
+        "dist": 1.254287437390611
+    },
+    {
+        "step": 361,
+        "cluster_i": 1018,
+        "cluster_j": 339,
+        "dist": 1.2666716360536145
+    },
+    {
+        "step": 362,
+        "cluster_i": 997,
+        "cluster_j": 90,
+        "dist": 1.269336092423217
+    },
+    {
+        "step": 363,
+        "cluster_i": 426,
+        "cluster_j": 428,
+        "dist": 1.2695812918920888
+    },
+    {
+        "step": 364,
+        "cluster_i": 817,
+        "cluster_j": 181,
+        "dist": 1.2752763122167687
+    },
+    {
+        "step": 365,
+        "cluster_i": 1026,
+        "cluster_j": 168,
+        "dist": 1.283924412166903
+    },
+    {
+        "step": 366,
+        "cluster_i": 1017,
+        "cluster_j": 233,
+        "dist": 1.284353525962859
+    },
+    {
+        "step": 367,
+        "cluster_i": 651,
+        "cluster_j": 976,
+        "dist": 1.2849814999511207
+    },
+    {
+        "step": 368,
+        "cluster_i": 206,
+        "cluster_j": 827,
+        "dist": 1.2922696443391881
+    },
+    {
+        "step": 369,
+        "cluster_i": 1023,
+        "cluster_j": 1010,
+        "dist": 1.3001648985933245
+    },
+    {
+        "step": 370,
+        "cluster_i": 570,
+        "cluster_j": 830,
+        "dist": 1.3013228180831318
+    },
+    {
+        "step": 371,
+        "cluster_i": 1025,
+        "cluster_j": 318,
+        "dist": 1.3092455199498145
+    },
+    {
+        "step": 372,
+        "cluster_i": 925,
+        "cluster_j": 985,
+        "dist": 1.3130474121218807
+    },
+    {
+        "step": 373,
+        "cluster_i": 1019,
+        "cluster_j": 908,
+        "dist": 1.3210172209386686
+    },
+    {
+        "step": 374,
+        "cluster_i": 920,
+        "cluster_j": 816,
+        "dist": 1.3212147594029515
+    },
+    {
+        "step": 375,
+        "cluster_i": 247,
+        "cluster_j": 820,
+        "dist": 1.3278775115877206
+    },
+    {
+        "step": 376,
+        "cluster_i": 619,
+        "cluster_j": 631,
+        "dist": 1.335897756866005
+    },
+    {
+        "step": 377,
+        "cluster_i": 1033,
+        "cluster_j": 1014,
+        "dist": 1.3465094375378694
+    },
+    {
+        "step": 378,
+        "cluster_i": 241,
+        "cluster_j": 1039,
+        "dist": 1.3466195829718173
+    },
+    {
+        "step": 379,
+        "cluster_i": 597,
+        "cluster_j": 1028,
+        "dist": 1.3540223865148455
+    },
+    {
+        "step": 380,
+        "cluster_i": 1037,
+        "cluster_j": 1029,
+        "dist": 1.354979594967696
+    },
+    {
+        "step": 381,
+        "cluster_i": 1041,
+        "cluster_j": 1035,
+        "dist": 1.3674713048388547
+    },
+    {
+        "step": 382,
+        "cluster_i": 1038,
+        "cluster_j": 1043,
+        "dist": 1.3689698436708473
+    },
+    {
+        "step": 383,
+        "cluster_i": 1004,
+        "cluster_j": 1022,
+        "dist": 1.3694557459814365
+    },
+    {
+        "step": 384,
+        "cluster_i": 879,
+        "cluster_j": 674,
+        "dist": 1.3849212049784128
+    },
+    {
+        "step": 385,
+        "cluster_i": 1045,
+        "cluster_j": 963,
+        "dist": 1.3917881112273043
+    },
+    {
+        "step": 386,
+        "cluster_i": 937,
+        "cluster_j": 601,
+        "dist": 1.4077794975167444
+    },
+    {
+        "step": 387,
+        "cluster_i": 918,
+        "cluster_j": 780,
+        "dist": 1.4095532265035011
+    },
+    {
+        "step": 388,
+        "cluster_i": 271,
+        "cluster_j": 267,
+        "dist": 1.421067541619696
+    },
+    {
+        "step": 389,
+        "cluster_i": 1049,
+        "cluster_j": 183,
+        "dist": 1.422594614661683
+    },
+    {
+        "step": 390,
+        "cluster_i": 934,
+        "cluster_j": 201,
+        "dist": 1.4323575990265263
+    },
+    {
+        "step": 391,
+        "cluster_i": 991,
+        "cluster_j": 1053,
+        "dist": 1.435522078210327
+    },
+    {
+        "step": 392,
+        "cluster_i": 41,
+        "cluster_j": 860,
+        "dist": 1.435522078210327
+    },
+    {
+        "step": 393,
+        "cluster_i": 965,
+        "cluster_j": 1031,
+        "dist": 1.4361138157855182
+    },
+    {
+        "step": 394,
+        "cluster_i": 193,
+        "cluster_j": 43,
+        "dist": 1.438962526617916
+    },
+    {
+        "step": 395,
+        "cluster_i": 971,
+        "cluster_j": 643,
+        "dist": 1.4462846476847058
+    },
+    {
+        "step": 396,
+        "cluster_i": 783,
+        "cluster_j": 634,
+        "dist": 1.4563775913572756
+    },
+    {
+        "step": 397,
+        "cluster_i": 968,
+        "cluster_j": 507,
+        "dist": 1.4683410622722521
+    },
+    {
+        "step": 398,
+        "cluster_i": 302,
+        "cluster_j": 298,
+        "dist": 1.4731582127427656
+    },
+    {
+        "step": 399,
+        "cluster_i": 1008,
+        "cluster_j": 261,
+        "dist": 1.4777533777765899
+    },
+    {
+        "step": 400,
+        "cluster_i": 1051,
+        "cluster_j": 916,
+        "dist": 1.4790206751672785
+    },
+    {
+        "step": 401,
+        "cluster_i": 793,
+        "cluster_j": 396,
+        "dist": 1.4934794056228364
+    },
+    {
+        "step": 402,
+        "cluster_i": 1056,
+        "cluster_j": 36,
+        "dist": 1.4962025451314862
+    },
+    {
+        "step": 403,
+        "cluster_i": 538,
+        "cluster_j": 34,
+        "dist": 1.5107401670346254
+    },
+    {
+        "step": 404,
+        "cluster_i": 931,
+        "cluster_j": 889,
+        "dist": 1.5121052970485986
+    },
+    {
+        "step": 405,
+        "cluster_i": 998,
+        "cluster_j": 910,
+        "dist": 1.5247493961318086
+    },
+    {
+        "step": 406,
+        "cluster_i": 861,
+        "cluster_j": 158,
+        "dist": 1.5256503724777102
+    },
+    {
+        "step": 407,
+        "cluster_i": 977,
+        "cluster_j": 272,
+        "dist": 1.526014268044558
+    },
+    {
+        "step": 408,
+        "cluster_i": 1059,
+        "cluster_j": 1042,
+        "dist": 1.5456031197977558
+    },
+    {
+        "step": 409,
+        "cluster_i": 954,
+        "cluster_j": 133,
+        "dist": 1.5574697714300996
+    },
+    {
+        "step": 410,
+        "cluster_i": 699,
+        "cluster_j": 994,
+        "dist": 1.5694656313085469
+    },
+    {
+        "step": 411,
+        "cluster_i": 1055,
+        "cluster_j": 1057,
+        "dist": 1.5826906652014479
+    },
+    {
+        "step": 412,
+        "cluster_i": 1046,
+        "cluster_j": 160,
+        "dist": 1.5880618503033728
+    },
+    {
+        "step": 413,
+        "cluster_i": 488,
+        "cluster_j": 605,
+        "dist": 1.5884875803139493
+    },
+    {
+        "step": 414,
+        "cluster_i": 1044,
+        "cluster_j": 1072,
+        "dist": 1.5940448920307237
+    },
+    {
+        "step": 415,
+        "cluster_i": 967,
+        "cluster_j": 979,
+        "dist": 1.5976579658651882
+    },
+    {
+        "step": 416,
+        "cluster_i": 924,
+        "cluster_j": 885,
+        "dist": 1.5977807084331266
+    },
+    {
+        "step": 417,
+        "cluster_i": 839,
+        "cluster_j": 823,
+        "dist": 1.601946847188222
+    },
+    {
+        "step": 418,
+        "cluster_i": 1074,
+        "cluster_j": 828,
+        "dist": 1.6022286045644987
+    },
+    {
+        "step": 419,
+        "cluster_i": 55,
+        "cluster_j": 521,
+        "dist": 1.626989180549989
+    },
+    {
+        "step": 420,
+        "cluster_i": 1013,
+        "cluster_j": 351,
+        "dist": 1.6346515703022333
+    },
+    {
+        "step": 421,
+        "cluster_i": 1075,
+        "cluster_j": 984,
+        "dist": 1.646839984603037
+    },
+    {
+        "step": 422,
+        "cluster_i": 1079,
+        "cluster_j": 32,
+        "dist": 1.6482125621231465
+    },
+    {
+        "step": 423,
+        "cluster_i": 1021,
+        "cluster_j": 1082,
+        "dist": 1.6505859323257461
+    },
+    {
+        "step": 424,
+        "cluster_i": 525,
+        "cluster_j": 1065,
+        "dist": 1.6556154941725492
+    },
+    {
+        "step": 425,
+        "cluster_i": 946,
+        "cluster_j": 974,
+        "dist": 1.6596224784384672
+    },
+    {
+        "step": 426,
+        "cluster_i": 500,
+        "cluster_j": 58,
+        "dist": 1.6633508541606703
+    },
+    {
+        "step": 427,
+        "cluster_i": 1076,
+        "cluster_j": 702,
+        "dist": 1.7027421913558258
+    },
+    {
+        "step": 428,
+        "cluster_i": 527,
+        "cluster_j": 210,
+        "dist": 1.7187761241126938
+    },
+    {
+        "step": 429,
+        "cluster_i": 226,
+        "cluster_j": 224,
+        "dist": 1.7273919618062634
+    },
+    {
+        "step": 430,
+        "cluster_i": 996,
+        "cluster_j": 93,
+        "dist": 1.7426256640005133
+    },
+    {
+        "step": 431,
+        "cluster_i": 1091,
+        "cluster_j": 818,
+        "dist": 1.7606340264706362
+    },
+    {
+        "step": 432,
+        "cluster_i": 815,
+        "cluster_j": 12,
+        "dist": 1.7780370159710488
+    },
+    {
+        "step": 433,
+        "cluster_i": 437,
+        "cluster_j": 732,
+        "dist": 1.7913944549123215
+    },
+    {
+        "step": 434,
+        "cluster_i": 1085,
+        "cluster_j": 1015,
+        "dist": 1.7937186483519565
+    },
+    {
+        "step": 435,
+        "cluster_i": 513,
+        "cluster_j": 517,
+        "dist": 1.7985472412286034
+    },
+    {
+        "step": 436,
+        "cluster_i": 703,
+        "cluster_j": 263,
+        "dist": 1.8149027571247962
+    },
+    {
+        "step": 437,
+        "cluster_i": 694,
+        "cluster_j": 877,
+        "dist": 1.822537845837491
+    },
+    {
+        "step": 438,
+        "cluster_i": 671,
+        "cluster_j": 1095,
+        "dist": 1.8233364105304635
+    },
+    {
+        "step": 439,
+        "cluster_i": 1102,
+        "cluster_j": 332,
+        "dist": 1.8337671591865612
+    },
+    {
+        "step": 440,
+        "cluster_i": 1098,
+        "cluster_j": 604,
+        "dist": 1.8374218301473506
+    },
+    {
+        "step": 441,
+        "cluster_i": 1096,
+        "cluster_j": 1103,
+        "dist": 1.8467183233968132
+    },
+    {
+        "step": 442,
+        "cluster_i": 1088,
+        "cluster_j": 328,
+        "dist": 1.8563435561679085
+    },
+    {
+        "step": 443,
+        "cluster_i": 147,
+        "cluster_j": 92,
+        "dist": 1.8825971469865102
+    },
+    {
+        "step": 444,
+        "cluster_i": 917,
+        "cluster_j": 843,
+        "dist": 1.9179585149408234
+    },
+    {
+        "step": 445,
+        "cluster_i": 1106,
+        "cluster_j": 1070,
+        "dist": 1.9203265587329543
+    },
+    {
+        "step": 446,
+        "cluster_i": 1087,
+        "cluster_j": 1061,
+        "dist": 1.9280048999840425
+    },
+    {
+        "step": 447,
+        "cluster_i": 822,
+        "cluster_j": 505,
+        "dist": 1.9280048999840425
+    },
+    {
+        "step": 448,
+        "cluster_i": 1060,
+        "cluster_j": 518,
+        "dist": 1.9280048999840425
+    },
+    {
+        "step": 449,
+        "cluster_i": 1104,
+        "cluster_j": 576,
+        "dist": 1.94822657146891
+    },
+    {
+        "step": 450,
+        "cluster_i": 356,
+        "cluster_j": 368,
+        "dist": 1.9749997190773123
+    },
+    {
+        "step": 451,
+        "cluster_i": 45,
+        "cluster_j": 524,
+        "dist": 2.0099423745405773
+    },
+    {
+        "step": 452,
+        "cluster_i": 1078,
+        "cluster_j": 401,
+        "dist": 2.0253996449861527
+    },
+    {
+        "step": 453,
+        "cluster_i": 1054,
+        "cluster_j": 2,
+        "dist": 2.045932159685841
+    },
+    {
+        "step": 454,
+        "cluster_i": 1113,
+        "cluster_j": 1116,
+        "dist": 2.051441081766614
+    },
+    {
+        "step": 455,
+        "cluster_i": 1105,
+        "cluster_j": 350,
+        "dist": 2.0596820781123357
+    },
+    {
+        "step": 456,
+        "cluster_i": 1117,
+        "cluster_j": 202,
+        "dist": 2.0794724680697505
+    },
+    {
+        "step": 457,
+        "cluster_i": 1110,
+        "cluster_j": 633,
+        "dist": 2.098925678399937
+    },
+    {
+        "step": 458,
+        "cluster_i": 1084,
+        "cluster_j": 1118,
+        "dist": 2.105062204678118
+    },
+    {
+        "step": 459,
+        "cluster_i": 1122,
+        "cluster_j": 26,
+        "dist": 2.1238762933806976
+    },
+    {
+        "step": 460,
+        "cluster_i": 1097,
+        "cluster_j": 434,
+        "dist": 2.1582858109156016
+    },
+    {
+        "step": 461,
+        "cluster_i": 113,
+        "cluster_j": 114,
+        "dist": 2.1582858109156016
+    },
+    {
+        "step": 462,
+        "cluster_i": 1123,
+        "cluster_j": 1109,
+        "dist": 2.214636546512262
+    },
+    {
+        "step": 463,
+        "cluster_i": 1126,
+        "cluster_j": 254,
+        "dist": 2.252948928998483
+    },
+    {
+        "step": 464,
+        "cluster_i": 1127,
+        "cluster_j": 1081,
+        "dist": 2.2597405948774867
+    },
+    {
+        "step": 465,
+        "cluster_i": 770,
+        "cluster_j": 592,
+        "dist": 2.264185326055577
+    },
+    {
+        "step": 466,
+        "cluster_i": 1128,
+        "cluster_j": 1034,
+        "dist": 2.2715418223452764
+    },
+    {
+        "step": 467,
+        "cluster_i": 393,
+        "cluster_j": 326,
+        "dist": 2.2749787013821994
+    },
+    {
+        "step": 468,
+        "cluster_i": 1130,
+        "cluster_j": 1108,
+        "dist": 2.333342563968408
+    },
+    {
+        "step": 469,
+        "cluster_i": 1030,
+        "cluster_j": 1012,
+        "dist": 2.3426962386738563
+    },
+    {
+        "step": 470,
+        "cluster_i": 1047,
+        "cluster_j": 442,
+        "dist": 2.352794393561524
+    },
+    {
+        "step": 471,
+        "cluster_i": 1080,
+        "cluster_j": 923,
+        "dist": 2.3741493165814584
+    },
+    {
+        "step": 472,
+        "cluster_i": 826,
+        "cluster_j": 1119,
+        "dist": 2.3791735112721004
+    },
+    {
+        "step": 473,
+        "cluster_i": 410,
+        "cluster_j": 1094,
+        "dist": 2.3791735112721004
+    },
+    {
+        "step": 474,
+        "cluster_i": 932,
+        "cluster_j": 1073,
+        "dist": 2.402046402512426
+    },
+    {
+        "step": 475,
+        "cluster_i": 1100,
+        "cluster_j": 1063,
+        "dist": 2.42087025811728
+    },
+    {
+        "step": 476,
+        "cluster_i": 1066,
+        "cluster_j": 10,
+        "dist": 2.431054055402281
+    },
+    {
+        "step": 477,
+        "cluster_i": 1089,
+        "cluster_j": 992,
+        "dist": 2.436398321784435
+    },
+    {
+        "step": 478,
+        "cluster_i": 404,
+        "cluster_j": 644,
+        "dist": 2.467735128153168
+    },
+    {
+        "step": 479,
+        "cluster_i": 1071,
+        "cluster_j": 1048,
+        "dist": 2.476286371405545
+    },
+    {
+        "step": 480,
+        "cluster_i": 957,
+        "cluster_j": 571,
+        "dist": 2.486572807873647
+    },
+    {
+        "step": 481,
+        "cluster_i": 1121,
+        "cluster_j": 503,
+        "dist": 2.507542009263587
+    },
+    {
+        "step": 482,
+        "cluster_i": 1086,
+        "cluster_j": 1024,
+        "dist": 2.5233679609728936
+    },
+    {
+        "step": 483,
+        "cluster_i": 1016,
+        "cluster_j": 1101,
+        "dist": 2.5794899397840907
+    },
+    {
+        "step": 484,
+        "cluster_i": 1058,
+        "cluster_j": 170,
+        "dist": 2.5918735774184722
+    },
+    {
+        "step": 485,
+        "cluster_i": 1133,
+        "cluster_j": 768,
+        "dist": 2.5932304965595283
+    },
+    {
+        "step": 486,
+        "cluster_i": 390,
+        "cluster_j": 1067,
+        "dist": 2.6004074791894243
+    },
+    {
+        "step": 487,
+        "cluster_i": 1092,
+        "cluster_j": 675,
+        "dist": 2.6483121247157078
+    },
+    {
+        "step": 488,
+        "cluster_i": 1036,
+        "cluster_j": 313,
+        "dist": 2.6570455030509854
+    },
+    {
+        "step": 489,
+        "cluster_i": 1020,
+        "cluster_j": 304,
+        "dist": 2.6766850713023023
+    },
+    {
+        "step": 490,
+        "cluster_i": 1144,
+        "cluster_j": 1142,
+        "dist": 2.7077729377645556
+    },
+    {
+        "step": 491,
+        "cluster_i": 1148,
+        "cluster_j": 598,
+        "dist": 2.7092717042485885
+    },
+    {
+        "step": 492,
+        "cluster_i": 1145,
+        "cluster_j": 840,
+        "dist": 2.7159884316919194
+    },
+    {
+        "step": 493,
+        "cluster_i": 1132,
+        "cluster_j": 1141,
+        "dist": 2.719960677088132
+    },
+    {
+        "step": 494,
+        "cluster_i": 1157,
+        "cluster_j": 412,
+        "dist": 2.730428130367038
+    },
+    {
+        "step": 495,
+        "cluster_i": 1131,
+        "cluster_j": 163,
+        "dist": 2.776273170494744
+    },
+    {
+        "step": 496,
+        "cluster_i": 1158,
+        "cluster_j": 1152,
+        "dist": 2.791941602513858
+    },
+    {
+        "step": 497,
+        "cluster_i": 1155,
+        "cluster_j": 1140,
+        "dist": 2.805204543664328
+    },
+    {
+        "step": 498,
+        "cluster_i": 117,
+        "cluster_j": 126,
+        "dist": 2.8170866052061108
+    },
+    {
+        "step": 499,
+        "cluster_i": 1115,
+        "cluster_j": 184,
+        "dist": 2.8378148971014436
+    },
+    {
+        "step": 500,
+        "cluster_i": 1136,
+        "cluster_j": 1111,
+        "dist": 2.845218863547439
+    },
+    {
+        "step": 501,
+        "cluster_i": 1160,
+        "cluster_j": 1147,
+        "dist": 2.852198754127166
+    },
+    {
+        "step": 502,
+        "cluster_i": 1165,
+        "cluster_j": 363,
+        "dist": 2.857528262833186
+    },
+    {
+        "step": 503,
+        "cluster_i": 1164,
+        "cluster_j": 7,
+        "dist": 2.8770446967674506
+    },
+    {
+        "step": 504,
+        "cluster_i": 1167,
+        "cluster_j": 829,
+        "dist": 2.8773378837821952
+    },
+    {
+        "step": 505,
+        "cluster_i": 1153,
+        "cluster_j": 295,
+        "dist": 2.8805370689723757
+    },
+    {
+        "step": 506,
+        "cluster_i": 1068,
+        "cluster_j": 847,
+        "dist": 2.9176162223965303
+    },
+    {
+        "step": 507,
+        "cluster_i": 1135,
+        "cluster_j": 781,
+        "dist": 2.9351049226665045
+    },
+    {
+        "step": 508,
+        "cluster_i": 1166,
+        "cluster_j": 1156,
+        "dist": 2.9470415038305195
+    },
+    {
+        "step": 509,
+        "cluster_i": 902,
+        "cluster_j": 646,
+        "dist": 3.002183989567045
+    },
+    {
+        "step": 510,
+        "cluster_i": 1172,
+        "cluster_j": 1149,
+        "dist": 3.0138342710485344
+    },
+    {
+        "step": 511,
+        "cluster_i": 1064,
+        "cluster_j": 1162,
+        "dist": 3.048483423746191
+    },
+    {
+        "step": 512,
+        "cluster_i": 1146,
+        "cluster_j": 568,
+        "dist": 3.0554073843958
+    },
+    {
+        "step": 513,
+        "cluster_i": 1174,
+        "cluster_j": 1168,
+        "dist": 3.076107696338777
+    },
+    {
+        "step": 514,
+        "cluster_i": 1177,
+        "cluster_j": 769,
+        "dist": 3.0974233525705634
+    },
+    {
+        "step": 515,
+        "cluster_i": 1154,
+        "cluster_j": 1107,
+        "dist": 3.0994024340939594
+    },
+    {
+        "step": 516,
+        "cluster_i": 85,
+        "cluster_j": 172,
+        "dist": 3.1089331593401446
+    },
+    {
+        "step": 517,
+        "cluster_i": 101,
+        "cluster_j": 1090,
+        "dist": 3.111870126790744
+    },
+    {
+        "step": 518,
+        "cluster_i": 1178,
+        "cluster_j": 1129,
+        "dist": 3.131537250436486
+    },
+    {
+        "step": 519,
+        "cluster_i": 1182,
+        "cluster_j": 1124,
+        "dist": 3.14094116615365
+    },
+    {
+        "step": 520,
+        "cluster_i": 707,
+        "cluster_j": 65,
+        "dist": 3.14094116615365
+    },
+    {
+        "step": 521,
+        "cluster_i": 1183,
+        "cluster_j": 1134,
+        "dist": 3.142261349822926
+    },
+    {
+        "step": 522,
+        "cluster_i": 1185,
+        "cluster_j": 450,
+        "dist": 3.142261349822926
+    },
+    {
+        "step": 523,
+        "cluster_i": 330,
+        "cluster_j": 1050,
+        "dist": 3.143149089128633
+    },
+    {
+        "step": 524,
+        "cluster_i": 1169,
+        "cluster_j": 305,
+        "dist": 3.156949733329759
+    },
+    {
+        "step": 525,
+        "cluster_i": 1069,
+        "cluster_j": 808,
+        "dist": 3.172091424127643
+    },
+    {
+        "step": 526,
+        "cluster_i": 1040,
+        "cluster_j": 516,
+        "dist": 3.2085191378777242
+    },
+    {
+        "step": 527,
+        "cluster_i": 1176,
+        "cluster_j": 1159,
+        "dist": 3.2139901535002475
+    },
+    {
+        "step": 528,
+        "cluster_i": 515,
+        "cluster_j": 511,
+        "dist": 3.229812473537377
+    },
+    {
+        "step": 529,
+        "cluster_i": 1173,
+        "cluster_j": 1114,
+        "dist": 3.2326988711422877
+    },
+    {
+        "step": 530,
+        "cluster_i": 95,
+        "cluster_j": 177,
+        "dist": 3.2440342659777968
+    },
+    {
+        "step": 531,
+        "cluster_i": 1175,
+        "cluster_j": 1125,
+        "dist": 3.303547402907116
+    },
+    {
+        "step": 532,
+        "cluster_i": 560,
+        "cluster_j": 364,
+        "dist": 3.3797818407840143
+    },
+    {
+        "step": 533,
+        "cluster_i": 1193,
+        "cluster_j": 1181,
+        "dist": 3.3847807213134113
+    },
+    {
+        "step": 534,
+        "cluster_i": 1150,
+        "cluster_j": 16,
+        "dist": 3.482727748765904
+    },
+    {
+        "step": 535,
+        "cluster_i": 159,
+        "cluster_j": 1184,
+        "dist": 3.498179375125844
+    },
+    {
+        "step": 536,
+        "cluster_i": 1194,
+        "cluster_j": 327,
+        "dist": 3.5012989765844695
+    },
+    {
+        "step": 537,
+        "cluster_i": 1190,
+        "cluster_j": 1197,
+        "dist": 3.5450740324872005
+    },
+    {
+        "step": 538,
+        "cluster_i": 1187,
+        "cluster_j": 239,
+        "dist": 3.555695486877073
+    },
+    {
+        "step": 539,
+        "cluster_i": 1202,
+        "cluster_j": 567,
+        "dist": 3.559644172694605
+    },
+    {
+        "step": 540,
+        "cluster_i": 1191,
+        "cluster_j": 352,
+        "dist": 3.5861783323541307
+    },
+    {
+        "step": 541,
+        "cluster_i": 894,
+        "cluster_j": 1196,
+        "dist": 3.588066869082136
+    },
+    {
+        "step": 542,
+        "cluster_i": 1201,
+        "cluster_j": 1203,
+        "dist": 3.6142530275028264
+    },
+    {
+        "step": 543,
+        "cluster_i": 1186,
+        "cluster_j": 1189,
+        "dist": 3.6265704974351474
+    },
+    {
+        "step": 544,
+        "cluster_i": 357,
+        "cluster_j": 1205,
+        "dist": 3.6365153569609765
+    },
+    {
+        "step": 545,
+        "cluster_i": 1027,
+        "cluster_j": 431,
+        "dist": 3.6781414905590637
+    },
+    {
+        "step": 546,
+        "cluster_i": 1198,
+        "cluster_j": 1163,
+        "dist": 3.6946257408934664
+    },
+    {
+        "step": 547,
+        "cluster_i": 1137,
+        "cluster_j": 1112,
+        "dist": 3.6988161227965395
+    },
+    {
+        "step": 548,
+        "cluster_i": 539,
+        "cluster_j": 586,
+        "dist": 3.7008841862093376
+    },
+    {
+        "step": 549,
+        "cluster_i": 1207,
+        "cluster_j": 724,
+        "dist": 3.7053480583570355
+    },
+    {
+        "step": 550,
+        "cluster_i": 1143,
+        "cluster_j": 268,
+        "dist": 3.7154575626588673
+    },
+    {
+        "step": 551,
+        "cluster_i": 1214,
+        "cluster_j": 1170,
+        "dist": 3.7192137876394993
+    },
+    {
+        "step": 552,
+        "cluster_i": 1206,
+        "cluster_j": 441,
+        "dist": 3.7510076712323746
+    },
+    {
+        "step": 553,
+        "cluster_i": 174,
+        "cluster_j": 1211,
+        "dist": 3.768144433367685
+    },
+    {
+        "step": 554,
+        "cluster_i": 1083,
+        "cluster_j": 1179,
+        "dist": 3.796369061723392
+    },
+    {
+        "step": 555,
+        "cluster_i": 1215,
+        "cluster_j": 417,
+        "dist": 3.8341965007868444
+    },
+    {
+        "step": 556,
+        "cluster_i": 1210,
+        "cluster_j": 312,
+        "dist": 3.84721279803529
+    },
+    {
+        "step": 557,
+        "cluster_i": 1213,
+        "cluster_j": 1204,
+        "dist": 3.912739536405075
+    },
+    {
+        "step": 558,
+        "cluster_i": 1221,
+        "cluster_j": 771,
+        "dist": 3.929599598609767
+    },
+    {
+        "step": 559,
+        "cluster_i": 1120,
+        "cluster_j": 849,
+        "dist": 3.953546916629099
+    },
+    {
+        "step": 560,
+        "cluster_i": 926,
+        "cluster_j": 1220,
+        "dist": 3.954654520041165
+    },
+    {
+        "step": 561,
+        "cluster_i": 1222,
+        "cluster_j": 5,
+        "dist": 3.977025822444114
+    },
+    {
+        "step": 562,
+        "cluster_i": 1216,
+        "cluster_j": 1180,
+        "dist": 4.045476849736573
+    },
+    {
+        "step": 563,
+        "cluster_i": 1225,
+        "cluster_j": 657,
+        "dist": 4.055974700456864
+    },
+    {
+        "step": 564,
+        "cluster_i": 1192,
+        "cluster_j": 212,
+        "dist": 4.068005277929567
+    },
+    {
+        "step": 565,
+        "cluster_i": 1227,
+        "cluster_j": 1226,
+        "dist": 4.071233829332655
+    },
+    {
+        "step": 566,
+        "cluster_i": 1229,
+        "cluster_j": 409,
+        "dist": 4.092639848108653
+    },
+    {
+        "step": 567,
+        "cluster_i": 1230,
+        "cluster_j": 469,
+        "dist": 4.104364247609232
+    },
+    {
+        "step": 568,
+        "cluster_i": 1219,
+        "cluster_j": 269,
+        "dist": 4.113064718722481
+    },
+    {
+        "step": 569,
+        "cluster_i": 1139,
+        "cluster_j": 972,
+        "dist": 4.12365931134642
+    },
+    {
+        "step": 570,
+        "cluster_i": 1231,
+        "cluster_j": 502,
+        "dist": 4.132849857313594
+    },
+    {
+        "step": 571,
+        "cluster_i": 1234,
+        "cluster_j": 1099,
+        "dist": 4.139966001833412
+    },
+    {
+        "step": 572,
+        "cluster_i": 1235,
+        "cluster_j": 408,
+        "dist": 4.156945051072494
+    },
+    {
+        "step": 573,
+        "cluster_i": 1224,
+        "cluster_j": 1200,
+        "dist": 4.170423778617067
+    },
+    {
+        "step": 574,
+        "cluster_i": 1217,
+        "cluster_j": 542,
+        "dist": 4.171124104079984
+    },
+    {
+        "step": 575,
+        "cluster_i": 1236,
+        "cluster_j": 1161,
+        "dist": 4.188018458307981
+    },
+    {
+        "step": 576,
+        "cluster_i": 1239,
+        "cluster_j": 342,
+        "dist": 4.201832687714292
+    },
+    {
+        "step": 577,
+        "cluster_i": 1138,
+        "cluster_j": 135,
+        "dist": 4.237595433118698
+    },
+    {
+        "step": 578,
+        "cluster_i": 1240,
+        "cluster_j": 78,
+        "dist": 4.262489284722714
+    },
+    {
+        "step": 579,
+        "cluster_i": 1242,
+        "cluster_j": 371,
+        "dist": 4.279785263738455
+    },
+    {
+        "step": 580,
+        "cluster_i": 1171,
+        "cluster_j": 453,
+        "dist": 4.291120169177837
+    },
+    {
+        "step": 581,
+        "cluster_i": 1243,
+        "cluster_j": 1232,
+        "dist": 4.320206157782349
+    },
+    {
+        "step": 582,
+        "cluster_i": 1244,
+        "cluster_j": 457,
+        "dist": 4.364625778467645
+    },
+    {
+        "step": 583,
+        "cluster_i": 249,
+        "cluster_j": 171,
+        "dist": 4.365602661035431
+    },
+    {
+        "step": 584,
+        "cluster_i": 1245,
+        "cluster_j": 1209,
+        "dist": 4.39328463422066
+    },
+    {
+        "step": 585,
+        "cluster_i": 1248,
+        "cluster_j": 1093,
+        "dist": 4.399081118915483
+    },
+    {
+        "step": 586,
+        "cluster_i": 1249,
+        "cluster_j": 6,
+        "dist": 4.433233134894898
+    },
+    {
+        "step": 587,
+        "cluster_i": 1250,
+        "cluster_j": 432,
+        "dist": 4.444275338425499
+    },
+    {
+        "step": 588,
+        "cluster_i": 1251,
+        "cluster_j": 1199,
+        "dist": 4.479482442935962
+    },
+    {
+        "step": 589,
+        "cluster_i": 1208,
+        "cluster_j": 1218,
+        "dist": 4.489829755349949
+    },
+    {
+        "step": 590,
+        "cluster_i": 1188,
+        "cluster_j": 1062,
+        "dist": 4.500399362102348
+    },
+    {
+        "step": 591,
+        "cluster_i": 1252,
+        "cluster_j": 276,
+        "dist": 4.515815622073543
+    },
+    {
+        "step": 592,
+        "cluster_i": 1255,
+        "cluster_j": 436,
+        "dist": 4.516396713297371
+    },
+    {
+        "step": 593,
+        "cluster_i": 1237,
+        "cluster_j": 407,
+        "dist": 4.538635874869574
+    },
+    {
+        "step": 594,
+        "cluster_i": 1256,
+        "cluster_j": 1257,
+        "dist": 4.601195601956396
+    },
+    {
+        "step": 595,
+        "cluster_i": 1258,
+        "cluster_j": 449,
+        "dist": 4.63860963571625
+    },
+    {
+        "step": 596,
+        "cluster_i": 1259,
+        "cluster_j": 1077,
+        "dist": 4.703443321029165
+    },
+    {
+        "step": 597,
+        "cluster_i": 1228,
+        "cluster_j": 645,
+        "dist": 4.740326868241583
+    },
+    {
+        "step": 598,
+        "cluster_i": 1260,
+        "cluster_j": 563,
+        "dist": 4.747214211626436
+    },
+    {
+        "step": 599,
+        "cluster_i": 1262,
+        "cluster_j": 1253,
+        "dist": 4.759539671091159
+    },
+    {
+        "step": 600,
+        "cluster_i": 1263,
+        "cluster_j": 1052,
+        "dist": 4.7773405374688105
+    },
+    {
+        "step": 601,
+        "cluster_i": 1223,
+        "cluster_j": 1032,
+        "dist": 4.782436728630012
+    },
+    {
+        "step": 602,
+        "cluster_i": 380,
+        "cluster_j": 1238,
+        "dist": 4.804228887938402
+    },
+    {
+        "step": 603,
+        "cluster_i": 1264,
+        "cluster_j": 329,
+        "dist": 4.813889806537616
+    },
+    {
+        "step": 604,
+        "cluster_i": 1265,
+        "cluster_j": 666,
+        "dist": 4.828096288423902
+    },
+    {
+        "step": 605,
+        "cluster_i": 1267,
+        "cluster_j": 773,
+        "dist": 4.843857959579848
+    },
+    {
+        "step": 606,
+        "cluster_i": 1233,
+        "cluster_j": 262,
+        "dist": 4.849777526891952
+    },
+    {
+        "step": 607,
+        "cluster_i": 128,
+        "cluster_j": 1195,
+        "dist": 4.850707733604843
+    },
+    {
+        "step": 608,
+        "cluster_i": 1269,
+        "cluster_j": 270,
+        "dist": 4.87065133194101
+    },
+    {
+        "step": 609,
+        "cluster_i": 1266,
+        "cluster_j": 465,
+        "dist": 4.881221653595417
+    },
+    {
+        "step": 610,
+        "cluster_i": 1151,
+        "cluster_j": 528,
+        "dist": 4.909710329362653
+    },
+    {
+        "step": 611,
+        "cluster_i": 1272,
+        "cluster_j": 664,
+        "dist": 4.917196204724494
+    },
+    {
+        "step": 612,
+        "cluster_i": 1246,
+        "cluster_j": 1275,
+        "dist": 4.947390897358058
+    },
+    {
+        "step": 613,
+        "cluster_i": 1276,
+        "cluster_j": 74,
+        "dist": 4.960984875949386
+    },
+    {
+        "step": 614,
+        "cluster_i": 24,
+        "cluster_j": 234,
+        "dist": 4.969492722591337
+    },
+    {
+        "step": 615,
+        "cluster_i": 1277,
+        "cluster_j": 176,
+        "dist": 4.9799561447588
+    },
+    {
+        "step": 616,
+        "cluster_i": 1241,
+        "cluster_j": 134,
+        "dist": 5.017584047457899
+    },
+    {
+        "step": 617,
+        "cluster_i": 1279,
+        "cluster_j": 182,
+        "dist": 5.021731648756168
+    },
+    {
+        "step": 618,
+        "cluster_i": 1281,
+        "cluster_j": 3,
+        "dist": 5.053538779158516
+    },
+    {
+        "step": 619,
+        "cluster_i": 1282,
+        "cluster_j": 623,
+        "dist": 5.062163890059924
+    },
+    {
+        "step": 620,
+        "cluster_i": 1283,
+        "cluster_j": 593,
+        "dist": 5.102033115371294
+    },
+    {
+        "step": 621,
+        "cluster_i": 1280,
+        "cluster_j": 140,
+        "dist": 5.103126486588539
+    },
+    {
+        "step": 622,
+        "cluster_i": 1274,
+        "cluster_j": 526,
+        "dist": 5.15041791654751
+    },
+    {
+        "step": 623,
+        "cluster_i": 1284,
+        "cluster_j": 1212,
+        "dist": 5.207784397814128
+    },
+    {
+        "step": 624,
+        "cluster_i": 1287,
+        "cluster_j": 413,
+        "dist": 5.269005735475178
+    },
+    {
+        "step": 625,
+        "cluster_i": 1288,
+        "cluster_j": 1247,
+        "dist": 5.272309274956419
+    },
+    {
+        "step": 626,
+        "cluster_i": 1273,
+        "cluster_j": 57,
+        "dist": 5.288028936831191
+    },
+    {
+        "step": 627,
+        "cluster_i": 489,
+        "cluster_j": 80,
+        "dist": 5.325982890484508
+    },
+    {
+        "step": 628,
+        "cluster_i": 1261,
+        "cluster_j": 508,
+        "dist": 5.424606670484257
+    },
+    {
+        "step": 629,
+        "cluster_i": 1289,
+        "cluster_j": 654,
+        "dist": 5.460328659327909
+    },
+    {
+        "step": 630,
+        "cluster_i": 1293,
+        "cluster_j": 660,
+        "dist": 5.495122702383337
+    },
+    {
+        "step": 631,
+        "cluster_i": 1294,
+        "cluster_j": 504,
+        "dist": 5.60117713878606
+    },
+    {
+        "step": 632,
+        "cluster_i": 1295,
+        "cluster_j": 509,
+        "dist": 5.610007986454469
+    },
+    {
+        "step": 633,
+        "cluster_i": 1296,
+        "cluster_j": 1292,
+        "dist": 5.6314490369960915
+    },
+    {
+        "step": 634,
+        "cluster_i": 1290,
+        "cluster_j": 430,
+        "dist": 5.685640070113219
+    },
+    {
+        "step": 635,
+        "cluster_i": 1297,
+        "cluster_j": 425,
+        "dist": 5.738656115979664
+    },
+    {
+        "step": 636,
+        "cluster_i": 1299,
+        "cluster_j": 1271,
+        "dist": 5.773572469123611
+    },
+    {
+        "step": 637,
+        "cluster_i": 1286,
+        "cluster_j": 187,
+        "dist": 5.776045761094274
+    },
+    {
+        "step": 638,
+        "cluster_i": 1300,
+        "cluster_j": 48,
+        "dist": 6.161209336262582
+    },
+    {
+        "step": 639,
+        "cluster_i": 1302,
+        "cluster_j": 215,
+        "dist": 6.401621139418608
+    },
+    {
+        "step": 640,
+        "cluster_i": 1303,
+        "cluster_j": 1291,
+        "dist": 6.456696959919703
+    },
+    {
+        "step": 641,
+        "cluster_i": 1304,
+        "cluster_j": 506,
+        "dist": 6.542256952867052
+    },
+    {
+        "step": 642,
+        "cluster_i": 1298,
+        "cluster_j": 311,
+        "dist": 6.637244597765605
+    },
+    {
+        "step": 643,
+        "cluster_i": 1305,
+        "cluster_j": 288,
+        "dist": 6.743010225543801
+    },
+    {
+        "step": 644,
+        "cluster_i": 1307,
+        "cluster_j": 91,
+        "dist": 6.7650197563645245
+    },
+    {
+        "step": 645,
+        "cluster_i": 1308,
+        "cluster_j": 220,
+        "dist": 6.9096628863468315
+    },
+    {
+        "step": 646,
+        "cluster_i": 1306,
+        "cluster_j": 1278,
+        "dist": 6.914590542715066
+    },
+    {
+        "step": 647,
+        "cluster_i": 1309,
+        "cluster_j": 59,
+        "dist": 6.94390194409147
+    },
+    {
+        "step": 648,
+        "cluster_i": 1311,
+        "cluster_j": 564,
+        "dist": 6.956078675212871
+    },
+    {
+        "step": 649,
+        "cluster_i": 1312,
+        "cluster_j": 661,
+        "dist": 7.074461684027332
+    },
+    {
+        "step": 650,
+        "cluster_i": 1313,
+        "cluster_j": 1285,
+        "dist": 7.182302425786647
+    },
+    {
+        "step": 651,
+        "cluster_i": 1314,
+        "cluster_j": 1301,
+        "dist": 7.411208432745957
+    },
+    {
+        "step": 652,
+        "cluster_i": 75,
+        "cluster_j": 630,
+        "dist": 7.53706166557422
+    },
+    {
+        "step": 653,
+        "cluster_i": 1315,
+        "cluster_j": 238,
+        "dist": 8.032608550986541
+    },
+    {
+        "step": 654,
+        "cluster_i": 1317,
+        "cluster_j": 1316,
+        "dist": 8.148276132413448
+    },
+    {
+        "step": 655,
+        "cluster_i": 1318,
+        "cluster_j": 1254,
+        "dist": 8.199242360661806
+    },
+    {
+        "step": 656,
+        "cluster_i": 1319,
+        "cluster_j": 1270,
+        "dist": 8.45770016371496
+    },
+    {
+        "step": 657,
+        "cluster_i": 1310,
+        "cluster_j": 618,
+        "dist": 8.511638685805439
+    },
+    {
+        "step": 658,
+        "cluster_i": 1321,
+        "cluster_j": 127,
+        "dist": 9.479132311121841
+    },
+    {
+        "step": 659,
+        "cluster_i": 1320,
+        "cluster_j": 1322,
+        "dist": 9.645267356126613
+    },
+    {
+        "step": 660,
+        "cluster_i": 1323,
+        "cluster_j": 303,
+        "dist": 9.837816069683516
+    },
+    {
+        "step": 661,
+        "cluster_i": 1268,
+        "cluster_j": 1324,
+        "dist": 10.939673645886872
+    },
+    {
+        "step": 662,
+        "cluster_i": 1325,
+        "cluster_j": 280,
+        "dist": 11.36415620558465
+    },
+    {
+        "step": 663,
+        "cluster_i": 1326,
+        "cluster_j": 137,
+        "dist": 13.13348000785496
+    },
+    {
+        "step": 664,
+        "cluster_i": 1327,
+        "cluster_j": 306,
+        "dist": 16.911651405925653
+    }
+]

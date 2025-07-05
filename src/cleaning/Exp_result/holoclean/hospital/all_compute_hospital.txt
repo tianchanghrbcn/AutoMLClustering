@@ -1,0 +1,11 @@
+rep_right:9815
+rec_right:910
+wrong_cells:4603
+prec:0.752164916851866
+rec:0.19769715402998045
+wrong2right:910
+right2right:8905
+wrong2wrong:3234
+right2wrong:0
+proportion of clean value in candidates:0.7764579661270775
+proportion of clean value in candidates and selected correctly:0.968712988550169

@@ -6,7 +6,6 @@ from src.pipeline.train.cluster_methods import ClusterMethod
 from src.pipeline.train.error_correction import run_error_correction
 from src.pipeline.train.cluster_methods import run_clustering
 from src.pipeline.train.clustered_analysis import save_analyzed_results
-from src.pipeline.train.classifier_preparation import generate_training_data
 
 def process_record(record_idx, record, work_dir):
     cleaned_results = []
@@ -42,7 +41,7 @@ def process_record(record_idx, record, work_dir):
         6: "horizon",
         7: "scared",
         8: "Unified",
-        9: "google_gemini"
+        #9: "google_gemini"
     }
 
     # 遍历字典的键和值
@@ -69,7 +68,7 @@ def process_record(record_idx, record, work_dir):
                 "runtime": runtime
             })
 
-            for cluster_method_id in range(4):
+            for cluster_method_id in range(6):
                 cluster_output_dir, cluster_runtime = run_clustering(
                     dataset_id=dataset_id,
                     algorithm=algo_name,
@@ -114,7 +113,7 @@ def main():
         return
 
     # 或者测试第一个数据集：
-    # all_records = all_records[:1]
+    all_records = all_records[:1]
 
     cleaned_results = []
     clustered_results = []
@@ -151,13 +150,6 @@ def main():
         output_path=analyzed_results_path
     )
     print(f"[INFO] 分析结果已保存到 {analyzed_results_path}")
-
-    print("[INFO] 开始生成训练数据")
-    try:
-        generate_training_data()
-        print("[INFO] 训练数据已成功生成并保存")
-    except Exception as e:
-        print(f"[ERROR] 生成训练数据时发生错误: {e}")
 
 if __name__ == "__main__":
     main()

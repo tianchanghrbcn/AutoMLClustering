@@ -1,0 +1,4 @@
+Best parameters: n_components=25, covariance type=spherical
+Final Combined Score: 0.6371886863805167
+Final Silhouette Score: 0.25751145686669197
+Final Davies-Bouldin Score: 1.1881701904730324

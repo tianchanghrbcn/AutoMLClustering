@@ -1,0 +1,11 @@
+rep_right:0
+rec_right:0
+wrong_cells:0
+prec:0.0
+rec:0.0
+wrong2right:0
+right2right:0
+wrong2wrong:0
+right2wrong:0
+proportion of clean value in candidates:0.0
+proportion of clean value in candidates and selected correctly:0.0

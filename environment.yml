@@ -105,7 +105,7 @@ dependencies:
       - cloudpickle==2.2.0
       - confection==0.0.1
       - cymem==2.0.6
-      - dask==2022.9.1
+      - dask[complete]==2025.5.1
       - debugpy==1.6.3
       - dill==0.3.5.1
       - elastic-transport==8.4.0
@@ -127,6 +127,7 @@ dependencies:
       - jupyterlab-widgets==3.0.3
       - kneed==0.8.1
       - langcodes==3.3.0
+      - lightgbm==4.6.0
       - locket==1.0.0
       - loguru==0.6.0
       - markupsafe==2.1.1
@@ -153,7 +154,6 @@ dependencies:
       - pycryptodomex==3.15.0
       - pydantic==1.9.2
       - pydeprecate==0.3.2
-      - pyitlib==0.2.3
       - pyppmd==0.18.3
       - pyspellchecker==0.7.0
       - pytorch-lightning==1.7.6

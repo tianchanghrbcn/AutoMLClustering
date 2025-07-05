@@ -1,0 +1,110 @@
+[
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "mode",
+        "cleaning_runtime": 0.34,
+        "clustering_algorithm": 0,
+        "clustering_name": "HC",
+        "clustering_runtime": 24.029398918151855,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/HC/mode/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "mode",
+        "cleaning_runtime": 0.34,
+        "clustering_algorithm": 1,
+        "clustering_name": "DBSCAN",
+        "clustering_runtime": 2.3885176181793213,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/DBSCAN/mode/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "mode",
+        "cleaning_runtime": 0.34,
+        "clustering_algorithm": 2,
+        "clustering_name": "GMM",
+        "clustering_runtime": 12.2,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/GMM/mode/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "mode",
+        "cleaning_runtime": 0.34,
+        "clustering_algorithm": 3,
+        "clustering_name": "KMEANS",
+        "clustering_runtime": 3.5686192512512207,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/KMEANS/mode/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "mode",
+        "cleaning_runtime": 0.34,
+        "clustering_algorithm": 4,
+        "clustering_name": "KMEANSNF",
+        "clustering_runtime": 3.96742844581604,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/KMEANSNF/mode/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "mode",
+        "cleaning_runtime": 0.34,
+        "clustering_algorithm": 5,
+        "clustering_name": "KMEANSPPS",
+        "clustering_runtime": 6.451066255569458,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/KMEANSPPS/mode/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "raha_baran",
+        "cleaning_runtime": 566.6047129319995,
+        "clustering_algorithm": 0,
+        "clustering_name": "HC",
+        "clustering_runtime": 19.612323999404907,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/HC/raha_baran/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "raha_baran",
+        "cleaning_runtime": 566.6047129319995,
+        "clustering_algorithm": 1,
+        "clustering_name": "DBSCAN",
+        "clustering_runtime": 3.8876631259918213,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/DBSCAN/raha_baran/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "raha_baran",
+        "cleaning_runtime": 566.6047129319995,
+        "clustering_algorithm": 2,
+        "clustering_name": "GMM",
+        "clustering_runtime": 8.47,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/GMM/raha_baran/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "raha_baran",
+        "cleaning_runtime": 566.6047129319995,
+        "clustering_algorithm": 3,
+        "clustering_name": "KMEANS",
+        "clustering_runtime": 3.1106467247009277,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/KMEANS/raha_baran/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "raha_baran",
+        "cleaning_runtime": 566.6047129319995,
+        "clustering_algorithm": 4,
+        "clustering_name": "KMEANSNF",
+        "clustering_runtime": 3.7048420906066895,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/KMEANSNF/raha_baran/clustered_0"
+    },
+    {
+        "dataset_id": 0,
+        "cleaning_algorithm": "raha_baran",
+        "cleaning_runtime": 566.6047129319995,
+        "clustering_algorithm": 5,
+        "clustering_name": "KMEANSPPS",
+        "clustering_runtime": 7.752996206283569,
+        "clustered_file_path": "/root/AutoMLClustering/src/pipeline/train/../../../results/clustered_data/KMEANSPPS/raha_baran/clustered_0"
+    }
+]

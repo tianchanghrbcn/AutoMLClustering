@@ -1,0 +1,50 @@
+[
+    {
+        "dataset_id": 0,
+        "top_k": [
+            [
+                "raha_baran",
+                "HC",
+                {
+                    "n_components": 11.0,
+                    "covariance type": "single-manhattan"
+                },
+                1.8730404245179548
+            ],
+            [
+                "mode",
+                "HC",
+                {
+                    "n_components": 5.0,
+                    "covariance type": "single-euclidean"
+                },
+                1.8318498207344063
+            ],
+            [
+                "raha_baran",
+                "GMM",
+                {
+                    "n_components": 20.0,
+                    "covariance type": "tied"
+                },
+                0.7750066503172581
+            ],
+            [
+                "raha_baran",
+                "KMEANS",
+                {
+                    "k": 18.0
+                },
+                0.736407625345008
+            ],
+            [
+                "raha_baran",
+                "KMEANSNF",
+                {
+                    "k": 27.0
+                },
+                0.7068468340929236
+            ]
+        ]
+    }
+]
