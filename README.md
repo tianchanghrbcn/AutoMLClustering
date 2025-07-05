@@ -20,7 +20,7 @@ This project implements an automated machine learning pipeline for clustering ta
 2. **Run the configuration script** to set up the virtual environment and install dependencies:
 
    ```bash
-   bash config.sh
+   bash init_config.sh
    ```
 
 3. **Activate the virtual environment:**
@@ -29,22 +29,6 @@ This project implements an automated machine learning pipeline for clustering ta
    conda activate torch110
    ```
 
-4. **Set up the `PYTHONPATH` to avoid `ModuleNotFoundError` (Optional):**  
-   If you encounter `ModuleNotFoundError` when running the training pipeline, you may need to permanently add the project directory to your `PYTHONPATH`:
-
-   ```bash
-   nano ~/.bashrc
-   ```
-   Add the following line at the end of the file:
-   ```bash
-   export PYTHONPATH=/root/AutoMLClustering
-   ```
-   Save the file (`Ctrl + X`, then `Y`, then `Enter`), and apply the changes by running:
-   ```bash
-   source ~/.bashrc
-   ```
-   If the issue persists, you may need to restart your terminal or system.
-   
 ## Running the Project
 
 ### Step 1: Data Preprocessing
@@ -132,8 +116,6 @@ AutoMLClustering/
 │   └── test/                     # Placeholder for testing datasets
 ├── LICENSE                       # Project license (e.g., MIT License)
 ├── README.md                     # Project documentation
-├── references/                   # References and supporting documentation
-├── requirements.txt              # Python dependencies
 ├── results/                      # Directory to store results (e.g., logs, outputs)
 ├── src/                          # Source code for the project
 │   ├── cleaning/                 # Data cleaning modules
@@ -141,12 +123,10 @@ AutoMLClustering/
 │   │   ├── mode                  # Mode cleaning algorithm
 │   │   └── ...                   # Other cleaning algorithms (if applicable)
 │   ├── clustering/               # Clustering methods
-│   │   ├── AP                    # Affinity Propagation clustering
 │   │   ├── DBSCAN                # DBSCAN clustering
 │   │   ├── GMM                   # Gaussian Mixture Model clustering
 │   │   ├── HC                    # Hierarchical clustering
 │   │   ├── KMEANS                # K-Means clustering
-│   │   ├── OPTICS                # OPTICS clustering
 │   │   └── ...                   # Other clustering algorithms (if applicable)
 │   ├── pipeline/                 # Pipeline implementation
 │   │   ├── train/                # Training pipeline
@@ -158,15 +138,6 @@ AutoMLClustering/
 │   │   │   ├── clustered_analysis.py     # Analyzes clustering results and metrics
 │   │   │   └── error_correction.py       # Error correction module for training phase
 │   │   └── test/                 # Testing pipeline
-│   │       ├── function_back.py          # Maps predictions back to specific strategies
-│   │       ├── test_classify.py          # Testing classification: loads model and evaluates test data
-│   │       ├── test_error_correction.py  # Error correction module for testing phase
-│   │       ├── compute_loss_and_acc.py   # Computes loss/accuracy for testing tasks
-│   │       ├── pre_processing_test.py    # Preprocessing routines specific to test data
-│   │       ├── test_analysis.py          # Analyzes test clustering results
-│   │       └── test_pipeline.py          # Main script orchestrating the test pipeline
-│   └── --legacy/                 # Legacy or deprecated code
-├── venv/                         # Virtual environment directory (created by config.sh)
 ```
 
 ## Logs and Outputs
