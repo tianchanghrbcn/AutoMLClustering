@@ -105,7 +105,7 @@ dependencies:
       - cloudpickle==2.2.0
       - confection==0.0.1
       - cymem==2.0.6
-      - dask[complete]==2025.5.1
+      - dask[complete]==2023.5.0
       - debugpy==1.6.3
       - dill==0.3.5.1
       - elastic-transport==8.4.0
