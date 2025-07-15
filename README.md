@@ -37,7 +37,6 @@ cd src/pipeline/train
 python pre-processing.py
 ```
 
----
 
 ### Step 2 — Start the Training Offline Comparative Experiment
 
@@ -49,7 +48,6 @@ nohup python train_pipeline.py > output_training.log 2>&1 &
 * `PYTHONPATH` is assumed to be permanently set.
 * Training output appears in `output_training.log`.
 
----
 
 ### Step 3 — Analyze Training Results
 
@@ -65,7 +63,6 @@ python ../utils/merge_form.py
 Result files and plots are saved to
 `/root/AutoMLClustering/results/analysis_results`.
 
----
 
 ### Step 4 — Create and Activate the Classifier Environment
 
@@ -77,8 +74,6 @@ conda activate train39
 pip install numpy pandas scikit-learn lightgbm optuna joblib openpyxl
 ```
 
----
-
 ### Step 5 — Start the Classifier
 
 Stay in `src/pipeline/train` and keep the `train39` environment active:
@@ -87,7 +82,6 @@ Stay in `src/pipeline/train` and keep the `train39` environment active:
 nohup python classifier.py > output_classifier.log 2>&1 &
 ```
 
----
 
 ### Step 6 — Run the Search Script
 
@@ -97,8 +91,6 @@ Still inside the `train39` environment and the same directory:
 nohup python search.py > output_search.log 2>&1 &
 ```
 
----
-
 ### Step 7 — Run the Test Pipeline
 
 ```bash
@@ -106,7 +98,6 @@ cd ../test          # now in src/pipeline/test
 nohup python test_pipeline.py > output_testing.log 2>&1 &
 ```
 
----
 
 ### Step 8 — Compute Loss and Accuracy
 
@@ -116,7 +107,6 @@ python compute_loss_and_acc.py
 
 This script reads the test outputs and prints final loss/accuracy metrics.
 
----
 
 ### Additional Notes
 
