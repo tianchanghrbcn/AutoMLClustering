@@ -2,584 +2,17 @@
   {
     "task_name": "beers",
     "num": 1,
-    "dataset_id": 42,
-    "error_rate": 9.228215767634856,
-    "missing_rate": 0.09228215767634855,
-    "noise_rate": 0.008817427385892116,
+    "dataset_id": 0,
+    "error_rate": 4.9984800451643725,
+    "missing_rate": 0.049984800451643725,
+    "noise_rate": 0.0,
     "m": 11,
     "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=0.00%, r_miss=5.00%, r_tot=5.00%",
     "details": "anomaly=0%, missing=5%",
     "paths": {
       "clean_csv": "../../../datasets/train/beers/clean.csv",
       "dirty_csv": "../../../datasets/train/beers/beers_1.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_42.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_42.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_42.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_42.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_42.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_42.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_42.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_42.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_42.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 2,
-    "dataset_id": 36,
-    "error_rate": 13.937759336099584,
-    "missing_rate": 0.13937759336099584,
-    "noise_rate": 0.00995850622406639,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=0%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_2.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_36.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_36.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_36.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_36.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_36.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_36.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_36.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_36.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_36.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 3,
-    "dataset_id": 32,
-    "error_rate": 18.813278008298756,
-    "missing_rate": 0.18813278008298756,
-    "noise_rate": 0.007053941908713693,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=0%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_3.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_32.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_32.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_32.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_32.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_32.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_32.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_32.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_32.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_32.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 4,
-    "dataset_id": 31,
-    "error_rate": 9.253112033195022,
-    "missing_rate": 0.04253112033195021,
-    "noise_rate": 0.03796680497925311,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=0%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_4.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_31.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_31.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_31.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_31.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_31.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_31.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_31.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_31.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_31.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 5,
-    "dataset_id": 37,
-    "error_rate": 13.892116182572614,
-    "missing_rate": 0.08892116182572614,
-    "noise_rate": 0.03941908713692946,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=5%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_5.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_37.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_37.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_37.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_37.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_37.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_37.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_37.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_37.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_37.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 6,
-    "dataset_id": 34,
-    "error_rate": 27.16597510373444,
-    "missing_rate": 0.13692946058091288,
-    "noise_rate": 0.04132780082987552,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_6.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_34.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_34.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_34.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_34.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_34.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_34.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_34.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_34.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_34.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 7,
-    "dataset_id": 41,
-    "error_rate": 23.50622406639004,
-    "missing_rate": 0.18506224066390042,
-    "noise_rate": 0.04087136929460581,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_7.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_41.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_41.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_41.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_41.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_41.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_41.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_41.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_41.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_41.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 8,
-    "dataset_id": 38,
-    "error_rate": 14.020746887966807,
-    "missing_rate": 0.04020746887966805,
-    "noise_rate": 0.07634854771784233,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=0%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_8.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_38.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_38.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_38.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_38.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_38.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_38.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_38.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_38.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_38.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 9,
-    "dataset_id": 30,
-    "error_rate": 18.821576763485474,
-    "missing_rate": 0.08821576763485477,
-    "noise_rate": 0.07800829875518672,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=5%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_9.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_30.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_30.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_30.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_30.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_30.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_30.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_30.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_30.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_30.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 10,
-    "dataset_id": 43,
-    "error_rate": 23.526970954356845,
-    "missing_rate": 0.13526970954356846,
-    "noise_rate": 0.0741701244813278,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_10.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_43.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_43.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_43.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_43.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_43.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_43.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_43.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_43.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_43.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 11,
-    "dataset_id": 39,
-    "error_rate": 28.34439834024896,
-    "missing_rate": 0.18344398340248963,
-    "noise_rate": 0.07852697095435685,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_11.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_39.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_39.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_39.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_39.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_39.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_39.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_39.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_39.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_39.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 12,
-    "dataset_id": 33,
-    "error_rate": 18.80082987551867,
-    "missing_rate": 0.03800829875518672,
-    "noise_rate": 0.11358921161825726,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=0%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_12.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_33.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_33.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_33.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_33.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_33.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_33.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_33.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_33.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_33.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 13,
-    "dataset_id": 40,
-    "error_rate": 23.539419087136928,
-    "missing_rate": 0.08539419087136929,
-    "noise_rate": 0.11514522821576763,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=5%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_13.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_40.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_40.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_40.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_40.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_40.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_40.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_40.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_40.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_40.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 14,
-    "dataset_id": 44,
-    "error_rate": 28.30290456431535,
-    "missing_rate": 0.13302904564315352,
-    "noise_rate": 0.10881742738589212,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_14.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_44.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_44.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_44.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_44.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_44.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_44.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_44.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_44.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_44.csv"
-      }
-    }
-  },
-  {
-    "task_name": "beers",
-    "num": 15,
-    "dataset_id": 35,
-    "error_rate": 33.0954356846473,
-    "missing_rate": 0.18095435684647304,
-    "noise_rate": 0.11141078838174275,
-    "m": 11,
-    "n": 2410,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/beers/clean.csv",
-      "dirty_csv": "../../../datasets/train/beers/beers_15.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_35.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_35.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_35.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_35.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_35.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_35.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_35.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_35.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_35.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 1,
-    "dataset_id": 1,
-    "error_rate": 4.994388327721661,
-    "missing_rate": 0.04994388327721661,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=0%, missing=5%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_1.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_1.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_1.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_1.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_1.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_1.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_1.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_1.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_1.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_1.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 2,
-    "dataset_id": 2,
-    "error_rate": 9.995791245791246,
-    "missing_rate": 0.09995791245791245,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=0%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_2.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_2.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_2.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_2.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_2.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_2.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_2.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_2.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_2.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_2.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 3,
-    "dataset_id": 12,
-    "error_rate": 14.997194163860831,
-    "missing_rate": 0.1499719416386083,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=0%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_3.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_12.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_12.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_12.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_12.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_12.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_12.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_12.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_12.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_12.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 4,
-    "dataset_id": 11,
-    "error_rate": 4.994388327721661,
-    "missing_rate": 0.0,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=0%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_4.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_11.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_11.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_11.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_11.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_11.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_11.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_11.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_11.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_11.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 5,
-    "dataset_id": 10,
-    "error_rate": 9.988776655443322,
-    "missing_rate": 0.04994388327721661,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=5%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_5.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_10.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_10.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_10.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_10.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_10.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_10.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_10.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_10.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_10.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 6,
-    "dataset_id": 7,
-    "error_rate": 14.990179573512908,
-    "missing_rate": 0.09995791245791245,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_6.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_7.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_7.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_7.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_7.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_7.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_7.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_7.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_7.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_7.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 7,
-    "dataset_id": 0,
-    "error_rate": 19.99158249158249,
-    "missing_rate": 0.1499719416386083,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_7.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_0.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_0.csv",
@@ -594,73 +27,46 @@
     }
   },
   {
-    "task_name": "flights",
-    "num": 8,
-    "dataset_id": 3,
-    "error_rate": 9.995791245791246,
-    "missing_rate": 0.0,
+    "task_name": "beers",
+    "num": 2,
+    "dataset_id": 7,
+    "error_rate": 10.001302818430538,
+    "missing_rate": 0.10001302818430538,
     "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=0%",
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=0.00%, r_miss=10.00%, r_tot=10.00%",
+    "details": "anomaly=0%, missing=10%",
     "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_8.csv",
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_2.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_3.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_3.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_3.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_3.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_3.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_3.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_3.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_3.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_3.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_7.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_7.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_7.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_7.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_7.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_7.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_7.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_7.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_7.csv"
       }
     }
   },
   {
-    "task_name": "flights",
-    "num": 9,
-    "dataset_id": 5,
-    "error_rate": 14.990179573512908,
-    "missing_rate": 0.04994388327721661,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=5%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_9.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_5.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_5.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_5.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_5.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_5.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_5.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_5.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_5.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_5.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 10,
+    "task_name": "beers",
+    "num": 3,
     "dataset_id": 8,
-    "error_rate": 19.99158249158249,
-    "missing_rate": 0.09995791245791245,
+    "error_rate": 14.999782863594909,
+    "missing_rate": 0.1499978286359491,
     "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=10%",
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=0.00%, r_miss=15.00%, r_tot=15.00%",
+    "details": "anomaly=0%, missing=15%",
     "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_10.csv",
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_3.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_8.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_8.csv",
@@ -675,73 +81,19 @@
     }
   },
   {
-    "task_name": "flights",
-    "num": 11,
-    "dataset_id": 14,
-    "error_rate": 24.99298540965208,
-    "missing_rate": 0.1499719416386083,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_11.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_14.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_14.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_14.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_14.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_14.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_14.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_14.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_14.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_14.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 12,
-    "dataset_id": 13,
-    "error_rate": 14.997194163860831,
-    "missing_rate": 0.0,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=0%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_12.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_13.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_13.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_13.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_13.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_13.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_13.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_13.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_13.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_13.csv"
-      }
-    }
-  },
-  {
-    "task_name": "flights",
-    "num": 13,
+    "task_name": "beers",
+    "num": 4,
     "dataset_id": 9,
-    "error_rate": 19.99158249158249,
-    "missing_rate": 0.04994388327721661,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=5%",
+    "error_rate": 4.9984800451643725,
+    "missing_rate": 0.0,
+    "noise_rate": 0.049984800451643725,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=5.00%, r_miss=0.00%, r_tot=5.00%",
+    "details": "anomaly=5%, missing=0%",
     "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_13.csv",
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_4.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_9.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_9.csv",
@@ -756,19 +108,289 @@
     }
   },
   {
-    "task_name": "flights",
+    "task_name": "beers",
+    "num": 5,
+    "dataset_id": 10,
+    "error_rate": 9.996960090328745,
+    "missing_rate": 0.049984800451643725,
+    "noise_rate": 0.049984800451643725,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=5.00%, r_miss=5.00%, r_tot=10.00%",
+    "details": "anomaly=5%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_5.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_10.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_10.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_10.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_10.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_10.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_10.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_10.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_10.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_10.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 6,
+    "dataset_id": 11,
+    "error_rate": 14.999782863594909,
+    "missing_rate": 0.10001302818430538,
+    "noise_rate": 0.049984800451643725,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=5.00%, r_miss=10.00%, r_tot=15.00%",
+    "details": "anomaly=5%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_6.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_11.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_11.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_11.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_11.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_11.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_11.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_11.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_11.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_11.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 7,
+    "dataset_id": 12,
+    "error_rate": 19.998262908759283,
+    "missing_rate": 0.1499978286359491,
+    "noise_rate": 0.049984800451643725,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=5.00%, r_miss=15.00%, r_tot=20.00%",
+    "details": "anomaly=5%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_7.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_12.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_12.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_12.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_12.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_12.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_12.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_12.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_12.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_12.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 8,
+    "dataset_id": 13,
+    "error_rate": 10.001302818430538,
+    "missing_rate": 0.0,
+    "noise_rate": 0.10001302818430538,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=10.00%, r_miss=0.00%, r_tot=10.00%",
+    "details": "anomaly=10%, missing=0%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_8.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_13.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_13.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_13.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_13.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_13.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_13.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_13.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_13.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_13.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 9,
+    "dataset_id": 14,
+    "error_rate": 14.999782863594909,
+    "missing_rate": 0.049984800451643725,
+    "noise_rate": 0.10001302818430538,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=10.00%, r_miss=5.00%, r_tot=15.00%",
+    "details": "anomaly=10%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_9.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_14.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_14.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_14.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_14.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_14.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_14.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_14.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_14.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_14.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 10,
+    "dataset_id": 1,
+    "error_rate": 20.002605636861077,
+    "missing_rate": 0.10001302818430538,
+    "noise_rate": 0.10001302818430538,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=10.00%, r_miss=10.00%, r_tot=20.00%",
+    "details": "anomaly=10%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_10.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_1.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_1.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_1.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_1.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_1.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_1.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_1.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_1.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_1.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 11,
+    "dataset_id": 2,
+    "error_rate": 25.001085682025447,
+    "missing_rate": 0.1499978286359491,
+    "noise_rate": 0.10001302818430538,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=10.00%, r_miss=15.00%, r_tot=25.00%",
+    "details": "anomaly=10%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_11.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_2.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_2.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_2.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_2.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_2.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_2.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_2.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_2.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_2.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 12,
+    "dataset_id": 3,
+    "error_rate": 14.999782863594909,
+    "missing_rate": 0.0,
+    "noise_rate": 0.1499978286359491,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=15.00%, r_miss=0.00%, r_tot=15.00%",
+    "details": "anomaly=15%, missing=0%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_12.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_3.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_3.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_3.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_3.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_3.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_3.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_3.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_3.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_3.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 13,
+    "dataset_id": 4,
+    "error_rate": 19.998262908759283,
+    "missing_rate": 0.049984800451643725,
+    "noise_rate": 0.1499978286359491,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=15.00%, r_miss=5.00%, r_tot=20.00%",
+    "details": "anomaly=15%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_13.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_4.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_4.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_4.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_4.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_4.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_4.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_4.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_4.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_4.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
     "num": 14,
-    "dataset_id": 6,
-    "error_rate": 24.99298540965208,
-    "missing_rate": 0.09995791245791245,
-    "noise_rate": 0.0,
-    "m": 7,
-    "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
+    "dataset_id": 5,
+    "error_rate": 25.001085682025447,
+    "missing_rate": 0.10001302818430538,
+    "noise_rate": 0.1499978286359491,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=15.00%, r_miss=10.00%, r_tot=25.00%",
     "details": "anomaly=15%, missing=10%",
     "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_14.csv",
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_14.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_5.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_5.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_5.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_5.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_5.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_5.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_5.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_5.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_5.csv"
+      }
+    }
+  },
+  {
+    "task_name": "beers",
+    "num": 15,
+    "dataset_id": 6,
+    "error_rate": 29.999565727189818,
+    "missing_rate": 0.1499978286359491,
+    "noise_rate": 0.1499978286359491,
+    "m": 11,
+    "n": 2410,
+    "scenario_info": "r_anom=15.00%, r_miss=15.00%, r_tot=30.00%",
+    "details": "anomaly=15%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/beers/clean.csv",
+      "dirty_csv": "../../../datasets/train/beers/beers_15.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_6.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_6.csv",
@@ -784,72 +406,18 @@
   },
   {
     "task_name": "flights",
-    "num": 15,
-    "dataset_id": 4,
-    "error_rate": 29.994388327721662,
-    "missing_rate": 0.1499719416386083,
+    "num": 1,
+    "dataset_id": 15,
+    "error_rate": 5.0014029180695845,
+    "missing_rate": 0.05001402918069585,
     "noise_rate": 0.0,
     "m": 7,
     "n": 2376,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/flights/clean.csv",
-      "dirty_csv": "../../../datasets/train/flights/flights_15.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_4.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_4.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_4.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_4.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_4.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_4.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_4.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_4.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_4.csv"
-      }
-    }
-  },
-  {
-    "task_name": "hospital",
-    "num": 1,
-    "dataset_id": 27,
-    "error_rate": 5.0,
-    "missing_rate": 0.05,
-    "noise_rate": 0.035666666666666666,
-    "m": 20,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=0.00%, r_miss=5.00%, r_tot=5.00%",
     "details": "anomaly=0%, missing=5%",
     "paths": {
-      "clean_csv": "../../../datasets/train/hospital/clean.csv",
-      "dirty_csv": "../../../datasets/train/hospital/hospital_1.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_27.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_27.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_27.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_27.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_27.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_27.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_27.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_27.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_27.csv"
-      }
-    }
-  },
-  {
-    "task_name": "hospital",
-    "num": 2,
-    "dataset_id": 15,
-    "error_rate": 10.0,
-    "missing_rate": 0.1,
-    "noise_rate": 0.03266666666666666,
-    "m": 20,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=0%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/hospital/clean.csv",
-      "dirty_csv": "../../../datasets/train/hospital/hospital_2.csv",
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_1.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_15.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_15.csv",
@@ -864,73 +432,100 @@
     }
   },
   {
-    "task_name": "hospital",
+    "task_name": "flights",
+    "num": 2,
+    "dataset_id": 22,
+    "error_rate": 10.002805836139169,
+    "missing_rate": 0.1000280583613917,
+    "noise_rate": 0.0,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=0.00%, r_miss=10.00%, r_tot=10.00%",
+    "details": "anomaly=0%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_2.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_22.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_22.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_22.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_22.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_22.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_22.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_22.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_22.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_22.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
     "num": 3,
-    "dataset_id": 18,
-    "error_rate": 15.0,
-    "missing_rate": 0.15,
-    "noise_rate": 0.03233333333333333,
-    "m": 20,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "dataset_id": 23,
+    "error_rate": 14.997194163860831,
+    "missing_rate": 0.1499719416386083,
+    "noise_rate": 0.0,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=0.00%, r_miss=15.00%, r_tot=15.00%",
     "details": "anomaly=0%, missing=15%",
     "paths": {
-      "clean_csv": "../../../datasets/train/hospital/clean.csv",
-      "dirty_csv": "../../../datasets/train/hospital/hospital_3.csv",
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_3.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_18.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_18.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_18.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_18.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_18.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_18.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_18.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_18.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_18.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_23.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_23.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_23.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_23.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_23.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_23.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_23.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_23.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_23.csv"
       }
     }
   },
   {
-    "task_name": "hospital",
+    "task_name": "flights",
     "num": 4,
-    "dataset_id": 28,
-    "error_rate": 5.0,
+    "dataset_id": 24,
+    "error_rate": 5.0014029180695845,
     "missing_rate": 0.0,
-    "noise_rate": 0.084,
-    "m": 20,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "noise_rate": 0.05001402918069585,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=5.00%, r_miss=0.00%, r_tot=5.00%",
     "details": "anomaly=5%, missing=0%",
     "paths": {
-      "clean_csv": "../../../datasets/train/hospital/clean.csv",
-      "dirty_csv": "../../../datasets/train/hospital/hospital_4.csv",
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_4.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_28.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_28.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_28.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_28.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_28.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_28.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_28.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_28.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_28.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_24.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_24.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_24.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_24.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_24.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_24.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_24.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_24.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_24.csv"
       }
     }
   },
   {
-    "task_name": "hospital",
+    "task_name": "flights",
     "num": 5,
     "dataset_id": 25,
-    "error_rate": 10.0,
-    "missing_rate": 0.05,
-    "noise_rate": 0.07666666666666666,
-    "m": 20,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "error_rate": 10.002805836139169,
+    "missing_rate": 0.05001402918069585,
+    "noise_rate": 0.05001402918069585,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=5.00%, r_miss=5.00%, r_tot=10.00%",
     "details": "anomaly=5%, missing=5%",
     "paths": {
-      "clean_csv": "../../../datasets/train/hospital/clean.csv",
-      "dirty_csv": "../../../datasets/train/hospital/hospital_5.csv",
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_5.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_25.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_25.csv",
@@ -945,19 +540,262 @@
     }
   },
   {
-    "task_name": "hospital",
+    "task_name": "flights",
     "num": 6,
-    "dataset_id": 21,
-    "error_rate": 15.0,
-    "missing_rate": 0.1,
-    "noise_rate": 0.07733333333333334,
-    "m": 20,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "dataset_id": 26,
+    "error_rate": 15.004208754208753,
+    "missing_rate": 0.1000280583613917,
+    "noise_rate": 0.05001402918069585,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=5.00%, r_miss=10.00%, r_tot=15.00%",
     "details": "anomaly=5%, missing=10%",
     "paths": {
-      "clean_csv": "../../../datasets/train/hospital/clean.csv",
-      "dirty_csv": "../../../datasets/train/hospital/hospital_6.csv",
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_6.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_26.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_26.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_26.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_26.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_26.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_26.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_26.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_26.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_26.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 7,
+    "dataset_id": 27,
+    "error_rate": 19.998597081930413,
+    "missing_rate": 0.1499719416386083,
+    "noise_rate": 0.05001402918069585,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=5.00%, r_miss=15.00%, r_tot=20.00%",
+    "details": "anomaly=5%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_7.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_27.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_27.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_27.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_27.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_27.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_27.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_27.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_27.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_27.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 8,
+    "dataset_id": 28,
+    "error_rate": 10.002805836139169,
+    "missing_rate": 0.0,
+    "noise_rate": 0.1000280583613917,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=10.00%, r_miss=0.00%, r_tot=10.00%",
+    "details": "anomaly=10%, missing=0%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_8.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_28.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_28.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_28.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_28.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_28.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_28.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_28.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_28.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_28.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 9,
+    "dataset_id": 29,
+    "error_rate": 15.004208754208753,
+    "missing_rate": 0.05001402918069585,
+    "noise_rate": 0.1000280583613917,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=10.00%, r_miss=5.00%, r_tot=15.00%",
+    "details": "anomaly=10%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_9.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_29.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_29.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_29.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_29.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_29.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_29.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_29.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_29.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_29.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 10,
+    "dataset_id": 16,
+    "error_rate": 20.005611672278338,
+    "missing_rate": 0.1000280583613917,
+    "noise_rate": 0.1000280583613917,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=10.00%, r_miss=10.00%, r_tot=20.01%",
+    "details": "anomaly=10%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_10.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_16.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_16.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_16.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_16.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_16.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_16.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_16.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_16.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_16.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 11,
+    "dataset_id": 17,
+    "error_rate": 25.0,
+    "missing_rate": 0.1499719416386083,
+    "noise_rate": 0.1000280583613917,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=10.00%, r_miss=15.00%, r_tot=25.00%",
+    "details": "anomaly=10%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_11.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_17.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_17.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_17.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_17.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_17.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_17.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_17.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_17.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_17.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 12,
+    "dataset_id": 18,
+    "error_rate": 14.997194163860831,
+    "missing_rate": 0.0,
+    "noise_rate": 0.1499719416386083,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=15.00%, r_miss=0.00%, r_tot=15.00%",
+    "details": "anomaly=15%, missing=0%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_12.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_18.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_18.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_18.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_18.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_18.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_18.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_18.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_18.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_18.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 13,
+    "dataset_id": 19,
+    "error_rate": 19.998597081930413,
+    "missing_rate": 0.05001402918069585,
+    "noise_rate": 0.1499719416386083,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=15.00%, r_miss=5.00%, r_tot=20.00%",
+    "details": "anomaly=15%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_13.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_19.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_19.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_19.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_19.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_19.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_19.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_19.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_19.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_19.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 14,
+    "dataset_id": 20,
+    "error_rate": 25.0,
+    "missing_rate": 0.1000280583613917,
+    "noise_rate": 0.1499719416386083,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=15.00%, r_miss=10.00%, r_tot=25.00%",
+    "details": "anomaly=15%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_14.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_20.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_20.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_20.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_20.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_20.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_20.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_20.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_20.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_20.csv"
+      }
+    }
+  },
+  {
+    "task_name": "flights",
+    "num": 15,
+    "dataset_id": 21,
+    "error_rate": 29.994388327721662,
+    "missing_rate": 0.1499719416386083,
+    "noise_rate": 0.1499719416386083,
+    "m": 7,
+    "n": 2376,
+    "scenario_info": "r_anom=15.00%, r_miss=15.00%, r_tot=29.99%",
+    "details": "anomaly=15%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/flights/clean.csv",
+      "dirty_csv": "../../../datasets/train/flights/flights_15.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_21.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_21.csv",
@@ -973,315 +811,423 @@
   },
   {
     "task_name": "hospital",
-    "num": 7,
-    "dataset_id": 23,
-    "error_rate": 20.0,
-    "missing_rate": 0.15,
-    "noise_rate": 0.08066666666666666,
+    "num": 1,
+    "dataset_id": 30,
+    "error_rate": 5.0,
+    "missing_rate": 0.05,
+    "noise_rate": 0.0,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=0.00%, r_miss=5.00%, r_tot=5.00%",
+    "details": "anomaly=0%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/hospital/clean.csv",
+      "dirty_csv": "../../../datasets/train/hospital/hospital_1.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_30.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_30.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_30.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_30.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_30.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_30.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_30.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_30.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_30.csv"
+      }
+    }
+  },
+  {
+    "task_name": "hospital",
+    "num": 2,
+    "dataset_id": 37,
+    "error_rate": 10.0,
+    "missing_rate": 0.1,
+    "noise_rate": 0.0,
+    "m": 20,
+    "n": 1000,
+    "scenario_info": "r_anom=0.00%, r_miss=10.00%, r_tot=10.00%",
+    "details": "anomaly=0%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/hospital/clean.csv",
+      "dirty_csv": "../../../datasets/train/hospital/hospital_2.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_37.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_37.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_37.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_37.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_37.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_37.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_37.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_37.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_37.csv"
+      }
+    }
+  },
+  {
+    "task_name": "hospital",
+    "num": 3,
+    "dataset_id": 38,
+    "error_rate": 15.0,
+    "missing_rate": 0.15,
+    "noise_rate": 0.0,
+    "m": 20,
+    "n": 1000,
+    "scenario_info": "r_anom=0.00%, r_miss=15.00%, r_tot=15.00%",
+    "details": "anomaly=0%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/hospital/clean.csv",
+      "dirty_csv": "../../../datasets/train/hospital/hospital_3.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_38.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_38.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_38.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_38.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_38.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_38.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_38.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_38.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_38.csv"
+      }
+    }
+  },
+  {
+    "task_name": "hospital",
+    "num": 4,
+    "dataset_id": 39,
+    "error_rate": 5.0,
+    "missing_rate": 0.0,
+    "noise_rate": 0.05,
+    "m": 20,
+    "n": 1000,
+    "scenario_info": "r_anom=5.00%, r_miss=0.00%, r_tot=5.00%",
+    "details": "anomaly=5%, missing=0%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/hospital/clean.csv",
+      "dirty_csv": "../../../datasets/train/hospital/hospital_4.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_39.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_39.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_39.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_39.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_39.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_39.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_39.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_39.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_39.csv"
+      }
+    }
+  },
+  {
+    "task_name": "hospital",
+    "num": 5,
+    "dataset_id": 40,
+    "error_rate": 10.0,
+    "missing_rate": 0.05,
+    "noise_rate": 0.05,
+    "m": 20,
+    "n": 1000,
+    "scenario_info": "r_anom=5.00%, r_miss=5.00%, r_tot=10.00%",
+    "details": "anomaly=5%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/hospital/clean.csv",
+      "dirty_csv": "../../../datasets/train/hospital/hospital_5.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_40.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_40.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_40.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_40.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_40.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_40.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_40.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_40.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_40.csv"
+      }
+    }
+  },
+  {
+    "task_name": "hospital",
+    "num": 6,
+    "dataset_id": 41,
+    "error_rate": 15.000000000000002,
+    "missing_rate": 0.1,
+    "noise_rate": 0.05,
+    "m": 20,
+    "n": 1000,
+    "scenario_info": "r_anom=5.00%, r_miss=10.00%, r_tot=15.00%",
+    "details": "anomaly=5%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/hospital/clean.csv",
+      "dirty_csv": "../../../datasets/train/hospital/hospital_6.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_41.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_41.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_41.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_41.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_41.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_41.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_41.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_41.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_41.csv"
+      }
+    }
+  },
+  {
+    "task_name": "hospital",
+    "num": 7,
+    "dataset_id": 42,
+    "error_rate": 20.0,
+    "missing_rate": 0.15,
+    "noise_rate": 0.05,
+    "m": 20,
+    "n": 1000,
+    "scenario_info": "r_anom=5.00%, r_miss=15.00%, r_tot=20.00%",
     "details": "anomaly=5%, missing=15%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_7.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_23.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_23.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_23.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_23.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_23.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_23.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_23.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_23.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_23.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_42.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_42.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_42.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_42.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_42.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_42.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_42.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_42.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_42.csv"
       }
     }
   },
   {
     "task_name": "hospital",
     "num": 8,
-    "dataset_id": 16,
+    "dataset_id": 43,
     "error_rate": 10.0,
     "missing_rate": 0.0,
-    "noise_rate": 0.13166666666666665,
+    "noise_rate": 0.1,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=10.00%, r_miss=0.00%, r_tot=10.00%",
     "details": "anomaly=10%, missing=0%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_8.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_16.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_16.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_16.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_16.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_16.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_16.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_16.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_16.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_16.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_43.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_43.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_43.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_43.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_43.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_43.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_43.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_43.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_43.csv"
       }
     }
   },
   {
     "task_name": "hospital",
     "num": 9,
-    "dataset_id": 26,
-    "error_rate": 15.0,
+    "dataset_id": 44,
+    "error_rate": 15.000000000000002,
     "missing_rate": 0.05,
-    "noise_rate": 0.11866666666666667,
+    "noise_rate": 0.1,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=10.00%, r_miss=5.00%, r_tot=15.00%",
     "details": "anomaly=10%, missing=5%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_9.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_26.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_26.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_26.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_26.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_26.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_26.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_26.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_26.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_26.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_44.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_44.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_44.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_44.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_44.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_44.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_44.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_44.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_44.csv"
       }
     }
   },
   {
     "task_name": "hospital",
     "num": 10,
-    "dataset_id": 22,
+    "dataset_id": 31,
     "error_rate": 20.0,
     "missing_rate": 0.1,
-    "noise_rate": 0.132,
+    "noise_rate": 0.1,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=10.00%, r_miss=10.00%, r_tot=20.00%",
     "details": "anomaly=10%, missing=10%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_10.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_22.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_22.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_22.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_22.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_22.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_22.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_22.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_22.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_22.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_31.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_31.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_31.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_31.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_31.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_31.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_31.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_31.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_31.csv"
       }
     }
   },
   {
     "task_name": "hospital",
     "num": 11,
-    "dataset_id": 20,
+    "dataset_id": 32,
     "error_rate": 25.0,
     "missing_rate": 0.15,
-    "noise_rate": 0.12733333333333333,
+    "noise_rate": 0.1,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=10.00%, r_miss=15.00%, r_tot=25.00%",
     "details": "anomaly=10%, missing=15%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_11.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_20.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_20.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_20.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_20.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_20.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_20.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_20.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_20.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_20.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_32.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_32.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_32.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_32.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_32.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_32.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_32.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_32.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_32.csv"
       }
     }
   },
   {
     "task_name": "hospital",
     "num": 12,
-    "dataset_id": 24,
+    "dataset_id": 33,
     "error_rate": 15.0,
     "missing_rate": 0.0,
-    "noise_rate": 0.16633333333333333,
+    "noise_rate": 0.15,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=15.00%, r_miss=0.00%, r_tot=15.00%",
     "details": "anomaly=15%, missing=0%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_12.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_24.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_24.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_24.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_24.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_24.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_24.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_24.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_24.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_24.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_33.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_33.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_33.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_33.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_33.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_33.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_33.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_33.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_33.csv"
       }
     }
   },
   {
     "task_name": "hospital",
     "num": 13,
-    "dataset_id": 29,
+    "dataset_id": 34,
     "error_rate": 20.0,
     "missing_rate": 0.05,
-    "noise_rate": 0.16833333333333333,
+    "noise_rate": 0.15,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=15.00%, r_miss=5.00%, r_tot=20.00%",
     "details": "anomaly=15%, missing=5%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_13.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_29.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_29.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_29.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_29.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_29.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_29.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_29.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_29.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_29.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_34.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_34.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_34.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_34.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_34.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_34.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_34.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_34.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_34.csv"
       }
     }
   },
   {
     "task_name": "hospital",
     "num": 14,
-    "dataset_id": 17,
+    "dataset_id": 35,
     "error_rate": 25.0,
     "missing_rate": 0.1,
-    "noise_rate": 0.173,
+    "noise_rate": 0.15,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=15.00%, r_miss=10.00%, r_tot=25.00%",
     "details": "anomaly=15%, missing=10%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_14.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_17.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_17.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_17.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_17.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_17.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_17.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_17.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_17.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_17.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_35.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_35.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_35.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_35.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_35.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_35.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_35.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_35.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_35.csv"
       }
     }
   },
   {
     "task_name": "hospital",
     "num": 15,
-    "dataset_id": 19,
+    "dataset_id": 36,
     "error_rate": 30.0,
     "missing_rate": 0.15,
-    "noise_rate": 0.15833333333333333,
+    "noise_rate": 0.15,
     "m": 20,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=15.00%, r_miss=15.00%, r_tot=30.00%",
     "details": "anomaly=15%, missing=15%",
     "paths": {
       "clean_csv": "../../../datasets/train/hospital/clean.csv",
       "dirty_csv": "../../../datasets/train/hospital/hospital_15.csv",
       "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_19.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_19.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_19.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_19.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_19.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_19.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_19.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_19.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_19.csv"
+        "mode": "../../../results/cleaned_data/mode/repaired_36.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_36.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_36.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_36.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_36.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_36.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_36.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_36.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_36.csv"
       }
     }
   },
   {
     "task_name": "rayyan",
     "num": 1,
-    "dataset_id": 53,
-    "error_rate": 18.89090909090909,
-    "missing_rate": 0.18890909090909092,
-    "noise_rate": 0.03266666666666666,
+    "dataset_id": 45,
+    "error_rate": 5.0037261790695196,
+    "missing_rate": 0.050037261790695196,
+    "noise_rate": 0.0,
     "m": 12,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
+    "scenario_info": "r_anom=0.00%, r_miss=5.00%, r_tot=5.00%",
     "details": "anomaly=0%, missing=5%",
     "paths": {
       "clean_csv": "../../../datasets/train/rayyan/clean.csv",
       "dirty_csv": "../../../datasets/train/rayyan/rayyan_1.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_53.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_53.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_53.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_53.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_53.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_53.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_53.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_53.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_53.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 2,
-    "dataset_id": 49,
-    "error_rate": 23.118181818181817,
-    "missing_rate": 0.23118181818181818,
-    "noise_rate": 0.03166666666666667,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=0%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_2.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_49.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_49.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_49.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_49.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_49.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_49.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_49.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_49.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_49.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 3,
-    "dataset_id": 45,
-    "error_rate": 27.500000000000004,
-    "missing_rate": 0.275,
-    "noise_rate": 0.030333333333333334,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=0%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_3.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_45.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_45.csv",
@@ -1297,261 +1243,18 @@
   },
   {
     "task_name": "rayyan",
-    "num": 4,
-    "dataset_id": 46,
-    "error_rate": 18.736363636363638,
-    "missing_rate": 0.138,
-    "noise_rate": 0.059,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=0%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_4.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_46.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_46.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_46.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_46.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_46.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_46.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_46.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_46.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_46.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 5,
-    "dataset_id": 58,
-    "error_rate": 22.90909090909091,
-    "missing_rate": 0.18009090909090908,
-    "noise_rate": 0.050666666666666665,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=5%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_5.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_58.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_58.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_58.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_58.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_58.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_58.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_58.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_58.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_58.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 6,
-    "dataset_id": 48,
-    "error_rate": 27.145454545454545,
-    "missing_rate": 0.22318181818181818,
-    "noise_rate": 0.050666666666666665,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_6.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_48.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_48.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_48.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_48.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_48.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_48.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_48.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_48.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_48.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 7,
-    "dataset_id": 51,
-    "error_rate": 31.681818181818183,
-    "missing_rate": 0.26790909090909093,
-    "noise_rate": 0.052333333333333336,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=5%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_7.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_51.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_51.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_51.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_51.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_51.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_51.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_51.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_51.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_51.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 8,
-    "dataset_id": 50,
-    "error_rate": 22.70909090909091,
-    "missing_rate": 0.1300909090909091,
-    "noise_rate": 0.07533333333333334,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=0%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_8.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_50.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_50.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_50.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_50.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_50.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_50.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_50.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_50.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_50.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 9,
-    "dataset_id": 55,
-    "error_rate": 27.254545454545454,
-    "missing_rate": 0.1749090909090909,
-    "noise_rate": 0.071,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=5%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_9.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_55.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_55.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_55.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_55.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_55.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_55.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_55.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_55.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_55.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 10,
-    "dataset_id": 47,
-    "error_rate": 31.30909090909091,
-    "missing_rate": 0.21627272727272728,
-    "noise_rate": 0.07466666666666667,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=10%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_10.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_47.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_47.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_47.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_47.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_47.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_47.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_47.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_47.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_47.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 11,
-    "dataset_id": 57,
-    "error_rate": 35.809090909090905,
-    "missing_rate": 0.26072727272727275,
-    "noise_rate": 0.06466666666666666,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=10%, missing=15%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_11.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_57.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_57.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_57.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_57.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_57.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_57.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_57.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_57.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_57.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 12,
-    "dataset_id": 54,
-    "error_rate": 26.936363636363637,
-    "missing_rate": 0.12372727272727273,
-    "noise_rate": 0.09133333333333334,
-    "m": 12,
-    "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=0%",
-    "paths": {
-      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_12.csv",
-      "repaired_paths": {
-        "mode": "../../../results/cleaned_data/mode/repaired_54.csv",
-        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_54.csv",
-        "boostclean": "../../../results/cleaned_data/boostclean/repaired_54.csv",
-        "holoclean": "../../../results/cleaned_data/holoclean/repaired_54.csv",
-        "horizon": "../../../results/cleaned_data/horizon/repaired_54.csv",
-        "scared": "../../../results/cleaned_data/scared/repaired_54.csv",
-        "baran": "../../../results/cleaned_data/baran/repaired_54.csv",
-        "Unified": "../../../results/cleaned_data/Unified/repaired_54.csv",
-        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_54.csv"
-      }
-    }
-  },
-  {
-    "task_name": "rayyan",
-    "num": 13,
+    "num": 2,
     "dataset_id": 52,
-    "error_rate": 31.418181818181818,
-    "missing_rate": 0.16863636363636364,
-    "noise_rate": 0.08466666666666667,
+    "error_rate": 9.996806132226126,
+    "missing_rate": 0.09996806132226126,
+    "noise_rate": 0.0,
     "m": 12,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=5%",
+    "scenario_info": "r_anom=0.00%, r_miss=10.00%, r_tot=10.00%",
+    "details": "anomaly=0%, missing=10%",
     "paths": {
       "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_13.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_2.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_52.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_52.csv",
@@ -1567,18 +1270,99 @@
   },
   {
     "task_name": "rayyan",
-    "num": 14,
-    "dataset_id": 56,
-    "error_rate": 35.763636363636365,
-    "missing_rate": 0.21163636363636365,
-    "noise_rate": 0.096,
+    "num": 3,
+    "dataset_id": 53,
+    "error_rate": 15.000532311295645,
+    "missing_rate": 0.15000532311295645,
+    "noise_rate": 0.0,
     "m": 12,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=10%",
+    "scenario_info": "r_anom=0.00%, r_miss=15.00%, r_tot=15.00%",
+    "details": "anomaly=0%, missing=15%",
     "paths": {
       "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_14.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_3.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_53.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_53.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_53.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_53.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_53.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_53.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_53.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_53.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_53.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 4,
+    "dataset_id": 54,
+    "error_rate": 4.897263919940381,
+    "missing_rate": 0.0,
+    "noise_rate": 0.04897263919940381,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=5.00%, r_miss=0.00%, r_tot=5.00%",
+    "details": "anomaly=5%, missing=0%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_4.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_54.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_54.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_54.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_54.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_54.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_54.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_54.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_54.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_54.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 5,
+    "dataset_id": 55,
+    "error_rate": 9.890343873096988,
+    "missing_rate": 0.050037261790695196,
+    "noise_rate": 0.048866176940274675,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=5.00%, r_miss=5.00%, r_tot=10.01%",
+    "details": "anomaly=5%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_5.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_55.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_55.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_55.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_55.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_55.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_55.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_55.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_55.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_55.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 6,
+    "dataset_id": 56,
+    "error_rate": 14.830192696689023,
+    "missing_rate": 0.09996806132226126,
+    "noise_rate": 0.04833386564462898,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=5.00%, r_miss=10.00%, r_tot=15.00%",
+    "details": "anomaly=5%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_6.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_56.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_56.csv",
@@ -1594,18 +1378,72 @@
   },
   {
     "task_name": "rayyan",
-    "num": 15,
-    "dataset_id": 59,
-    "error_rate": 39.85454545454545,
-    "missing_rate": 0.25181818181818183,
-    "noise_rate": 0.07933333333333334,
+    "num": 7,
+    "dataset_id": 57,
+    "error_rate": 19.833918875758545,
+    "missing_rate": 0.15000532311295645,
+    "noise_rate": 0.04833386564462898,
     "m": 12,
     "n": 1000,
-    "scenario_info": "These rates are applied independently to different cells",
-    "details": "anomaly=15%, missing=15%",
+    "scenario_info": "r_anom=5.00%, r_miss=15.00%, r_tot=20.00%",
+    "details": "anomaly=5%, missing=15%",
     "paths": {
       "clean_csv": "../../../datasets/train/rayyan/clean.csv",
-      "dirty_csv": "../../../datasets/train/rayyan/rayyan_15.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_7.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_57.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_57.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_57.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_57.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_57.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_57.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_57.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_57.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_57.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 8,
+    "dataset_id": 58,
+    "error_rate": 9.634834451187055,
+    "missing_rate": 0.0,
+    "noise_rate": 0.09634834451187055,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=10.00%, r_miss=0.00%, r_tot=10.00%",
+    "details": "anomaly=10%, missing=0%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_8.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_58.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_58.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_58.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_58.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_58.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_58.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_58.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_58.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_58.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 9,
+    "dataset_id": 59,
+    "error_rate": 14.68114553390823,
+    "missing_rate": 0.050037261790695196,
+    "noise_rate": 0.0967741935483871,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=10.00%, r_miss=5.00%, r_tot=15.00%",
+    "details": "anomaly=10%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_9.csv",
       "repaired_paths": {
         "mode": "../../../results/cleaned_data/mode/repaired_59.csv",
         "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_59.csv",
@@ -1616,6 +1454,168 @@
         "baran": "../../../results/cleaned_data/baran/repaired_59.csv",
         "Unified": "../../../results/cleaned_data/Unified/repaired_59.csv",
         "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_59.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 10,
+    "dataset_id": 46,
+    "error_rate": 19.780687746193976,
+    "missing_rate": 0.09996806132226126,
+    "noise_rate": 0.09783881613967849,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=10.00%, r_miss=10.00%, r_tot=19.99%",
+    "details": "anomaly=10%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_10.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_46.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_46.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_46.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_46.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_46.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_46.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_46.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_46.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_46.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 11,
+    "dataset_id": 47,
+    "error_rate": 24.66730544022144,
+    "missing_rate": 0.15000532311295645,
+    "noise_rate": 0.09666773128925796,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=10.00%, r_miss=15.00%, r_tot=25.00%",
+    "details": "anomaly=10%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_11.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_47.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_47.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_47.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_47.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_47.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_47.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_47.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_47.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_47.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 12,
+    "dataset_id": 48,
+    "error_rate": 14.532098371127436,
+    "missing_rate": 0.0,
+    "noise_rate": 0.14532098371127436,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=15.00%, r_miss=0.00%, r_tot=15.00%",
+    "details": "anomaly=15%, missing=0%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_12.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_48.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_48.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_48.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_48.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_48.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_48.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_48.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_48.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_48.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 13,
+    "dataset_id": 49,
+    "error_rate": 19.44000851698073,
+    "missing_rate": 0.050037261790695196,
+    "noise_rate": 0.1443628233791121,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=15.00%, r_miss=5.00%, r_tot=20.00%",
+    "details": "anomaly=15%, missing=5%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_13.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_49.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_49.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_49.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_49.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_49.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_49.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_49.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_49.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_49.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 14,
+    "dataset_id": 50,
+    "error_rate": 24.646012988395615,
+    "missing_rate": 0.09996806132226126,
+    "noise_rate": 0.1464920685616949,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=15.00%, r_miss=10.00%, r_tot=25.00%",
+    "details": "anomaly=15%, missing=10%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_14.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_50.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_50.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_50.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_50.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_50.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_50.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_50.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_50.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_50.csv"
+      }
+    }
+  },
+  {
+    "task_name": "rayyan",
+    "num": 15,
+    "dataset_id": 51,
+    "error_rate": 29.436814649206855,
+    "missing_rate": 0.15000532311295645,
+    "noise_rate": 0.1443628233791121,
+    "m": 12,
+    "n": 1000,
+    "scenario_info": "r_anom=15.00%, r_miss=15.00%, r_tot=30.00%",
+    "details": "anomaly=15%, missing=15%",
+    "paths": {
+      "clean_csv": "../../../datasets/train/rayyan/clean.csv",
+      "dirty_csv": "../../../datasets/train/rayyan/rayyan_15.csv",
+      "repaired_paths": {
+        "mode": "../../../results/cleaned_data/mode/repaired_51.csv",
+        "bigdansing": "../../../results/cleaned_data/bigdansing/repaired_51.csv",
+        "boostclean": "../../../results/cleaned_data/boostclean/repaired_51.csv",
+        "holoclean": "../../../results/cleaned_data/holoclean/repaired_51.csv",
+        "horizon": "../../../results/cleaned_data/horizon/repaired_51.csv",
+        "scared": "../../../results/cleaned_data/scared/repaired_51.csv",
+        "baran": "../../../results/cleaned_data/baran/repaired_51.csv",
+        "Unified": "../../../results/cleaned_data/Unified/repaired_51.csv",
+        "GroundTruth": "../../../results/cleaned_data/GroundTruth/repaired_51.csv"
       }
     }
   }

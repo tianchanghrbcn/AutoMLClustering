@@ -42,10 +42,10 @@ for col in X.columns:
 X = X.dropna()
 X_scaled = StandardScaler().fit_transform(X)
 
-# ------------------ 目标函数权重 (α+β+γ=1) ------------------
-alpha = 0.35
-beta  = 0.65
-gamma = 1.0 - alpha - beta     # 自动补足到 1
+# ------------------ 目标函数权重 (α+β=1) ------------------
+alpha = 0.47
+beta  = 1 - alpha
+gamma = 0.00
 
 # 预计算全局 SSE_max（所有样本视为一个簇）
 global_centroid = X_scaled.mean(axis=0)
@@ -66,9 +66,12 @@ def _sse(labels: np.ndarray) -> float:
     return float(sse)
 
 def combined(db, sil, sse):
-    """α·Sil + β·DB^{-1} + γ·(1 - SSE/SSE_max)"""
-    db = max(db, 1e-6)
-    return alpha * sil + beta * (1.0 / db) + gamma * (1.0 - sse / SSE_max)
+
+    S = (sil + 1.0) / 2.0  # [-1,1] → [0,1]
+    D = 1.0 / (1.0 + db)  # [0,∞) → (0,1]
+    eps = 1e-12
+
+    return 1.0 / (alpha / max(S, eps) + beta / max(D, eps))
 
 def run_hc_tracking(k: int, linkage: str, metric: str):
     """返回 labels, merge_history(list[dict]), core_stats"""

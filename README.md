@@ -4,7 +4,7 @@ This project implements an automated machine learning pipeline for clustering ta
 
 ## Prerequisites
 
-- Python 3.9 or above
+- Python 3.8 or above
 - Linux-based system (tested on Ubuntu)
 - Required packages (installed via `config.sh`)
 
@@ -22,6 +22,7 @@ This project implements an automated machine learning pipeline for clustering ta
    ```bash
    bash init_config.sh
    ```
+   *If the first attempt fails (e.g. interrupted download or partially‑set environment), simply re‑run the setup with `bash config.sh`.*
 
 3. **Activate the virtual environment:**
 
@@ -29,55 +30,93 @@ This project implements an automated machine learning pipeline for clustering ta
    conda activate torch110
    ```
 
-## Running the Project
-
-### Step 1: Data Preprocessing
-Navigate to the `src/pipeline/train` directory and run the preprocessing script:
+### Step 1 — Data Preprocessing
 
 ```bash
 cd src/pipeline/train
 python pre-processing.py
 ```
 
-### Step 2: Start the Training Pipeline
+---
 
-Now, start the training pipeline in the background using `nohup` to ensure it continues running even if the session is disconnected:
+### Step 2 — Start the Training Offline Comparative Experiment
+
 
 ```bash
 nohup python train_pipeline.py > output_training.log 2>&1 &
 ```
 
-- **Note:** The `PYTHONPATH` variable is now set permanently and will persist across sessions.
-- The output and logs will be saved to the `output_training.log` file.
+* `PYTHONPATH` is assumed to be permanently set.
+* Training output appears in `output_training.log`.
 
-### Step 3: Start the Classifier
-After completing the training pipeline, run the classifier in the background using the `nohup` mechanism:
+---
+
+### Step 3 — Analyze Training Results
+
+After `train_pipeline.py` finishes, execute the analysis suite in **the same directory**:
+
+```bash
+python comparison.py
+python ../utils/analyze_cleaning.py
+python ../utils/analyze_cluster.py
+python ../utils/merge_form.py
+```
+
+Result files and plots are saved to
+`/root/AutoMLClustering/results/analysis_results`.
+
+---
+
+### Step 4 — Create and Activate the Classifier Environment
+
+A dedicated environment isolates heavy ML libraries from the rest of the project.
+
+```bash
+conda create -y -n train39 python=3.9
+conda activate train39
+pip install numpy pandas scikit-learn lightgbm optuna joblib openpyxl
+```
+
+---
+
+### Step 5 — Start the Classifier
+
+Stay in `src/pipeline/train` and keep the `train39` environment active:
 
 ```bash
 nohup python classifier.py > output_classifier.log 2>&1 &
 ```
 
-- **Note:** Ensure that the classifier script is in the correct directory and has all the required configurations.
-- Logs and outputs for the classifier will be stored in the `output_classifier.log` file.
+---
 
-### Step 4: Run the Test Pipeline
-Once the training pipeline has been executed, navigate to the `src/pipeline/test` directory and run the test pipeline:
+### Step 6 — Run the Search Script
+
+Still inside the `train39` environment and the same directory:
 
 ```bash
-cd src/pipeline/test
+nohup python search.py > output_search.log 2>&1 &
+```
+
+---
+
+### Step 7 — Run the Test Pipeline
+
+```bash
+cd ../test          # now in src/pipeline/test
 nohup python test_pipeline.py > output_testing.log 2>&1 &
 ```
 
-- This step executes the testing pipeline to validate the training results.
+---
 
-### Step 5: Compute Loss and Accuracy
-After both the training and testing pipelines have completed, run the following script in the `src/pipeline/test` directory to compute the loss and accuracy metrics:
+### Step 8 — Compute Loss and Accuracy
 
 ```bash
 python compute_loss_and_acc.py
 ```
 
-- This script analyzes the clustering results and computes the loss and accuracy.
+This script reads the test outputs and prints final loss/accuracy metrics.
+
+---
 
 ### Additional Notes
 

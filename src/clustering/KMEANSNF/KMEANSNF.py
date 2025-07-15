@@ -29,10 +29,10 @@ except FileNotFoundError:
 
 start_time = time.time()
 
-# ---------------------- 目标函数权重 (α+β+γ=1) ----------------------
-alpha = 0.35
-beta  = 0.65
-gamma = 1.0 - alpha - beta     # 自动补足
+# ---------------------- 目标函数权重 (α+β=1) ----------------------
+alpha = 0.47
+beta  = 1 - alpha
+gamma = 0.00
 
 # --------------------------------------------------
 # 1. 预处理（与基准一致）
@@ -129,8 +129,11 @@ def _add_conv_stats(rec):
         rec["geo_decay"] = 0.0
 
 def combined_score(db, sil, sse):
-    db = max(db, 1e-6)
-    return alpha * sil + beta * (1.0 / db) + gamma * (1.0 - sse / SSE_max)
+    S = (sil + 1.0) / 2.0  # [-1,1] → [0,1]
+    D = 1.0 / (1.0 + db)  # [0,∞) → (0,1]
+    eps = 1e-12
+
+    return 1.0 / (alpha / max(S, eps) + beta / max(D, eps))
 
 def objective(trial):
     k = trial.suggest_int("n_clusters", 5,

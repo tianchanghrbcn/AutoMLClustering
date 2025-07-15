@@ -55,7 +55,7 @@ dependencies:
   - ncurses=6.4=h6a678d5_0
   - numpy=1.24.3=py38hf6e8229_1
   - numpy-base=1.24.3=py38h060ed82_1
-  - openpyxl==3.1.2
+  - openpyxl=3.1.2          # <-- fixed version spec
   - openssl=3.0.12=h7f8727e_0
   - packaging=23.1=py38h06a4308_0
   - parso=0.8.3=pyhd3eb1b0_0
@@ -96,9 +96,9 @@ dependencies:
   - zeromq=4.3.4=h2531618_0
   - zipp=3.11.0=py38h06a4308_0
   - zlib=1.2.13=h5eee18b_0
+
   - pip:
-      - --index-url https://pypi.tuna.tsinghua.edu.cn/simple
-      - --trusted-host pypi.tuna.tsinghua.edu.cn
+      - --index-url https://pypi.org/simple   # direct to official PyPI
       - bleach==5.0.1
       - blis==0.9.1
       - catalogue==2.0.8
@@ -187,4 +187,5 @@ dependencies:
       - webencodings==0.5.1
       - widgetsnbextension==4.0.3
       - xgboost==1.6.2
+
 prefix: /root/miniconda3/envs/torch110

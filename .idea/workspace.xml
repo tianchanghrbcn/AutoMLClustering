@@ -5,163 +5,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60a6bb97-6ce2-4009-84ba-b46c0e9a4cc3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutoMLClustering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoMLClustering.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/train/beers/beers_explanation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/train/beers/beers_explanation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/train/hospital/hospital_explanation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/train/hospital/hospital_explanation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/train/rayyan/rayyan_explanation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/train/rayyan/rayyan_explanation.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/analyzed_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/analyzed_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_data/Unified/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_data/Unified/repaired_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_data/baran/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_data/baran/repaired_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_data/bigdansing/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_data/bigdansing/repaired_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_data/boostclean/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_data/boostclean/repaired_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_data/holoclean/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_data/holoclean/repaired_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_data/horizon/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_data/horizon/repaired_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_data/mode/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_data/mode/repaired_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_data/scared/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_data/scared/repaired_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/cleaned_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/cleaned_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/Unified/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/Unified/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/Unified/clustered_0/repaired_0_raw_core_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/Unified/clustered_0/repaired_0_raw_core_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/bigdansing/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/bigdansing/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/bigdansing/clustered_0/repaired_0_raw_core_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/bigdansing/clustered_0/repaired_0_raw_core_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/boostclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/boostclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/boostclean/clustered_0/repaired_0_raw_core_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/boostclean/clustered_0/repaired_0_raw_core_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/holoclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/holoclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/holoclean/clustered_0/repaired_0_raw_core_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/holoclean/clustered_0/repaired_0_raw_core_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/horizon/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/horizon/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/horizon/clustered_0/repaired_0_raw_core_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/horizon/clustered_0/repaired_0_raw_core_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/mode/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/mode/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/mode/clustered_0/repaired_0_raw_core_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/mode/clustered_0/repaired_0_raw_core_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/raha_baran/clustered_0/repaired_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/raha_baran/clustered_0/repaired_0_raw_core_stats.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/scared/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/scared/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/DBSCAN/scared/clustered_0/repaired_0_raw_core_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/DBSCAN/scared/clustered_0/repaired_0_raw_core_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/Unified/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/Unified/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/Unified/clustered_0/repaired_0_raw_gmm_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/Unified/clustered_0/repaired_0_raw_gmm_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/Unified/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/Unified/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/bigdansing/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/bigdansing/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/bigdansing/clustered_0/repaired_0_raw_gmm_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/bigdansing/clustered_0/repaired_0_raw_gmm_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/bigdansing/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/bigdansing/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/boostclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/boostclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/boostclean/clustered_0/repaired_0_raw_gmm_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/boostclean/clustered_0/repaired_0_raw_gmm_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/boostclean/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/boostclean/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/holoclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/holoclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/holoclean/clustered_0/repaired_0_raw_gmm_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/holoclean/clustered_0/repaired_0_raw_gmm_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/holoclean/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/holoclean/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/horizon/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/horizon/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/horizon/clustered_0/repaired_0_raw_gmm_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/horizon/clustered_0/repaired_0_raw_gmm_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/horizon/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/horizon/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/mode/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/mode/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/mode/clustered_0/repaired_0_raw_gmm_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/mode/clustered_0/repaired_0_raw_gmm_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/mode/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/mode/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/raha_baran/clustered_0/repaired_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/raha_baran/clustered_0/repaired_0_raw_gmm_history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/raha_baran/clustered_0/repaired_0_raw_summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/scared/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/scared/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/scared/clustered_0/repaired_0_raw_gmm_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/scared/clustered_0/repaired_0_raw_gmm_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/GMM/scared/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/GMM/scared/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/Unified/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/Unified/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/Unified/clustered_0/repaired_0_raw_merge_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/Unified/clustered_0/repaired_0_raw_merge_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/Unified/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/Unified/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/bigdansing/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/bigdansing/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/bigdansing/clustered_0/repaired_0_raw_merge_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/bigdansing/clustered_0/repaired_0_raw_merge_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/bigdansing/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/bigdansing/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/boostclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/boostclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/boostclean/clustered_0/repaired_0_raw_merge_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/boostclean/clustered_0/repaired_0_raw_merge_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/boostclean/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/boostclean/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/holoclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/holoclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/holoclean/clustered_0/repaired_0_raw_merge_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/holoclean/clustered_0/repaired_0_raw_merge_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/holoclean/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/holoclean/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/horizon/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/horizon/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/horizon/clustered_0/repaired_0_raw_merge_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/horizon/clustered_0/repaired_0_raw_merge_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/horizon/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/horizon/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/mode/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/mode/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/mode/clustered_0/repaired_0_raw_merge_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/mode/clustered_0/repaired_0_raw_merge_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/mode/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/mode/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/raha_baran/clustered_0/repaired_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/raha_baran/clustered_0/repaired_0_raw_merge_history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/raha_baran/clustered_0/repaired_0_raw_summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/scared/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/scared/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/scared/clustered_0/repaired_0_raw_merge_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/scared/clustered_0/repaired_0_raw_merge_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/HC/scared/clustered_0/repaired_0_raw_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/HC/scared/clustered_0/repaired_0_raw_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/Unified/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/Unified/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/Unified/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/Unified/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/Unified/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/Unified/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/bigdansing/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/bigdansing/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/bigdansing/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/bigdansing/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/bigdansing/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/bigdansing/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/boostclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/boostclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/boostclean/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/boostclean/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/boostclean/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/boostclean/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/holoclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/holoclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/holoclean/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/holoclean/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/holoclean/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/holoclean/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/horizon/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/horizon/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/horizon/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/horizon/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/horizon/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/horizon/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/mode/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/mode/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/mode/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/mode/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/mode/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/mode/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/raha_baran/clustered_0/repaired_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/raha_baran/clustered_0/repaired_0_centroid_history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/raha_baran/clustered_0/repaired_0_summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/scared/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/scared/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/scared/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/scared/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANS/scared/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANS/scared/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/Unified/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/Unified/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/Unified/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/Unified/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/Unified/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/Unified/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/bigdansing/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/bigdansing/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/bigdansing/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/bigdansing/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/bigdansing/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/bigdansing/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/boostclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/boostclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/boostclean/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/boostclean/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/boostclean/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/boostclean/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/holoclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/holoclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/holoclean/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/holoclean/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/holoclean/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/holoclean/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/horizon/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/horizon/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/horizon/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/horizon/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/horizon/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/horizon/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/mode/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/mode/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/mode/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/mode/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/mode/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/mode/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/raha_baran/clustered_0/repaired_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/raha_baran/clustered_0/repaired_0_centroid_history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/raha_baran/clustered_0/repaired_0_summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/scared/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/scared/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/scared/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/scared/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/scared/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSNF/scared/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/Unified/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/Unified/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/Unified/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/Unified/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/Unified/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/Unified/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/bigdansing/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/bigdansing/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/bigdansing/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/bigdansing/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/bigdansing/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/bigdansing/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/boostclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/boostclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/boostclean/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/boostclean/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/boostclean/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/boostclean/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/holoclean/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/holoclean/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/holoclean/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/holoclean/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/holoclean/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/holoclean/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/horizon/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/horizon/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/horizon/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/horizon/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/horizon/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/horizon/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/mode/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/mode/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/mode/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/mode/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/mode/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/mode/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/raha_baran/clustered_0/repaired_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/raha_baran/clustered_0/repaired_0_centroid_history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/raha_baran/clustered_0/repaired_0_summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/scared/clustered_0/repaired_0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/scared/clustered_0/repaired_0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/scared/clustered_0/repaired_0_centroid_history.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/scared/clustered_0/repaired_0_centroid_history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/scared/clustered_0/repaired_0_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_data/KMEANSPPS/scared/clustered_0/repaired_0_summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/clustered_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/clustered_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/eigenvectors.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/eigenvectors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hospital/raha_baran/results-dataset_0_algo_2/all_compute_dataset_0_algo_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hospital/raha_baran/results-dataset_0_algo_2/onlyED_dataset_0_algo_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hospital/raha_baran/results-dataset_0_algo_2/oriED+EC_dataset_0_algo_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hospital/raha_baran/results-dataset_0_algo_2/repaired_dataset_0_algo_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pipeline/train/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/train/classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pipeline/train/hospital.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/init_config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/init_config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/DBSCAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/DBSCAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/GMM.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/GMM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/HC.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/HC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/KMEANS.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/KMEANS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/KMEANSNF.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/KMEANSNF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/KMEANSPPS.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/KMEANSPPS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/all_runs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/outputs/all_runs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/best_weights.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/grid_scores.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_beers_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_beers_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_beers_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_beers_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_beers_0.2_0.8_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_flights_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_flights_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_flights_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_flights_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_flights_0.2_0.8_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_hospital_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_hospital_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_hospital_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_hospital_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_rayyan_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_rayyan_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_rayyan_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/DBSCAN_clean_rayyan_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/GMM_clean_rayyan_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/GMM_clean_rayyan_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/GMM_clean_rayyan_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/GMM_clean_rayyan_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.2_0.8_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.35_0.2_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.35_0.35_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.35_0.5_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_beers_0.35_0.65_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.2_0.8_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.35_0.2_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.35_0.35_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.35_0.5_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_flights_0.35_0.65_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.2_0.8_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.35_0.2_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.35_0.35_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.35_0.5_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_hospital_0.35_0.65_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_rayyan_0.2_0.2_0.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_rayyan_0.2_0.35_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_rayyan_0.2_0.5_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_rayyan_0.2_0.65_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_rayyan_0.2_0.8_0.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_rayyan_0.35_0.2_0.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_rayyan_0.35_0.35_0.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/logs/HC_clean_rayyan_0.35_0.5_0.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/quick_weight_scan.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/quick_weight_scan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clustering/DBSCAN/DBSCAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/clustering/DBSCAN/DBSCAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clustering/GMM/GMM.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/clustering/GMM/GMM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clustering/HC/HC.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/clustering/HC/HC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clustering/KMEANS/KMEANS.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/clustering/KMEANS/KMEANS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clustering/KMEANSNF/KMEANSNF.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/clustering/KMEANSNF/KMEANSNF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clustering/KMEANSPPS/KMEANSPPS.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/clustering/KMEANSPPS/KMEANSPPS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/train/best_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/train/comparison.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/train/comparison.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/train/comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/train/comparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/train/distribution_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/train/inject_all_errors_advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/train/inject_all_errors_advanced.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/train/pre-processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/train/pre-processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/utils/analyze_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/utils/analyze_cleaning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +112,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -195,13 +128,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.alpha-graphs.executor": "Run",
     "Python.analyze_cleaning.executor": "Run",
     "Python.analyze_cluster.executor": "Run",
     "Python.classifier.executor": "Run",
+    "Python.experiment_flowchart.executor": "Run",
     "Python.merge_form.executor": "Run",
+    "Python.pre-processing.executor": "Run",
+    "Python.quick_weight_scan.executor": "Run",
     "Python.search.executor": "Run",
     "Python.search_ucb.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -233,6 +171,11 @@
       <workItem from="1751635920226" duration="2881000" />
       <workItem from="1751810273359" duration="981000" />
       <workItem from="1751828375704" duration="27635000" />
+      <workItem from="1752402081938" duration="5532000" />
+      <workItem from="1752470292815" duration="19233000" />
+      <workItem from="1752503817056" duration="908000" />
+      <workItem from="1752552005711" duration="334000" />
+      <workItem from="1752552355757" duration="11138000" />
     </task>
     <servers />
   </component>
@@ -241,9 +184,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutoMLClustering$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1751890952406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/train" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$pre_processing.coverage" NAME="pre-processing Coverage Results" MODIFIED="1752566864450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/train" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$analyze_cleaning.coverage" NAME="analyze_cleaning Coverage Results" MODIFIED="1751892478432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$merge_form.coverage" NAME="merge_form Coverage Results" MODIFIED="1751892535914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$alpha_graphs.coverage" NAME="alpha-graphs Coverage Results" MODIFIED="1752497911145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre-experiment" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$experiment_flowchart.coverage" NAME="experiment_flowchart Coverage Results" MODIFIED="1752553544059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$search.coverage" NAME="search Coverage Results" MODIFIED="1751894112531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/train" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$quick_weight_scan.coverage" NAME="quick_weight_scan Coverage Results" MODIFIED="1752483291456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre-experiment" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$analyze_cluster.coverage" NAME="analyze_cluster Coverage Results" MODIFIED="1751892531768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$search_ucb.coverage" NAME="search_ucb Coverage Results" MODIFIED="1751887139270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/train" />
   </component>

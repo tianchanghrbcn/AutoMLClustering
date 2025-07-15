@@ -33,11 +33,10 @@ for c in X.columns:
 X = X.dropna()
 X_scaled = StandardScaler().fit_transform(X)
 
-# ------------------------ 指标权重 (α+β+γ=1) ------------------------
-alpha = 0.35
-beta  = 0.65
-gamma = 1.0 - alpha - beta      # 自动保证和为 1
-
+# ------------------------ 指标权重 (α+β=1) ------------------------
+alpha = 0.47
+beta  = 1 - alpha
+gamma = 0.00
 # -------------------------- 预计算 SSE_max --------------------------
 global_centroid = X_scaled.mean(axis=0)
 SSE_max = float(np.sum((X_scaled - global_centroid) ** 2))
@@ -72,9 +71,11 @@ def evaluate(labels: np.ndarray):
     db  = max(db, 1e-6)                       # 防止除零
 
     sse = _sse(labels)
-    sse_term = 1.0 - sse / SSE_max            # 归一化后越大越好
+    S = (sil + 1.0) / 2.0  # [-1,1] → [0,1]
+    D = 1.0 / (1.0 + db)  # [0,∞) → (0,1]
+    eps = 1e-12
 
-    combined = alpha * sil + beta * (1.0 / db) + gamma * sse_term
+    combined = 1.0 / (alpha / max(S, eps) + beta / max(D, eps))
     return combined, sil, db, noise_ratio, sse
 
 # -------------------------- Optuna 搜索 -----------------------------

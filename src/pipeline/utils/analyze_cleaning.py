@@ -10,14 +10,24 @@ cleaning_metrics.py
 import csv
 import json
 import os
+import re
 from collections import defaultdict
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-from src.pipeline.train.distribution_analysis import parse_details
-
+def parse_details(details_str):
+    """从 e.g. "anomaly=2.50%, missing=0.00%, format=2.50%, knowledge=0.00%" 中解析比例."""
+    result = {"anomaly": 0.0, "missing": 0.0}
+    if not details_str:
+        return result
+    pattern = r'(\w+)\s*=\s*([\d\.]+)\%'
+    matches = re.findall(pattern, details_str)
+    for (k, v) in matches:
+        if k in result:
+            result[k] = float(v)
+    return result
 
 def main() -> None:
     # 1. 读取 comparison.json（相对于本脚本）

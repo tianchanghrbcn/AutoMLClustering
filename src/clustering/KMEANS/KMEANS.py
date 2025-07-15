@@ -38,10 +38,10 @@ except FileNotFoundError:
 
 start_time = time.time()
 
-# ---------------------- 权重设置 (α+β+γ=1) ----------------------
-alpha = 0.35
-beta  = 0.65
-gamma = 1.0 - alpha - beta   # 自动补足
+# ---------------------- 权重设置 (α+β=1) ----------------------
+alpha = 0.47
+beta  = 1 - alpha
+gamma = 0.00
 
 # --------------------------------------------------
 # 1. 预处理
@@ -108,8 +108,11 @@ def add_extra_stats(rec):
     rec.update({"auc_delta": auc_delta, "geo_decay": geo_decay})
 
 def combined_score(db, sil, sse):
-    db = max(db, 1e-6)
-    return alpha * sil + beta * (1.0 / db) + gamma * (1.0 - sse / SSE_max)
+    S = (sil + 1.0) / 2.0  # [-1,1] → [0,1]
+    D = 1.0 / (1.0 + db)  # [0,∞) → (0,1]
+    eps = 1e-12
+
+    return 1.0 / (alpha / max(S, eps) + beta / max(D, eps))
 
 def make_record(trial_number, k, labels, hist, iters, sse):
     db  = davies_bouldin_score(X_scaled, labels)

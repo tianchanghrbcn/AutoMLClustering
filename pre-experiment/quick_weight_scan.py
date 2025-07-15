@@ -1,23 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-grid_search_driver.py  ——  统一 α-β-γ 权重网格搜索（默认并行 4）
+grid_search_driver.py  ——  搜索 α ∈ [0,1]（20 等分）并汇总：
+    • max_variance : 4 个数据集上 6 算法得分方差的最大值
+    • median_avg   : 4 个数据集对应 6 算法得分中位数的平均值
 
-示例
------
-# 默认：step=0.15，20 次 Optuna 试验，4 进程并行
-python grid_search_driver.py
-
-# 指定并行数、Optuna 试验次数
-python grid_search_driver.py --parallel 8 --trials 30
-
-# 固定测试几组权重
-python grid_search_driver.py --weights 0.3,0.3,0.4 0.5,0.2,0.3
+运行示例
+---------
+python grid_search_driver.py               # 默认并行 4、Optuna 20 trial
+python grid_search_driver.py --parallel 8  # 指定并行数
 """
-from __future__ import annotations   # 让 3.9 支持 -> 注释字符串中可写 X | Y 型
+from __future__ import annotations
 
 import argparse
-import itertools
 import json
 import multiprocessing as mp
 import os
@@ -25,14 +20,14 @@ import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import List, Optional, Tuple
+from typing import Dict, List, Tuple
 
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
 # ---------- 各算法脚本 ----------
-SCRIPTS = {
+SCRIPTS: Dict[str, Path] = {
     "DBSCAN":     Path("DBSCAN.py"),
     "GMM":        Path("GMM.py"),
     "HC":         Path("HC.py"),
@@ -47,7 +42,7 @@ LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # ---------- 查找 summary ----------
-def find_summary(algo: str, dataset: str) -> Optional[Path]:
+def find_summary(algo: str, dataset: str) -> Path | None:
     algo_dir = RESULT_ROOT / algo
     if not algo_dir.exists():
         return None
@@ -66,9 +61,13 @@ def run_job(job_args: Tuple[Path, str, float, float, float, int]) -> dict:
         "ALGO":          algo,
     })
 
-    cmd = [sys.executable, str(SCRIPTS[algo]),
-           "--alpha",  f"{a}", "--beta", f"{b}", "--gamma", f"{g}",
-           "--trials", str(trials)]
+    cmd = [
+        sys.executable, str(SCRIPTS[algo]),
+        "--alpha",  f"{a}",
+        "--beta",   f"{b}",
+        "--gamma",  f"{g}",
+        "--trials", str(trials)
+    ]
 
     t0      = datetime.now()
     proc    = subprocess.run(cmd, env=env,
@@ -76,59 +75,57 @@ def run_job(job_args: Tuple[Path, str, float, float, float, int]) -> dict:
     elapsed = (datetime.now() - t0).total_seconds()
 
     summary_fp = find_summary(algo, csv_path.stem)
+    combined = None
     if summary_fp and summary_fp.exists():
-        js  = json.loads(summary_fp.read_text(encoding="utf-8"))
-        sil = js.get("best_silhouette") or js.get("silhouette") or 0.0
-        db  = js.get("best_db")         or js.get("davies_bouldin") or 0.0
-        sse = js.get("best_sse")        or js.get("sse")            or 0.0
+        js = json.loads(summary_fp.read_text(encoding="utf-8"))
+        # ① 顶层直接有 combined
+        if "combined" in js and isinstance(js["combined"], (int, float)):
+            combined = js["combined"]
+        # ② nested raw / cleaned
+        else:
+            for v in js.values():
+                if isinstance(v, dict) and "combined" in v:
+                    combined = v["combined"]
+                    break
+
+    if combined is not None:
         return dict(status="OK", dataset=csv_path.stem, algo=algo,
-                    alpha=a, beta=b, gamma=g,
-                    silhouette=sil,
-                    db_inv=0.0 if db == 0 else 1.0 / db,
-                    sse_term=0.0 if sse == 0 else 1.0 - sse / (sse + 1e-9),
-                    elapsed=elapsed)
+                    alpha=a, combined=float(combined), elapsed=elapsed)
 
     # -------- 失败：写日志 --------
-    log_name = f"{algo}_{csv_path.stem}_{a}_{b}_{g}.log".replace(" ", "")
+    log_name = f"{algo}_{csv_path.stem}_{a:.3f}.log".replace(" ", "")
     (LOG_DIR / log_name).write_text(
         "CMD: " + " ".join(cmd) +
         f"\nReturn code: {proc.returncode}\n\n--- STDOUT ---\n{proc.stdout}\n"
         f"--- STDERR ---\n{proc.stderr}",
         encoding="utf-8")
-
-    tqdm.write(f"[FAIL] {algo}/{csv_path.stem} α={a} β={b} γ={g} "
-               f"({elapsed:.1f}s) → {log_name}")
+    tqdm.write(f"[FAIL] {algo}/{csv_path.stem} α={a:.3f} ({elapsed:.1f}s) → {log_name}")
     return dict(status="FAIL", dataset=csv_path.stem, algo=algo,
-                alpha=a, beta=b, gamma=g, elapsed=elapsed)
+                alpha=a, elapsed=elapsed)
 
 
-# ---------- 评分 ----------
-def evaluate_grid(df: pd.DataFrame) -> List[dict]:
-    for m in ["silhouette", "db_inv", "sse_term"]:
-        df[m + "_n"] = df.groupby("dataset")[m].transform(
-            lambda x: (x - x.min()) / (x.max() - x.min() + 1e-12))
+# ---------- 指标计算 ----------
+def calc_metrics(df: pd.DataFrame) -> pd.DataFrame:
+    rows: List[dict] = []
+    for alpha, sub in df.groupby("alpha"):
+        # 每个数据集 → 该 α 下 6 算法得分
+        var_per_ds = sub.groupby("dataset")["combined"].var(ddof=0).fillna(0.0)
+        med_per_ds = sub.groupby("dataset")["combined"].median()
 
-    rows = []
-    for (a, b, g), sub in df.groupby(["alpha", "beta", "gamma"]):
-        score = (0.4 * sub["silhouette_n"].mean() +
-                 0.4 * sub["db_inv_n"].mean()    +
-                 0.2 * sub["sse_term_n"].mean())
-        rows.append(dict(alpha=a, beta=b, gamma=g, score=float(score)))
-    return sorted(rows, key=lambda r: r["score"], reverse=True)
+        rows.append({
+            "alpha":        alpha,
+            "max_variance": var_per_ds.max(),
+            "median_avg":   med_per_ds.mean()
+        })
+    return pd.DataFrame(rows).sort_values("alpha").reset_index(drop=True)
 
 
 # ---------- 主入口 ----------
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--step", type=float, default=0.15,
-                    help="网格步长 (默认 0.15)")
-    ap.add_argument("--weights", nargs="+",
-                    help="显式权重组合，如 0.3,0.3,0.4 0.4,0.4,0.2")
-    ap.add_argument("--trials", type=int, default=20,
-                    help="各脚本 Optuna trial 数")
-    ap.add_argument("--parallel", type=int, default=4,
-                    help="并行进程数 (默认 4)")
-    ap.add_argument("--out_dir", default="outputs", help="结果输出目录")
+    ap.add_argument("--trials",   type=int, default=20, help="Optuna trial 数")
+    ap.add_argument("--parallel", type=int, default=4,  help="并行进程数")
+    ap.add_argument("--out_dir",  default="outputs",    help="结果输出目录")
     args = ap.parse_args()
 
     # ------------ 数据集 ------------
@@ -137,22 +134,18 @@ def main() -> None:
     if not datasets:
         sys.exit("❌ data 目录没有 CSV 文件")
 
-    # ------------ 权重网格 ------------
-    if args.weights:
-        grid: List[Tuple[float, float, float]] = [
-            tuple(map(float, w.split(","))) for w in args.weights]
-    else:
-        vals = np.round(np.arange(0.2, 0.801, args.step), 3)
-        grid = [(a, b, round(1 - a - b, 3))
-                for a, b in itertools.product(vals, repeat=2)
-                if a + b <= 1 + 1e-9]
-    print(f"搜索权重组合数: {len(grid)}")
+    # ------------ α 列表（20 等分） ------------
+    alphas = np.linspace(0.0, 1.0, 20)      # 20 行结果
+    print(f"搜索 α 数: {len(alphas)} → {np.round(alphas,4)}")
 
-    jobs = [(csv, algo, a, b, g, args.trials)
-            for (a, b, g) in grid
-            for csv in datasets
-            for algo in SCRIPTS]
-    print(f"总任务数: {len(jobs)} (数据集 {len(datasets)} × 算法 {len(SCRIPTS)} × 权重 {len(grid)})")
+    jobs = [
+        (csv, algo, float(a), float(1.0 - a), 0.0, args.trials)
+        for a in alphas
+        for csv in datasets
+        for algo in SCRIPTS
+    ]
+    print(f"总任务数: {len(jobs)} "
+          f"(数据集 {len(datasets)} × 算法 {len(SCRIPTS)} × α {len(alphas)})")
 
     ok, fail, results = 0, 0, []
     with mp.Pool(args.parallel) as pool:
@@ -167,27 +160,22 @@ def main() -> None:
     if not results:
         sys.exit("\n❌ 全部任务失败，请查看 logs")
 
-    df_all     = pd.DataFrame(results)
-    best_grid  = evaluate_grid(df_all)
-    best_combo = best_grid[0]
+    df_all        = pd.DataFrame(results)
+    metrics_table = calc_metrics(df_all)
 
     out_dir = Path(args.out_dir); out_dir.mkdir(exist_ok=True)
     df_all.to_csv(out_dir / "all_runs.csv", index=False)
-    pd.DataFrame(best_grid).to_csv(out_dir / "grid_scores.csv", index=False)
-    (out_dir / "best_weights.json").write_text(
-        json.dumps(best_combo, indent=4, ensure_ascii=False), encoding="utf-8")
+    metrics_table.to_csv(out_dir / "alpha_metrics.csv", index=False)
 
-    print("\n🟢 最优权重")
-    print(f"   alpha={best_combo['alpha']:.3f}, "
-          f"beta={best_combo['beta']:.3f}, "
-          f"gamma={best_combo['gamma']:.3f}")
-    print(f"   平均归一化得分 = {best_combo['score']:.4f}")
-    print(f"✔ 成功 {ok}  ✖ 失败 {fail}")
+    print("\n===== 20 × 3 结果 =====")
+    print(metrics_table.to_string(index=False, float_format="%.6f"))
+
+    print(f"\n✔ 成功 {ok}  ✖ 失败 {fail}")
     if fail:
         print(f"查看失败日志 → {LOG_DIR.resolve()}")
-    print(f"结果已保存到 {out_dir.resolve()}")
+    print(f"所有结果已保存至 → {out_dir.resolve()}")
 
 
 if __name__ == "__main__":
-    mp.freeze_support()   # Windows 兼容
+    mp.freeze_support()
     main()

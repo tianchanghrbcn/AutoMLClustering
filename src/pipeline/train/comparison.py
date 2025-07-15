@@ -1,107 +1,95 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+comparison.py · 解析 eigenvectors.json + explanation.txt，生成 comparison.json
+
+变动：
+    • 解析新版 explanation.txt（行格式: “01 | Anom=0%, Miss=5% → …”）
+    • 将 details 统一映射为 “anomaly=0%, missing=5%” 等小写长写形式
+"""
+
 import json
 import os
 import re
 
-# （1）先定义关键路径 & 全局变量
-EIGENVECTORS_PATH = "../../../results/eigenvectors.json"  # 3层向上到 results/eigenvectors.json
+# ---------- 配置 ----------
+EIGENVECTORS_PATH = "../../../results/eigenvectors.json"
 TASK_NAMES = ["beers", "flights", "hospital", "rayyan"]
-CLEANING_METHODS = ["mode", "bigdansing", "boostclean", "holoclean", "horizon", "scared", "baran", "Unified", "GroundTruth"]
+CLEANING_METHODS = ["mode", "bigdansing", "boostclean", "holoclean",
+                    "horizon", "scared", "baran", "Unified", "GroundTruth"]
 
+# ---------- 解析 explanation.txt ----------
+def _normalize_details(details_raw: str) -> str:
+    """
+    将 “Anom=5%, Miss=10%” → “anomaly=5%, missing=10%”
+    """
+    m = re.match(r'(?i)Anom\s*=\s*([\d.]+%)\s*,\s*Miss\s*=\s*([\d.]+%)', details_raw)
+    if m:
+        return f"anomaly={m.group(1)}, missing={m.group(2)}"
+    # 若未匹配，直接小写返回
+    return details_raw.lower()
 
-# （2）工具函数：解析 explanation.txt 内容
 def parse_explanation_file(explanation_path):
-    scenario_dict = {}
-
+    """
+    返回: { num: {"details": "...", "scenario_info": "..."} }
+    行样例:
+        01 | Anom=0%, Miss=5%  →  r_anom=0.00%, r_miss=5.00%, r_tot=5.00
+    """
+    out = {}
     if not os.path.isfile(explanation_path):
-        return scenario_dict
+        return out
 
-    with open(explanation_path, 'r', encoding='utf-8') as f:
-        current_num = None
+    with open(explanation_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            if not line:
+            if not line or line.startswith("Error‑injection"):
                 continue
+            m = re.match(r'^(\d+)\s*\|\s*(.*?)\s*→\s*(.*)$', line)
+            if not m:
+                continue
+            num          = int(m.group(1))
+            details_part = _normalize_details(m.group(2).strip())
+            info_part    = m.group(3).strip()
+            out[num] = {"details": details_part, "scenario_info": info_part}
+    return out
 
-            # Match lines like "5 => anomaly=0%, missing=5%"
-            match = re.match(r'^(\d+)\s*=>\s*(.*)$', line)
-            if match:
-                current_num = int(match.group(1))
-                details = match.group(2).strip()
-                scenario_dict[current_num] = {
-                    "details": details,
-                    "scenario_info": ""
-                }
-            else:
-                # If a line is enclosed in parentheses, treat it as scenario_info
-                match_info = re.match(r'^\((.*)\)$', line)
-                if match_info and current_num is not None:
-                    scenario_dict[current_num]["scenario_info"] = match_info.group(1).strip()
-
-    return scenario_dict
-
-
+# ---------- 主流程 ----------
 def main():
-    # （3） 读取 eigenvectors.json
+    # 1) 读取 eigenvectors.json
     eigenvectors_fullpath = os.path.abspath(EIGENVECTORS_PATH)
     if not os.path.isfile(eigenvectors_fullpath):
         print(f"[ERROR] eigenvectors.json not found at {eigenvectors_fullpath}")
         return
+    with open(eigenvectors_fullpath, "r", encoding="utf-8") as f:
+        eigen_data = json.load(f)
 
-    with open(eigenvectors_fullpath, 'r', encoding='utf-8') as f:
-        eigen_data = json.load(f)  # eigen_data是一个list，每个元素是个dict
-
+    # 2) 构建 task_num ➜ [records] 映射
     file_map = {}
     for rec in eigen_data:
-        task_name = rec["dataset_name"]  # e.g. "flights"
-        csv_file = rec["csv_file"]  # e.g. "flights_5.csv"
-        dataset_id = rec["dataset_id"]
-
-        base_name = os.path.splitext(csv_file)[0]  # "flights_5"
-        # 取最后的 '_' 后面部分当 num
-        parts = base_name.split('_')
-        if len(parts) < 2:
-            # 说明不符合 "xxx_num" 格式
-            continue
+        tname    = rec["dataset_name"]
+        csv_file = rec["csv_file"]              # e.g. flights_3.csv
         try:
-            num = int(parts[-1])  # e.g. 5
-        except:
+            num = int(os.path.splitext(csv_file)[0].split('_')[-1])
+        except ValueError:
             continue
+        key = f"{tname}_{num}"
+        file_map.setdefault(key, []).append(rec)
 
-        key = f"{task_name}_{num}"
-        if key not in file_map:
-            file_map[key] = []
-
-        file_map[key].append(rec)
-
-    # （4） 构建一个大的列表, 里面每个元素包含整合信息
+    # 3) 整合 comparison_list
     comparison_list = []
-
-    # 遍历TASK_NAMES
     for tname in TASK_NAMES:
-        # 解析 explanation
-        explanation_path = f"../../../datasets/train/{tname}/{tname}_explanation.txt"
-        scenario_dict = parse_explanation_file(explanation_path)
-
-        # 干净数据路径
+        exp_path = f"../../../datasets/train/{tname}/{tname}_explanation.txt"
+        scenarios = parse_explanation_file(exp_path)
         clean_csv_path = f"../../../datasets/train/{tname}/clean.csv"
 
-        # scenario_dict 形如 {5: {"scenario_info":"xx","details":"yy"}, 7:{...}}
-        for num_val, scenario_info in scenario_dict.items():
+        for num_val, meta in scenarios.items():
             key = f"{tname}_{num_val}"
-
-            # 脏数据
             dirty_csv_path = f"../../../datasets/train/{tname}/{tname}_{num_val}.csv"
+            recs = file_map.get(key, [])
 
-            # 可能在 eigenvectors.json 里出现多个record
-            rec_list = file_map.get(key, [])
-
-            # 如果在 eigenvectors.json没匹配到, 也可以生成一个"空"记录
-            if not rec_list:
-                # 可能 eigenvectors.json没包含  => 在comparisons写一个无 dataset_id
-                empty_obj = {
+            if not recs:  # eigenvectors.json 无记录
+                comparison_list.append({
                     "task_name": tname,
                     "num": num_val,
                     "dataset_id": None,
@@ -110,59 +98,43 @@ def main():
                     "noise_rate": None,
                     "m": None,
                     "n": None,
-                    "scenario_info": scenario_info.get("scenario_info", ""),
-                    "details": scenario_info.get("details", ""),
+                    "scenario_info": meta["scenario_info"],
+                    "details": meta["details"],
                     "paths": {
                         "clean_csv": clean_csv_path,
                         "dirty_csv": dirty_csv_path,
-                        "repaired_paths": {}  # 这个为空
+                        "repaired_paths": {}
                     }
-                }
-                comparison_list.append(empty_obj)
+                })
             else:
-                # 对于 rec_list 里的每条 eigen record
-                for rec in rec_list:
-                    dataset_id = rec["dataset_id"]
-                    error_rate = rec.get("error_rate", None)
-                    missing_rate = rec.get("missing_rate", None)
-                    noise_rate = rec.get("noise_rate", None)
-                    m = rec.get("m", None)
-                    n = rec.get("n", None)
-
-                    # 构建 repaired_paths dict
-                    # e.g. "results/cleaned_data/{method}/repaired_{id}.csv"
-                    repaired_dict = {}
-                    for method in CLEANING_METHODS:
-                        repaired_path = f"../../../results/cleaned_data/{method}/repaired_{dataset_id}.csv"
-                        repaired_dict[method] = repaired_path
-
-                    # 整合
-                    combined_obj = {
+                for rec in recs:
+                    dataset_id   = rec["dataset_id"]
+                    repaired_map = {
+                        m: f"../../../results/cleaned_data/{m}/repaired_{dataset_id}.csv"
+                        for m in CLEANING_METHODS
+                    }
+                    comparison_list.append({
                         "task_name": tname,
                         "num": num_val,
                         "dataset_id": dataset_id,
-                        "error_rate": error_rate,
-                        "noise_rate": noise_rate,
-                        "m": m,
-                        "n": n,
-                        "scenario_info": scenario_info.get("scenario_info", ""),
-                        "details": scenario_info.get("details", ""),
+                        "error_rate": rec["error_rate"],
+                        "missing_rate": rec["missing_rate"],
+                        "noise_rate": rec["noise_rate"],
+                        "m": rec["m"],
+                        "n": rec["n"],
+                        "scenario_info": meta["scenario_info"],
+                        "details": meta["details"],
                         "paths": {
                             "clean_csv": clean_csv_path,
                             "dirty_csv": dirty_csv_path,
-                            "repaired_paths": repaired_dict
+                            "repaired_paths": repaired_map
                         }
-                    }
-                    comparison_list.append(combined_obj)
+                    })
 
-    # （5） 生成 comparison.json
-    # 如果想加更多内容或字段, 可在 combined_obj 里补充
-    out_path = "comparison.json"
-    with open(out_path, 'w', encoding='utf-8') as outf:
-        json.dump(comparison_list, outf, indent=2, ensure_ascii=False)
-
+    # 4) 写出 comparison.json
+    with open("comparison.json", "w", encoding="utf-8") as f:
+        json.dump(comparison_list, f, indent=2, ensure_ascii=False)
     print(f"[INFO] comparison.json generated successfully! Total records: {len(comparison_list)}")
-
 
 if __name__ == "__main__":
     main()

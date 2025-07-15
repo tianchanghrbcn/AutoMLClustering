@@ -27,10 +27,10 @@ try:
 except FileNotFoundError:
     raise SystemExit(f"File '{csv_file_path}' not found.")
 
-# ---------- 权重设置 (α+β+γ=1) ----------
-alpha = 0.35
-beta  = 0.65
-gamma = 1.0 - alpha - beta     # 自动补足与校验
+# ---------- 权重设置 (α+β=1) ----------
+alpha = 0.47
+beta  = 1 - alpha
+gamma = 0.00
 
 start_time = time.time()
 
@@ -111,9 +111,11 @@ def _add_extra_stats(rec):
         rec["auc_delta"] = rec["geo_decay"] = 0.0
 
 def combined_score(db, sil, sse):
-    """α·Sil + β·DB^{-1} + γ·(1 - SSE/SSE_max)"""
-    db = max(db, 1e-6)
-    return alpha * sil + beta * (1.0 / db) + gamma * (1.0 - sse / SSE_max)
+    S = (sil + 1.0) / 2.0  # [-1,1] → [0,1]
+    D = 1.0 / (1.0 + db)  # [0,∞) → (0,1]
+    eps = 1e-12
+
+    return 1.0 / (alpha / max(S, eps) + beta / max(D, eps))
 
 def objective(trial):
     k = trial.suggest_int("n_clusters", 5, max(2, int(math.isqrt(X_scaled.shape[0]))))

@@ -1,47 +1,17 @@
-Explanation of error combos for task: hospital
+Error‑injection summary
 
-1 => anomaly=0%, missing=5%
-   (These rates are applied independently to different cells)
-
-2 => anomaly=0%, missing=10%
-   (These rates are applied independently to different cells)
-
-3 => anomaly=0%, missing=15%
-   (These rates are applied independently to different cells)
-
-4 => anomaly=5%, missing=0%
-   (These rates are applied independently to different cells)
-
-5 => anomaly=5%, missing=5%
-   (These rates are applied independently to different cells)
-
-6 => anomaly=5%, missing=10%
-   (These rates are applied independently to different cells)
-
-7 => anomaly=5%, missing=15%
-   (These rates are applied independently to different cells)
-
-8 => anomaly=10%, missing=0%
-   (These rates are applied independently to different cells)
-
-9 => anomaly=10%, missing=5%
-   (These rates are applied independently to different cells)
-
-10 => anomaly=10%, missing=10%
-   (These rates are applied independently to different cells)
-
-11 => anomaly=10%, missing=15%
-   (These rates are applied independently to different cells)
-
-12 => anomaly=15%, missing=0%
-   (These rates are applied independently to different cells)
-
-13 => anomaly=15%, missing=5%
-   (These rates are applied independently to different cells)
-
-14 => anomaly=15%, missing=10%
-   (These rates are applied independently to different cells)
-
-15 => anomaly=15%, missing=15%
-   (These rates are applied independently to different cells)
-
+01 | Anom=0%, Miss=5%  →  r_anom=0.00%, r_miss=5.00%, r_tot=5.00%
+02 | Anom=0%, Miss=10%  →  r_anom=0.00%, r_miss=10.00%, r_tot=10.00%
+03 | Anom=0%, Miss=15%  →  r_anom=0.00%, r_miss=15.00%, r_tot=15.00%
+04 | Anom=5%, Miss=0%  →  r_anom=5.00%, r_miss=0.00%, r_tot=5.00%
+05 | Anom=5%, Miss=5%  →  r_anom=5.00%, r_miss=5.00%, r_tot=10.00%
+06 | Anom=5%, Miss=10%  →  r_anom=5.00%, r_miss=10.00%, r_tot=15.00%
+07 | Anom=5%, Miss=15%  →  r_anom=5.00%, r_miss=15.00%, r_tot=20.00%
+08 | Anom=10%, Miss=0%  →  r_anom=10.00%, r_miss=0.00%, r_tot=10.00%
+09 | Anom=10%, Miss=5%  →  r_anom=10.00%, r_miss=5.00%, r_tot=15.00%
+10 | Anom=10%, Miss=10%  →  r_anom=10.00%, r_miss=10.00%, r_tot=20.00%
+11 | Anom=10%, Miss=15%  →  r_anom=10.00%, r_miss=15.00%, r_tot=25.00%
+12 | Anom=15%, Miss=0%  →  r_anom=15.00%, r_miss=0.00%, r_tot=15.00%
+13 | Anom=15%, Miss=5%  →  r_anom=15.00%, r_miss=5.00%, r_tot=20.00%
+14 | Anom=15%, Miss=10%  →  r_anom=15.00%, r_miss=10.00%, r_tot=25.00%
+15 | Anom=15%, Miss=15%  →  r_anom=15.00%, r_miss=15.00%, r_tot=30.00%
