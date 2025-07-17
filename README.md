@@ -17,7 +17,7 @@ This project implements an automated machine learning pipeline for clustering ta
    cd /root/AutoMLClustering
    ```
 
-2. **Run the configuration script** to set up the virtual environment and install dependencies:
+2. **Run the configuration script** to set up the virtual environment and install dependencies (about 15min on a 8vCPUs computer):
 
    ```bash
    bash init_config.sh
