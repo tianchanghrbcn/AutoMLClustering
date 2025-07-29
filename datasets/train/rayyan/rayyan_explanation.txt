@@ -1,0 +1,17 @@
+Error‑injection summary
+
+01 | Anom=0%, Miss=5%  →  r_anom=0.00%, r_miss=5.00%, r_tot=5.00%
+02 | Anom=0%, Miss=10%  →  r_anom=0.00%, r_miss=10.00%, r_tot=10.00%
+03 | Anom=0%, Miss=15%  →  r_anom=0.00%, r_miss=15.00%, r_tot=15.00%
+04 | Anom=5%, Miss=0%  →  r_anom=5.00%, r_miss=0.00%, r_tot=5.00%
+05 | Anom=5%, Miss=5%  →  r_anom=5.00%, r_miss=5.00%, r_tot=10.01%
+06 | Anom=5%, Miss=10%  →  r_anom=5.00%, r_miss=10.00%, r_tot=15.00%
+07 | Anom=5%, Miss=15%  →  r_anom=5.00%, r_miss=15.00%, r_tot=20.00%
+08 | Anom=10%, Miss=0%  →  r_anom=10.00%, r_miss=0.00%, r_tot=10.00%
+09 | Anom=10%, Miss=5%  →  r_anom=10.00%, r_miss=5.00%, r_tot=15.00%
+10 | Anom=10%, Miss=10%  →  r_anom=10.00%, r_miss=10.00%, r_tot=19.99%
+11 | Anom=10%, Miss=15%  →  r_anom=10.00%, r_miss=15.00%, r_tot=25.00%
+12 | Anom=15%, Miss=0%  →  r_anom=15.00%, r_miss=0.00%, r_tot=15.00%
+13 | Anom=15%, Miss=5%  →  r_anom=15.00%, r_miss=5.00%, r_tot=20.00%
+14 | Anom=15%, Miss=10%  →  r_anom=15.00%, r_miss=10.00%, r_tot=25.00%
+15 | Anom=15%, Miss=15%  →  r_anom=15.00%, r_miss=15.00%, r_tot=30.00%

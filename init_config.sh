@@ -143,25 +143,23 @@ conda deactivate
 echo "[INFO] Activating torch110..."
 conda activate torch110
 
-############################################################
-# 14. Finish
-############################################################
+#######################################
+# 14. Return to /root/AutoMLClustering and display completion message
+#######################################
 cd /root/AutoMLClustering
-echo "[SUCCESS] Installation & configuration complete."
-cat <<'EOT'
------------------------------------------------------------------
-  1) PostgreSQL: database 'holo' & user 'holocleanuser' created.
-  2) MySQL: database 'mydb' created, root password set.
-  3) HoloClean installed in env 'hc37'.
-  4) BoostClean installed in env 'activedetect' (Python 2.7).
-  5) Current env: 'torch110'.
-     Use:
-       conda activate hc37
-       conda activate activedetect
-       conda activate torch110
------------------------------------------------------------------
-EOT
-
-# Initialize Conda for future shells
+echo "[INFO] Installation and configuration completed!"
+echo "-----------------------------------------------------"
+echo "   1) PostgreSQL installed and database holo/holocleanuser configured."
+echo "   2) MySQL installed and database mydb created, root password: MyRootPassword123"
+echo "   3) HoloClean installed in the hc37 environment."
+echo "   4) BoostClean installed in the activedetect (Python 2.7) environment."
+echo "   Current environment: torch110."
+echo "   You can manually switch environments using the following commands:"
+echo "     conda activate hc37"
+echo "     conda activate activedetect"
+echo "     conda activate torch110"
+echo "-----------------------------------------------------"
 $HOME/miniconda3/bin/conda init bash
-source ~/.bashrc
+exec "$SHELL"
+conda activate torch110
+

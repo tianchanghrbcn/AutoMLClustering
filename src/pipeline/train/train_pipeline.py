@@ -34,7 +34,7 @@ def process_record(record_idx, record, work_dir):
     # 将 strategies 修改为一个 dict: {算法编号: "算法名称"}
     strategies = {
         1: "mode",
-        2: "raha_baran",
+        2: "baran",
         3: "holoclean",
         4: "bigdansing",
         5: "boostclean",

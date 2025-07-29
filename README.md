@@ -54,6 +54,7 @@ nohup python train_pipeline.py > output_training.log 2>&1 &
 After `train_pipeline.py` finishes, execute the analysis suite in **the same directory**:
 
 ```bash
+python GroundTruth.py
 python comparison.py
 python ../utils/analyze_cleaning.py
 python ../utils/analyze_cluster.py
