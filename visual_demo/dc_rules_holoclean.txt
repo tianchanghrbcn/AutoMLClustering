@@ -1,0 +1,5 @@
+t1&t2&EQ(t1.age,t2.age)&IQ(t1.income,t2.income)
+t1&t2&EQ(t1.age,t2.age)&IQ(t1.saving,t2.saving)
+t1&t2&EQ(t1.income,t2.income)&IQ(t1.age,t2.age)
+t1&t2&EQ(t1.income,t2.income)&IQ(t1.saving,t2.saving)
+t1&t2&EQ(t1.saving,t2.saving)&EQ(t1.age,t2.age)&IQ(t1.income,t2.income)

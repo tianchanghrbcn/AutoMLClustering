@@ -1,0 +1,6 @@
+age ⇒ income
+age ⇒ saving
+income ⇒ saving
+saving ⇒ income
+income ⇒ age
+saving ⇒ age

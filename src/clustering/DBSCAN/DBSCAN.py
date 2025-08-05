@@ -135,7 +135,7 @@ os.makedirs(root, exist_ok=True)
 txt_path = os.path.join(root, f"{base}.txt")
 with open(txt_path, "w", encoding="utf-8") as fh:
     fh.write("\n".join([
-        f"Best parameters: n_components={best_params['min_samples']}, covariance type={best_params['eps']}",
+        f"Best parameters: min_samples={best_params['min_samples']}, eps={best_params['eps']}",
         f"Final Combined Score: {combined_score}",
         f"Final Silhouette Score: {sil_score}",
         f"Final Davies-Bouldin Score: {db_score}"
