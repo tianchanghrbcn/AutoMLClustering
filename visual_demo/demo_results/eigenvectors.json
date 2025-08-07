@@ -1,0 +1,167 @@
+[
+    {
+        "dataset_id": 0,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_1.csv",
+        "error_rate": 5.0,
+        "K": 5,
+        "missing_rate": 0.05,
+        "noise_rate": 0.0,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 1,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_10.csv",
+        "error_rate": 20.0,
+        "K": 5,
+        "missing_rate": 0.1,
+        "noise_rate": 0.1,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 2,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_11.csv",
+        "error_rate": 25.0,
+        "K": 5,
+        "missing_rate": 0.15,
+        "noise_rate": 0.1,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 3,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_12.csv",
+        "error_rate": 15.0,
+        "K": 5,
+        "missing_rate": 0.0,
+        "noise_rate": 0.15,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 4,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_13.csv",
+        "error_rate": 20.0,
+        "K": 5,
+        "missing_rate": 0.05,
+        "noise_rate": 0.15,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 5,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_14.csv",
+        "error_rate": 25.0,
+        "K": 5,
+        "missing_rate": 0.1,
+        "noise_rate": 0.15,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 6,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_15.csv",
+        "error_rate": 30.0,
+        "K": 5,
+        "missing_rate": 0.15,
+        "noise_rate": 0.15,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 7,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_2.csv",
+        "error_rate": 10.0,
+        "K": 5,
+        "missing_rate": 0.1,
+        "noise_rate": 0.0,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 8,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_3.csv",
+        "error_rate": 15.0,
+        "K": 5,
+        "missing_rate": 0.15,
+        "noise_rate": 0.0,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 9,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_4.csv",
+        "error_rate": 5.0,
+        "K": 5,
+        "missing_rate": 0.0,
+        "noise_rate": 0.05,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 10,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_5.csv",
+        "error_rate": 10.0,
+        "K": 5,
+        "missing_rate": 0.05,
+        "noise_rate": 0.05,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 11,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_6.csv",
+        "error_rate": 15.000000000000002,
+        "K": 5,
+        "missing_rate": 0.1,
+        "noise_rate": 0.05,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 12,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_7.csv",
+        "error_rate": 20.0,
+        "K": 5,
+        "missing_rate": 0.15,
+        "noise_rate": 0.05,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 13,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_8.csv",
+        "error_rate": 10.0,
+        "K": 5,
+        "missing_rate": 0.0,
+        "noise_rate": 0.1,
+        "m": 3,
+        "n": 300
+    },
+    {
+        "dataset_id": 14,
+        "dataset_name": "rayyan",
+        "csv_file": "rayyan_9.csv",
+        "error_rate": 15.000000000000002,
+        "K": 5,
+        "missing_rate": 0.05,
+        "noise_rate": 0.1,
+        "m": 3,
+        "n": 300
+    }
+]
