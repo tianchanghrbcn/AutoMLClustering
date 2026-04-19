@@ -187,5 +187,3 @@ dependencies:
       - webencodings==0.5.1
       - widgetsnbextension==4.0.3
       - xgboost==1.6.2
-
-prefix: /root/miniconda3/envs/torch110

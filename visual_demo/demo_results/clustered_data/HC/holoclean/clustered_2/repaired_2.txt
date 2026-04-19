@@ -1,0 +1,4 @@
+Best parameters: n_components=9, covariance type=single-manhattan
+Final Combined Score: 0.8066619048475794
+Final Silhouette Score: 0.6333224175794111
+Final Davies-Bouldin Score: 0.25313714923100883

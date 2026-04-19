@@ -14,7 +14,7 @@ This project implements an automated machine learning pipeline for clustering ta
 
    ```bash
    git clone git@github.com:tianchanghrbcn/AutoMLClustering.git
-   cd /root/AutoMLClustering
+   cd /home/changtian/Cleaning-Clustering
    ```
 
 2. **Run the configuration script** to set up the virtual environment and install dependencies (about 15min on a 8vCPUs computer):
@@ -62,7 +62,7 @@ python ../utils/merge_form.py
 ```
 
 Result files and plots are saved to
-`/root/AutoMLClustering/results/analysis_results`.
+`/home/changtian/Cleaning-Clustering/results/analysis_results`.
 
 
 ### Step 4 — Create and Activate the Classifier Environment

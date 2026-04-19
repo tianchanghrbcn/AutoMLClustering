@@ -1,0 +1,4 @@
+Best parameters: min_samples=8, eps=1.1
+Final Combined Score: 0.8419845571168371
+Final Silhouette Score: 0.9327393059416509
+Final Davies-Bouldin Score: 0.32323378593800406

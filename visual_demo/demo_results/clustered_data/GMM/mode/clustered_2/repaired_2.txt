@@ -1,0 +1,4 @@
+Best parameters: n_components=5, covariance type=tied
+Final Combined Score: 0.7360546391725435
+Final Silhouette Score: 0.7781985499672052
+Final Davies-Bouldin Score: 0.5659809623500599

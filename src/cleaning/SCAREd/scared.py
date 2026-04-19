@@ -135,7 +135,7 @@ class SCAREd:
         if True:
             if not PERFECTED:
                 det_right = 0
-                out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/scared/" + task_name + "/onlyED_" + task_name + ".txt"
+                out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/scared/" + task_name + "/onlyED_" + task_name + ".txt"
                 f = open(out_path, 'w')
                 sys.stdout = f
                 end_time = time.time()
@@ -148,8 +148,8 @@ class SCAREd:
                 print("{pre}\n{rec}\n{f1}\n{time}".format(pre=pre, rec=rec, f1=f1, time=(end_time-start_time)))
                 f.close()
 
-                out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/scared/" + task_name + "/oriED+EC_" + task_name + ".txt"
-                res_path = "/root/AutoMLClustering/src/cleaning/Repaired_res/scared/" + task_name + "/repaired_" + task_name + ".csv"
+                out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/scared/" + task_name + "/oriED+EC_" + task_name + ".txt"
+                res_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Repaired_res/scared/" + task_name + "/repaired_" + task_name + ".csv"
                 self.rep_csv.drop('Index', axis=1, inplace=True)
                 self.rep_csv.to_csv(res_path, index=False, columns=list(self.rep_csv.columns))
                 f = open(out_path, 'w')
@@ -171,8 +171,8 @@ class SCAREd:
                 print("{pre}\n{rec}\n{f1}\n{time}".format(pre=pre, rec=rec, f1=f1, time=(end_time-start_time)))
                 f.close()
             else:
-                out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/scared/" + task_name + "/perfectED+EC_" + task_name + ".txt"
-                res_path = "/root/AutoMLClustering/src/cleaning/Repaired_res/scared/" + task_name + "/perfect_repaired_" + task_name + ".csv"
+                out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/scared/" + task_name + "/perfectED+EC_" + task_name + ".txt"
+                res_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Repaired_res/scared/" + task_name + "/perfect_repaired_" + task_name + ".csv"
                 self.rep_csv.to_csv(res_path, index=False, columns=list(self.rep_csv.columns))
                 f = open(out_path, 'w')
                 sys.stdout = f

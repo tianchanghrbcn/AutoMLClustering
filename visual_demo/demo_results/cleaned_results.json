@@ -1,0 +1,107 @@
+[
+    {
+        "dataset_id": 0,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_0.csv",
+        "runtime": 22.772249812000155
+    },
+    {
+        "dataset_id": 1,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_1.csv",
+        "runtime": 27.67517020500054
+    },
+    {
+        "dataset_id": 2,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_2.csv",
+        "runtime": 26.88627816799999
+    },
+    {
+        "dataset_id": 3,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_3.csv",
+        "runtime": 27.522538827000062
+    },
+    {
+        "dataset_id": 4,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_4.csv",
+        "runtime": 26.606980230000772
+    },
+    {
+        "dataset_id": 5,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_5.csv",
+        "runtime": 27.631193832999998
+    },
+    {
+        "dataset_id": 6,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_6.csv",
+        "runtime": 27.70475947200066
+    },
+    {
+        "dataset_id": 7,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_7.csv",
+        "runtime": 22.755321919999915
+    },
+    {
+        "dataset_id": 8,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_8.csv",
+        "runtime": 27.224877427000138
+    },
+    {
+        "dataset_id": 9,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_9.csv",
+        "runtime": 22.289185896000163
+    },
+    {
+        "dataset_id": 10,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_10.csv",
+        "runtime": 27.030417046000366
+    },
+    {
+        "dataset_id": 11,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_11.csv",
+        "runtime": 26.53370188000008
+    },
+    {
+        "dataset_id": 12,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_12.csv",
+        "runtime": 24.765758006000397
+    },
+    {
+        "dataset_id": 13,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_13.csv",
+        "runtime": 27.139158203999614
+    },
+    {
+        "dataset_id": 14,
+        "algorithm": "baran",
+        "algorithm_id": 2,
+        "cleaned_file_path": "../../../results/cleaned_data/baran/repaired_14.csv",
+        "runtime": 22.169893227999637
+    }
+]

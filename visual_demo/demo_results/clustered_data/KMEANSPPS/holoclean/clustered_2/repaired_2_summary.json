@@ -1,0 +1,16 @@
+{
+    "n_trials": 31,
+    "avg_iterations": 6.935483870967742,
+    "median_iterations": 7.0,
+    "avg_auc_delta": 2.0967771411183125,
+    "avg_geo_decay": 0.41974671348493287,
+    "best_k": 16,
+    "best_combined_score": 0.7111066334400193,
+    "best_sse": 13.302795566302237,
+    "weights": {
+        "alpha": 0.47,
+        "beta": 0.53,
+        "gamma": 0.0
+    },
+    "total_runtime_sec": 3.9081194400787354
+}

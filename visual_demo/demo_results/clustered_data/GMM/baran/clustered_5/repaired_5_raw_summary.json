@@ -1,0 +1,20 @@
+{
+    "clean_state": "raw",
+    "best_k": 17,
+    "best_cov_type": "tied",
+    "best_combined": 0.8632186702968176,
+    "best_silhouette": 0.9389694324955837,
+    "best_db": 0.27105925096528966,
+    "best_sse": 1.1001926712988617,
+    "weights": {
+        "alpha": 0.47,
+        "beta": 0.53,
+        "gamma": 0.0
+    },
+    "n_iter_final": 1,
+    "ll_curve_final": [
+        2.7940953795798107,
+        2.7940953795798102
+    ],
+    "total_runtime_sec": 2.8847451210021973
+}

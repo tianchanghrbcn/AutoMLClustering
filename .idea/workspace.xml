@@ -5,16 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60a6bb97-6ce2-4009-84ba-b46c0e9a4cc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/visual_demo/plot_cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visual_demo/make_all_figs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visual_demo/plot_cleaned_scatter_clusters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/clean_noseg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/clean_noseg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/clean_withseg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/clean_withseg.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/cluster_and_tsne.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/dc_rules-validate-fd-horizon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/dc_rules-validate-fd-horizon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/dc_rules_holoclean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/dc_rules_holoclean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init_config.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/alpha-graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/alpha-graphs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/alpha_vs_median.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/alpha_vs_median.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/alpha_vs_median_en.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/outputs/alpha_vs_median_en.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/alpha_vs_variance.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/alpha_vs_variance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre-experiment/outputs/alpha_vs_variance_en.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pre-experiment/outputs/alpha_vs_variance_en.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cleaning/BigDansing_Holistic/bigdansing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleaning/BigDansing_Holistic/bigdansing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cleaning/BoostClean/activedetect/experiments/Experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleaning/BoostClean/activedetect/experiments/Experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cleaning/SCAREd/scared.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleaning/SCAREd/scared.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cleaning/Unified/Unified.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleaning/Unified/Unified.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cleaning/holoclean-master/holoclean_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleaning/holoclean-master/holoclean_run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cleaning/horizon/horizon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleaning/horizon/horizon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cleaning/mode/mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cleaning/mode/mode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/train/error_correction.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/train/error_correction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipeline/train/pre-processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/train/pre-processing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/clean.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/clean.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/dc_rules-validate-fd-horizon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/dc_rules-validate-fd-horizon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/dc_rules_holoclean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/dc_rules_holoclean.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_10.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_11.csv" afterDir="false" />
@@ -30,8 +44,78 @@
       <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_7.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_8.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_dirty/rayyan_9.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/generate_clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/generate_clean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual_demo/reference_clusters_tsne.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_10.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_11.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_11.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_12.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_12.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_13.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_13.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_14.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_14.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_7.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/demo_results/cleaned_data/mode/repaired_9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/dirty_clusters.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/dirty_clusters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/baran_overview.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_0_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_10_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_11_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_12_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_13_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_14_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_1_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_2_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_3_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_4_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_5_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_6_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_7_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_8_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/baran/repaired_9_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/mode_overview.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_0_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_10_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_11_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_12_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_13_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_14_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_1_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_2_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_3_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_4_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_5_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_6_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_7_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_8_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/cleaned_clusters/mode/repaired_9_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/clean_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/dirty_points_overview.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/dirty_points_overview.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例01_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例02_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例03_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例04_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例05_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例06_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例07_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例08_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例09_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例10_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例11_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例12_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例13_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例14_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/figures/dirty_clusters/示例15_byseg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/metrics_heatmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/plot_cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/plot_cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/plot_scatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/plot_stats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/process_curves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/reference_clusters.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/visual_demo/reference_clusters.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual_demo/sankey_flow.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +131,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/visual_demo/plot_cluster.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -73,7 +160,9 @@
     &quot;Python.dirty_clusters.executor&quot;: &quot;Run&quot;,
     &quot;Python.experiment_flowchart.executor&quot;: &quot;Run&quot;,
     &quot;Python.generate_clean.executor&quot;: &quot;Run&quot;,
+    &quot;Python.make_all_figs.executor&quot;: &quot;Run&quot;,
     &quot;Python.merge_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plot_cleaned_scatter_clusters.executor&quot;: &quot;Run&quot;,
     &quot;Python.plot_cluster.executor&quot;: &quot;Run&quot;,
     &quot;Python.pre-processing.executor&quot;: &quot;Run&quot;,
     &quot;Python.quick_weight_scan.executor&quot;: &quot;Run&quot;,
@@ -125,7 +214,17 @@
       <workItem from="1754385757062" duration="7315000" />
       <workItem from="1754399829641" duration="1596000" />
       <workItem from="1754455104498" duration="10031000" />
-      <workItem from="1754541942732" duration="1193000" />
+      <workItem from="1754541942732" duration="13342000" />
+      <workItem from="1754652342871" duration="6370000" />
+      <workItem from="1754742700566" duration="6388000" />
+      <workItem from="1754800176080" duration="1391000" />
+      <workItem from="1754803346258" duration="15061000" />
+      <workItem from="1755150211651" duration="826000" />
+      <workItem from="1755573542397" duration="25437000" />
+      <workItem from="1755606294215" duration="1636000" />
+      <workItem from="1759412964340" duration="2912000" />
+      <workItem from="1765710810062" duration="3546000" />
+      <workItem from="1767087445844" duration="3123000" />
     </task>
     <servers />
   </component>
@@ -134,19 +233,21 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutoMLClustering$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1751890952406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/train" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$plot_cleaned_scatter_clusters.coverage" NAME="plot_cleaned_scatter_clusters Coverage Results" MODIFIED="1755604975398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$analyze_cleaning.coverage" NAME="analyze_cleaning Coverage Results" MODIFIED="1751892478432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$temp.coverage" NAME="temp Coverage Results" MODIFIED="1754492805727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
-    <SUITE FILE_PATH="coverage/AutoMLClustering$alpha_graphs.coverage" NAME="alpha-graphs Coverage Results" MODIFIED="1754386666346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre-experiment" />
-    <SUITE FILE_PATH="coverage/AutoMLClustering$plot_cluster.coverage" NAME="plot_cluster Coverage Results" MODIFIED="1754492853079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$alpha_graphs.coverage" NAME="alpha-graphs Coverage Results" MODIFIED="1767095092725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre-experiment" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$make_all_figs.coverage" NAME="make_all_figs Coverage Results" MODIFIED="1754832781120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$plot_cluster.coverage" NAME="plot_cluster Coverage Results" MODIFIED="1755606340476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$search.coverage" NAME="search Coverage Results" MODIFIED="1751894112531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/train" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$analyze_cluster.coverage" NAME="analyze_cluster Coverage Results" MODIFIED="1751892531768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$pre_processing.coverage" NAME="pre-processing Coverage Results" MODIFIED="1752566864450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/train" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$merge_form.coverage" NAME="merge_form Coverage Results" MODIFIED="1751892535914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
-    <SUITE FILE_PATH="coverage/AutoMLClustering$dirty_clusters.coverage" NAME="dirty_clusters Coverage Results" MODIFIED="1754492561667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$dirty_clusters.coverage" NAME="dirty_clusters Coverage Results" MODIFIED="1755597080758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$experiment_flowchart.coverage" NAME="experiment_flowchart Coverage Results" MODIFIED="1752553544059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$6_1graph.coverage" NAME="6.1graph Coverage Results" MODIFIED="1752742125573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/utils" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$quick_weight_scan.coverage" NAME="quick_weight_scan Coverage Results" MODIFIED="1752483291456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre-experiment" />
-    <SUITE FILE_PATH="coverage/AutoMLClustering$generate_clean.coverage" NAME="generate_clean Coverage Results" MODIFIED="1754479190424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
+    <SUITE FILE_PATH="coverage/AutoMLClustering$generate_clean.coverage" NAME="generate_clean Coverage Results" MODIFIED="1755600263118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visual_demo" />
     <SUITE FILE_PATH="coverage/AutoMLClustering$search_ucb.coverage" NAME="search_ucb Coverage Results" MODIFIED="1751887139270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pipeline/train" />
   </component>
 </project>

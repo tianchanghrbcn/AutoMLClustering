@@ -907,7 +907,7 @@ class BigDansing():
             self.wrong_cells = list(set(self.wrong_cells))
             if not PERFECTED:
                 det_right = 0
-                out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/bigdansing/" + task_name + "/onlyED_" + task_name  + ".txt"
+                out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/bigdansing/" + task_name + "/onlyED_" + task_name  + ".txt"
                 f = open(out_path, 'w')
                 sys.stdout = f
                 end_time = time.time()
@@ -932,8 +932,8 @@ class BigDansing():
                 pre = rep_right / (rep_total + 1e-10)
                 rec = rec_right / (wrong_cells + 1e-10)
                 f1 = 2 * pre * rec / (rec + pre + 1e-10)
-                out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/bigdansing/" + task_name + "/oriED+EC_" + task_name + ".txt"
-                res_path = "/root/AutoMLClustering/src/cleaning/Repaired_res/bigdansing/" + task_name + "/repaired_" + task_name + ".csv"
+                out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/bigdansing/" + task_name + "/oriED+EC_" + task_name + ".txt"
+                res_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Repaired_res/bigdansing/" + task_name + "/repaired_" + task_name + ".csv"
                 dirty_df = pd.read_csv(dirty_path).astype(str).fillna("nan")
                 for cell, value in self.repaired_cells_value.items():
                     dirty_df.iloc[cell[0], cell[1]] = value
@@ -944,7 +944,7 @@ class BigDansing():
                 f.close()
 
                 sys.stdout = sys.__stdout__
-                out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/bigdansing/" + task_name + "/all_computed_" + task_name + ".txt"
+                out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/bigdansing/" + task_name + "/all_computed_" + task_name + ".txt"
                 f = open(out_path, 'w')
                 sys.stdout = f
                 right2wrong = 0
@@ -994,8 +994,8 @@ class BigDansing():
                 pre = rec_right / (rep_t + 1e-10)
                 rec = rec_right / (wrong_cells + 1e-10)
                 f1 = 2 * pre * rec / (rec + pre + 1e-10)
-                out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/bigdansing/" + task_name + "/perfectED+EC_" + task_name + ".txt"
-                res_path = "/root/AutoMLClustering/src/cleaning/Repaired_res/bigdansing/" + task_name + "/perfect_repaired_" + task_name + ".csv"
+                out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/bigdansing/" + task_name + "/perfectED+EC_" + task_name + ".txt"
+                res_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Repaired_res/bigdansing/" + task_name + "/perfect_repaired_" + task_name + ".csv"
                 dirty_df = pd.read_csv(dirty_path).astype(str).fillna("nan")
                 for cell, value in self.repaired_cells_value.items():
                     dirty_df.iloc[cell[0], cell[1]] = value

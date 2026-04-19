@@ -48,9 +48,9 @@ def main():
 
     # 5. 与“else: ... pattern = re.compile(r'^repaired_.*\.csv$')” 匹配对齐
     #    所以要把修复结果放到:
-    #      /root/AutoMLClustering/src/cleaning/Repaired_res/mode/<task_name>/repaired_<task_name>.csv
+    #      /home/changtian/Cleaning-Clustering/src/cleaning/Repaired_res/mode/<task_name>/repaired_<task_name>.csv
 
-    out_dir = f"/root/AutoMLClustering/src/cleaning/Repaired_res/mode/{task_name}"
+    out_dir = f"/home/changtian/Cleaning-Clustering/src/cleaning/Repaired_res/mode/{task_name}"
     os.makedirs(out_dir, exist_ok=True)
     out_filename = os.path.join(out_dir, f"repaired_{task_name}.csv")
 

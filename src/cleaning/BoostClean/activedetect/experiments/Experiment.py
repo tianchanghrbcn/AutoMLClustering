@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
     if True:
         if not PERFECTED:
-            out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/boostclean/" + task_name + "/onlyED_" + task_name + ".txt"
+            out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/boostclean/" + task_name + "/onlyED_" + task_name + ".txt"
             f = open(out_path, 'w')
             sys.stdout = f
             end_time = time.time()
@@ -151,8 +151,8 @@ if __name__ == "__main__":
             print("{pre}\n{rec}\n{f1}\n{time}".format(pre=pre, rec=rec, f1=f1, time=(end_time-start_time)))
             f.close()
 
-            out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/boostclean/" + task_name + "/oriED+EC_" + task_name + ".txt"
-            res_path = "/root/AutoMLClustering/src/cleaning/Repaired_res/boostclean/" + task_name + "/repaired_" + task_name + ".csv"
+            out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/boostclean/" + task_name + "/oriED+EC_" + task_name + ".txt"
+            res_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Repaired_res/boostclean/" + task_name + "/repaired_" + task_name + ".csv"
 
             rep_csv = pd.DataFrame(np.array(rep_result).reshape(-1, len(columns)), columns=columns)
             rep_csv.to_csv(res_path, index=False, columns=list(rep_csv.columns)[0:])
@@ -177,8 +177,8 @@ if __name__ == "__main__":
             print("{pre}\n{rec}\n{f1}\n{time}".format(pre=pre, rec=rec, f1=f1, time=(end_time-start_time)))
             f.close()
         else:
-            out_path = "/root/AutoMLClustering/src/cleaning/Exp_result/boostclean/" + task_name + "/prefectED+EC_" + task_name + ".txt"
-            res_path = "/root/AutoMLClustering/src/cleaning/Repaired_res/boostclean/" + task_name + "/perfect_repaired_" + task_name + ".csv"
+            out_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Exp_result/boostclean/" + task_name + "/prefectED+EC_" + task_name + ".txt"
+            res_path = "/home/changtian/Cleaning-Clustering/src/cleaning/Repaired_res/boostclean/" + task_name + "/perfect_repaired_" + task_name + ".csv"
             for res in rep_result:
                 if len(res) == 11:
                     res.remove(res[-3])
